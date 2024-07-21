@@ -26,6 +26,21 @@ public class ModBlockEntityTypes {
                             ModBlocks.WARPED_DRAWER.get())
                     .build(null));
 
+    public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
+            () -> BlockEntityType.Builder.of(DrawerBlockEntity::new,
+                            ModBlocks.OAK_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.BIRCH_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.SPRUCE_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.JUNGLE_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.ACACIA_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.DARK_OAK_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.BAMBOO_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.CHERRY_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.MANGROVE_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.CRIMSON_DRAWER_WITH_DOOR.get(),
+                            ModBlocks.WARPED_DRAWER_WITH_DOOR.get())
+                    .build(null));
+
     public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register("glass_cabinet",
             () -> BlockEntityType.Builder.of(GlassCabinetBlockEntity::new,
                             ModBlocks.GLASS_OAK_CABINET.get(),

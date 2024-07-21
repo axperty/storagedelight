@@ -56,6 +56,40 @@ public class ModBlocks {
     public static final RegistryObject<Block> WARPED_DRAWER = BLOCKS.register("warped_drawer",
             () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.NETHER_WOOD)));
 
+    // Drawers with Door
+    public static final RegistryObject<Block> OAK_DRAWER_WITH_DOOR = BLOCKS.register("oak_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> SPRUCE_DRAWER_WITH_DOOR = BLOCKS.register("spruce_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> BIRCH_DRAWER_WITH_DOOR = BLOCKS.register("birch_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> JUNGLE_DRAWER_WITH_DOOR = BLOCKS.register("jungle_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> ACACIA_DRAWER_WITH_DOOR = BLOCKS.register("acacia_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> DARK_OAK_DRAWER_WITH_DOOR = BLOCKS.register("dark_oak_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> MANGROVE_DRAWER_WITH_DOOR = BLOCKS.register("mangrove_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL)));
+
+    public static final RegistryObject<Block> CHERRY_DRAWER_WITH_DOOR = BLOCKS.register("cherry_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD)));
+
+    public static final RegistryObject<Block> BAMBOO_DRAWER_WITH_DOOR = BLOCKS.register("bamboo_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD)));
+
+    public static final RegistryObject<Block> CRIMSON_DRAWER_WITH_DOOR = BLOCKS.register("crimson_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.NETHER_WOOD)));
+
+    public static final RegistryObject<Block> WARPED_DRAWER_WITH_DOOR = BLOCKS.register("warped_drawer_with_door",
+            () -> new DrawerBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.NETHER_WOOD)));
+
     // Cabinets
     public static final RegistryObject<Block> GLASS_OAK_CABINET = BLOCKS.register("glass_oak_cabinet",
             () -> new GlassCabinetBlock(Block.Properties.copy(Blocks.BARREL)));

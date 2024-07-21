@@ -50,6 +50,30 @@ public class ModItems {
     public static final RegistryObject<Item> WARPED_DRAWER = registerWithTab("warped_drawer",
             () -> new BlockItem(ModBlocks.WARPED_DRAWER.get(), basicItem()));
 
+    // Drawers with Door
+    public static final RegistryObject<Item> OAK_DRAWER_WITH_DOOR = registerWithTab("oak_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.OAK_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_DRAWER_WITH_DOOR = registerWithTab("spruce_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.SPRUCE_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_DRAWER_WITH_DOOR = registerWithTab("birch_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.BIRCH_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_DRAWER_WITH_DOOR = registerWithTab("jungle_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.JUNGLE_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_DRAWER_WITH_DOOR = registerWithTab("acacia_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.ACACIA_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_DRAWER_WITH_DOOR = registerWithTab("dark_oak_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.DARK_OAK_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_DRAWER_WITH_DOOR = registerWithTab("mangrove_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.MANGROVE_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> CHERRY_DRAWER_WITH_DOOR = registerWithTab("cherry_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.CHERRY_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BAMBOO_DRAWER_WITH_DOOR = registerWithTab("bamboo_drawer_with_door",
+            () -> new FuelBlockItem(ModBlocks.BAMBOO_DRAWER_WITH_DOOR.get(), basicItem(), 300));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_DOOR = registerWithTab("crimson_drawer_with_door",
+            () -> new BlockItem(ModBlocks.CRIMSON_DRAWER_WITH_DOOR.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_DRAWER_WITH_DOOR = registerWithTab("warped_drawer_with_door",
+            () -> new BlockItem(ModBlocks.WARPED_DRAWER_WITH_DOOR.get(), basicItem()));
+
     // Glass Cabinets
     public static final RegistryObject<Item> GLASS_OAK_CABINET = registerWithTab("glass_oak_cabinet",
             () -> new FuelBlockItem(ModBlocks.GLASS_OAK_CABINET.get(), basicItem(), 300));

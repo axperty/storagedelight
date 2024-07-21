@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"down": "farmersdelight:block/oak_cabinet_top",
+		"east": "farmersdelight:block/oak_cabinet_side",
+		"north": "storagedelight:block/oak_drawer_with_door_front",
+		"south": "farmersdelight:block/oak_cabinet_side",
+		"up": "farmersdelight:block/oak_cabinet_top",
+		"west": "farmersdelight:block/oak_cabinet_side",
+		"particle": "storagedelight:block/oak_drawer_with_door_front"
+	}
+}
