@@ -1,12 +1,18 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png" alt="Storage Delight Logo">
+<p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png" alt="Storage Delight">
 
-<h3>[Redacted]</h3>
-<p><b>Summary:</b> [Redacted]</p>
+<h3>Shiny Furniture Update</h3>
+<p><b>Summary:</b> This update adds the new drawer with door, makes small changes to the creative mode inventory tab, and improves translations.</p>
 <hr/>
 
 <h3>✨ What's New:</h3>
 <ul>
   <li>Added Drawer with Door for all wood types.</li>
+</ul>
+
+<h3>🛠️ Other Changes:</h3>
+<ul>
+  <li>Furniture is now organized by wood type in creative mode.</li>
+  <li>Farmer's Delight is not required in order to play with Storage Delight anymore.</li>
 </ul>
 
 <h3>📝 Translations:</h3>
@@ -16,4 +22,4 @@
 </ul>
 <hr/>
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas <a href="https://forms.gle/rkabm2TRAiuAxYdm9">on this form</a> or report bugs on <a href="https://github.com/axperty/storagedelight-forge">GitHub.</a></p>
+<p>Your feedback is important to make improvements to this mod, submit your ideas on <a href="https://discord.gg/yweZ2agkDw">Discord</a> or report bugs on <a href="https://github.com/axperty/storagedelight-forge">GitHub.</a></p>

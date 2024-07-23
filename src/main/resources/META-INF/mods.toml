@@ -3,12 +3,12 @@ loaderVersion="${loader_version_range}"
 license="MIT License"
 
 [[mods]]
-modId="storagedelight"
-version="2024.07.23-1.20.1-forge"
-displayName="Storage Delight"
-authors="Axperty"
-description='''A mod that adds more storage options to the game.'''
-logoFile="assets/storagedelight/logo.png"
+    modId="storagedelight"
+    version="2024.07.23-1.20.1-forge"
+    displayName="Storage Delight"
+    authors="Axperty"
+    description='''A mod that adds more storage options to the game.'''
+    logoFile="assets/storagedelight/logo.png"
 
 [[dependencies.storagedelight]]
     modId="forge"

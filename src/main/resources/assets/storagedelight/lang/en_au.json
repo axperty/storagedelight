@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Drawer",
+  "container.storagedelight.drawer_door": "Drawer with Door",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
   "container.storagedelight.cabinet_variant": "Cabinet",
 
@@ -63,5 +64,5 @@
   "block.storagedelight.warped_single_door_cabinet": "Warped Single Door Cabinet",
   "block.storagedelight.bamboo_single_door_cabinet": "Bamboo Single Door Cabinet",
 
-  "itemGroup.storagedelight.title": "Storage Delight"
+  "itemGroup.storagedelight": "Storage Delight"
 }

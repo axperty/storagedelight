@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Ящик",
+  "container.storagedelight.drawer_door": "Ящик с Дверцей",
   "container.storagedelight.glass_cabinet": "Стеклянный шкаф",
   "container.storagedelight.cabinet_variant": "Шкаф",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Багровый ящик",
   "block.storagedelight.warped_drawer": "Искажённый ящик",
   "block.storagedelight.bamboo_drawer": "Бамбуковый ящик",
+
+  "block.storagedelight.oak_drawer_with_door": "Дубовый Ящик с Дверцей",
+  "block.storagedelight.birch_drawer_with_door": "Березовый Ящик с Дверцей",
+  "block.storagedelight.spruce_drawer_with_door": "Еловый Ящик с Дверцей",
+  "block.storagedelight.cherry_drawer_with_door": "Вишнёвый Ящик с Дверцей",
+  "block.storagedelight.jungle_drawer_with_door": "Тропический Ящик с Дверцей",
+  "block.storagedelight.acacia_drawer_with_door": "Акациевый Ящик с Дверцей",
+  "block.storagedelight.dark_oak_drawer_with_door": "Тёмный Дубовый Ящик с Дверцей",
+  "block.storagedelight.mangrove_drawer_with_door": "Мангровый Ящик с Дверцей",
+  "block.storagedelight.crimson_drawer_with_door": "Багряный Ящик с Дверцей",
+  "block.storagedelight.warped_drawer_with_door": "Искажённый Ящик с Дверцей",
+  "block.storagedelight.bamboo_drawer_with_door": "Бамбуковый Ящик с Дверцей",
 
   "block.storagedelight.glass_oak_cabinet": "Стеклянный дубовый шкаф",
   "block.storagedelight.glass_birch_cabinet": "Стеклянный берёзовый шкаф",
@@ -51,5 +64,5 @@
   "block.storagedelight.warped_single_door_cabinet": "Искажённый однодверный шкаф",
   "block.storagedelight.bamboo_single_door_cabinet": "Бамбуковый однодверный шкаф",
 
-  "itemGroup.storagedelight.title": "Storage Delight"
+  "itemGroup.storagedelight": "Storage Delight"
 }

@@ -3,6 +3,7 @@ package com.axperty.storagedelight.registry;
 import com.axperty.storagedelight.StorageDelight;
 import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
+import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,6 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockEntityTypes {
     public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, StorageDelight.MOD_ID);
+
     public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("drawer",
             () -> BlockEntityType.Builder.of(DrawerBlockEntity::new,
                             ModBlocks.OAK_DRAWER.get(),
@@ -26,8 +28,8 @@ public class ModBlockEntityTypes {
                             ModBlocks.WARPED_DRAWER.get())
                     .build(null));
 
-    public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
-            () -> BlockEntityType.Builder.of(DrawerBlockEntity::new,
+    public static final RegistryObject<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
+            () -> BlockEntityType.Builder.of(DrawerDoorBlockEntity::new,
                             ModBlocks.OAK_DRAWER_WITH_DOOR.get(),
                             ModBlocks.BIRCH_DRAWER_WITH_DOOR.get(),
                             ModBlocks.SPRUCE_DRAWER_WITH_DOOR.get(),
