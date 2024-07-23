@@ -12,7 +12,6 @@
 <h3>🛠️ Other Changes:</h3>
 <ul>
   <li>Furniture is now organized by wood type in creative mode.</li>
-  <li>Farmer's Delight is not required in order to play with Storage Delight anymore.</li>
 </ul>
 
 <h3>📝 Translations:</h3>
