@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"down": "farmersdelight:block/birch_cabinet_top",
+		"east": "farmersdelight:block/birch_cabinet_side",
+		"north": "storagedelight:block/birch_drawer_with_door_front",
+		"south": "farmersdelight:block/birch_cabinet_side",
+		"up": "farmersdelight:block/birch_cabinet_top",
+		"west": "farmersdelight:block/birch_cabinet_side",
+		"particle": "storagedelight:block/birch_drawer_with_door_front"
+	}
+}
