@@ -1,8 +1,7 @@
 # Storage Delight
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric"><img src="https://cf.way2muchnoise.eu/full_978786_downloads.svg" alt="Curseforge Downloads"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge"><img src="https://cf.way2muchnoise.eu/full_979761_downloads.svg" alt="Curseforge Downloads"></a>
 <a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
-
 
 <img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png">
 <hr>
