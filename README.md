@@ -23,7 +23,3 @@ This mod adds four new type of blocks to the game that are useful to decorate an
 - Glass Cabinets of all wood types.
 - Cabinets with Glass Doors of all wood types.
 - Single Door Cabinets of all wood types.
-
-### Fabric Version
-
-This mod is also available for Fabric, you can see its repository [here.](https://github.com/axperty/storagedelight-fabric/)
