@@ -1,132 +1,180 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.NonNullList;
-import net.minecraft.core.Vec3i;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.Container;
-import net.minecraft.world.ContainerHelper;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ChestMenu;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
-import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
-import net.minecraft.world.level.block.state.BlockState;
+import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.block.entity.LootableContainerBlockEntity;
+import net.minecraft.block.entity.ViewerCountManager;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.Inventories;
+import net.minecraft.inventory.Inventory;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.network.listener.ClientPlayPacketListener;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
+import net.minecraft.screen.GenericContainerScreenHandler;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
+import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.world.World;
+import net.minecraft.world.tick.OrderedTick;
+import org.jetbrains.annotations.Nullable;
 
-public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
-{
-    private NonNullList<ItemStack> contents = NonNullList.withSize(27, ItemStack.EMPTY);
-    private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
-    {
-        protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
-            CabinetVariantBlockEntity.this.updateBlockState(state, true);
+import java.util.Objects;
+
+public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
+    private static final int MAX_INVENTORY_SIZE = 27;
+    private final ViewerCountManager viewerManager;
+    private DefaultedList<ItemStack> content;
+
+    public CabinetVariantBlockEntity(BlockPos blockPos, BlockState blockState) {
+        this(BlockEntityTypesRegistry.CABINET_VARIANT.get(), blockPos, blockState);
+    }
+
+    private CabinetVariantBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {
+        super(type, blockPos, blockState);
+        this.content = DefaultedList.ofSize(MAX_INVENTORY_SIZE, ItemStack.EMPTY);
+        this.viewerManager = new ViewerCountManager() {
+            protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
+                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
+                CabinetVariantBlockEntity.this.setOpen(state, true);
+            }
+
+            protected void onContainerClose(World world, BlockPos pos, BlockState state) {
+                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
+                CabinetVariantBlockEntity.this.setOpen(state, false);
+            }
+
+            protected void onViewerCountUpdate(World world, BlockPos pos, BlockState state, int oldViewerCount, int newViewerCount) {
+
+            }
+
+            protected boolean isPlayerViewing(PlayerEntity player) {
+                if (player.currentScreenHandler instanceof GenericContainerScreenHandler genericContainerScreenHandler) {
+                    Inventory inventory = genericContainerScreenHandler.getInventory();
+                    return inventory == CabinetVariantBlockEntity.this;
+                } else {
+                    return false;
+                }
+            }
+        };
+    }
+
+    @Override
+    protected Text getContainerName() {
+        return Text.translatable("container.storagedelight.cabinet_variant");
+    }
+
+    @Override
+    protected ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory) {
+        return GenericContainerScreenHandler.createGeneric9x3(syncId, playerInventory, this);
+    }
+
+    @Override
+    public int size() {
+        return MAX_INVENTORY_SIZE;
+    }
+
+    @Override
+    public void onOpen(PlayerEntity player) {
+        if (!this.removed && !player.isSpectator()) {
+            this.viewerManager.openContainer(player, this.getWorld(), this.getPos(), this.getCachedState());
+        }
+    }
+
+    @Override
+    public void onClose(PlayerEntity player) {
+        if (!this.removed && !player.isSpectator()) {
+            this.viewerManager.openContainer(player, this.getWorld(), this.getPos(), this.getCachedState());
+        }
+    }
+
+    @Override
+    protected DefaultedList<ItemStack> getInvStackList() {
+        return content;
+    }
+
+    @Override
+    protected void setInvStackList(DefaultedList<ItemStack> list) {
+        content = list;
+    }
+
+    @Override
+    public void readNbt(NbtCompound tag) {
+        super.readNbt(tag);
+        content = DefaultedList.ofSize(size(), ItemStack.EMPTY);
+        if (!deserializeLootTable(tag)) {
+            Inventories.readNbt(tag, content);
+        }
+    }
+
+    @Override
+    public void writeNbt(NbtCompound tag) {
+        super.writeNbt(tag);
+        if (!serializeLootTable(tag)) {
+            Inventories.writeNbt(tag, content);
+        }
+    }
+
+    @Nullable
+    @Override
+    public Packet<ClientPlayPacketListener> toUpdatePacket() {
+        return BlockEntityUpdateS2CPacket.create(this);
+    }
+
+    @Override
+    public NbtCompound toInitialChunkDataNbt() {
+        NbtCompound nbtCompound = new NbtCompound();
+        Inventories.writeNbt(nbtCompound, content, true);
+
+        return nbtCompound;
+    }
+
+    public void tick() {
+        if (!this.removed) {
+            this.viewerManager.updateViewerCount(this.getWorld(), this.getPos(), this.getCachedState());
         }
 
-        protected void onClose(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
-            CabinetVariantBlockEntity.this.updateBlockState(state, false);
-        }
+        if (this.viewerManager.getViewerCount() > 0) {
+            scheduleTick();
+        } else {
+            BlockState blockstate = getCachedState();
+            if (!(blockstate.getBlock() instanceof CabinetVariantBlock)) {
+                markRemoved();
+                return;
+            }
 
-        protected void openerCountChanged(Level level, BlockPos pos, BlockState sta, int arg1, int arg2) {
-        }
-
-        protected boolean isOwnContainer(Player p_155060_) {
-            if (p_155060_.containerMenu instanceof ChestMenu) {
-                Container container = ((ChestMenu) p_155060_.containerMenu).getContainer();
-                return container == CabinetVariantBlockEntity.this;
-            } else {
-                return false;
+            boolean flag = blockstate.get(CabinetVariantBlock.OPEN);
+            if (flag) {
+                playSound(blockstate, SoundEvents.BLOCK_BARREL_CLOSE);
+                setOpen(blockstate, false);
             }
         }
-    };
-
-    public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.CABINET_VARIANT.get(), pos, state);
     }
 
-    @Override
-    public void saveAdditional(CompoundTag compound) {
-        super.saveAdditional(compound);
-        if (!trySaveLootTable(compound)) {
-            ContainerHelper.saveAllItems(compound, contents);
-        }
+    private void scheduleTick() {
+        Objects.requireNonNull(getWorld()).getBlockTickScheduler().scheduleTick(OrderedTick.create(getCachedState().getBlock(), getPos()));
     }
 
-    @Override
-    public void load(CompoundTag compound) {
-        super.load(compound);
-        contents = NonNullList.withSize(getContainerSize(), ItemStack.EMPTY);
-        if (!tryLoadLootTable(compound)) {
-            ContainerHelper.loadAllItems(compound, contents);
-        }
-    }
-
-    @Override
-    public int getContainerSize() {
-        return 27;
-    }
-
-    @Override
-    protected NonNullList<ItemStack> getItems() {
-        return contents;
-    }
-
-    @Override
-    protected void setItems(NonNullList<ItemStack> itemsIn) {
-        contents = itemsIn;
-    }
-
-    @Override
-    protected Component getDefaultName() {
-        return Component.translatable("container.storagedelight.cabinet_variant");
-    }
-
-    @Override
-    protected AbstractContainerMenu createMenu(int id, Inventory player) {
-        return ChestMenu.threeRows(id, player, this);
-    }
-
-    public void startOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.incrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
-        }
-    }
-
-    public void stopOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.decrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
-        }
-    }
-
-    public void recheckOpen() {
-        if (level != null && !this.remove) {
-            this.openersCounter.recheckOpeners(level, this.getBlockPos(), this.getBlockState());
-        }
-    }
-
-    void updateBlockState(BlockState state, boolean open) {
-        if (level != null) {
-            this.level.setBlock(this.getBlockPos(), state.setValue(CabinetVariantBlock.OPEN, open), 3);
-        }
+    private void setOpen(BlockState state, boolean open) {
+        Objects.requireNonNull(getWorld()).setBlockState(getPos(), state.with(CabinetVariantBlock.OPEN, open));
     }
 
     private void playSound(BlockState state, SoundEvent sound) {
-        if (level == null) return;
-
-        Vec3i cabinetVariantFacingVector = state.getValue(CabinetVariantBlock.FACING).getNormal();
-        double x = (double) worldPosition.getX() + 0.5D + (double) cabinetVariantFacingVector.getX() / 2.0D;
-        double y = (double) worldPosition.getY() + 0.5D + (double) cabinetVariantFacingVector.getY() / 2.0D;
-        double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetVariantFacingVector.getZ() / 2.0D;
-        level.playSound(null, x, y, z, sound, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
+        Vec3i vec3i = state.get(CabinetVariantBlock.FACING).getVector();
+        BlockPos pos = getPos();
+        double dX = pos.getX() + .5d + vec3i.getX() / 2.d;
+        double dT = pos.getY() + .5d + vec3i.getY() / 2.d;
+        double dZ = pos.getZ() + .5d + vec3i.getZ() / 2.d;
+        World world = Objects.requireNonNull(getWorld());
+        world.playSound(null, dX, dT, dZ, sound, SoundCategory.BLOCKS, .5f, world.getRandom().nextFloat() * .1f + .9f);
     }
 }

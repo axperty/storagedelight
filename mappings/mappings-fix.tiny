@@ -1,0 +1,7 @@
+tiny	2	0	intermediary	named
+c	earth/terrarium/botarium/common/fluid/impl/SimpleFluidContainer	earth/terrarium/botarium/common/fluid/impl/SimpleFluidContainer
+	m	()V	clear	clear$fixConflict
+c	party/lemons/biomemakeover/entity/ai/MountedCrossbowAttackGoal	party/lemons/biomemakeover/entity/ai/MountedCrossbowAttackGoal
+	m	()Z	canStart	canStart$fixConflict
+c	party/lemons/biomemakeover/entity/GhostEntity	party/lemons/biomemakeover/entity/GhostEntity
+	m	()V	chooseRandomAngerTime	chooseRandomAngerTime$fixConflict

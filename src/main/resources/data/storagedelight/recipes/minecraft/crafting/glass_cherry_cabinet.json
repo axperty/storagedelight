@@ -13,7 +13,7 @@
       "item": "minecraft:cherry_trapdoor"
     },
     "G": {
-      "tag": "forge:glass_panes"
+      "tag": "c:glass_panes"
     }
 
   },

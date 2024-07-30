@@ -21,4 +21,4 @@
 </ul>
 <hr/>
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas on <a href="https://discord.gg/yweZ2agkDw">Discord</a> or report bugs on <a href="https://github.com/axperty/storagedelight-forge">GitHub.</a></p>
+<p>Your feedback is important to make improvements to this mod, submit your ideas on <a href="https://discord.gg/yweZ2agkDw">Discord</a> or report bugs on <a href="https://github.com/axperty/storagedelight-fabric">GitHub.</a></p>
