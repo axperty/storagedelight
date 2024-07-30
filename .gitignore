@@ -5,7 +5,6 @@ build/
 out/
 classes/
 
-
 # eclipse
 
 *.launch
@@ -32,5 +31,3 @@ bin/
 # fabric
 
 run/
-/src/main/generated/.cache/
-secrets/

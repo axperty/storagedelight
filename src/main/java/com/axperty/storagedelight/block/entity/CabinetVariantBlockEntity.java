@@ -12,8 +12,8 @@ import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.network.Packet;
 import net.minecraft.network.listener.ClientPlayPacketListener;
-import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket;
 import net.minecraft.screen.GenericContainerScreenHandler;
 import net.minecraft.screen.ScreenHandler;
@@ -32,6 +32,7 @@ import java.util.Objects;
 
 public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     private static final int MAX_INVENTORY_SIZE = 27;
+
     private final ViewerCountManager viewerManager;
     private DefaultedList<ItemStack> content;
 
@@ -54,7 +55,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
             }
 
             protected void onViewerCountUpdate(World world, BlockPos pos, BlockState state, int oldViewerCount, int newViewerCount) {
-
+                // Nothing to do when viewer count is updated
             }
 
             protected boolean isPlayerViewing(PlayerEntity player) {
@@ -79,6 +80,16 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     }
 
     @Override
+    protected DefaultedList<ItemStack> getInvStackList() {
+        return content;
+    }
+
+    @Override
+    protected void setInvStackList(DefaultedList<ItemStack> list) {
+        content = list;
+    }
+
+    @Override
     public int size() {
         return MAX_INVENTORY_SIZE;
     }
@@ -98,13 +109,11 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     }
 
     @Override
-    protected DefaultedList<ItemStack> getInvStackList() {
-        return content;
-    }
-
-    @Override
-    protected void setInvStackList(DefaultedList<ItemStack> list) {
-        content = list;
+    public void writeNbt(NbtCompound tag) {
+        super.writeNbt(tag);
+        if (!serializeLootTable(tag)) {
+            Inventories.writeNbt(tag, content);
+        }
     }
 
     @Override
@@ -113,14 +122,6 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
         content = DefaultedList.ofSize(size(), ItemStack.EMPTY);
         if (!deserializeLootTable(tag)) {
             Inventories.readNbt(tag, content);
-        }
-    }
-
-    @Override
-    public void writeNbt(NbtCompound tag) {
-        super.writeNbt(tag);
-        if (!serializeLootTable(tag)) {
-            Inventories.writeNbt(tag, content);
         }
     }
 

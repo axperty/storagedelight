@@ -73,7 +73,7 @@ public class CabinetVariantBlock extends InventoryBlockWithEntity {
     @Nullable
     @Override
     public BlockState getPlacementState(ItemPlacementContext context) {
-        return getDefaultState().with(FACING, context.getHorizontalPlayerFacing().getOpposite());
+        return getDefaultState().with(FACING, context.getPlayerFacing().getOpposite());
     }
 
     @Override
@@ -104,4 +104,5 @@ public class CabinetVariantBlock extends InventoryBlockWithEntity {
     public BlockState mirror(BlockState state, BlockMirror mirror) {
         return state.rotate(mirror.getRotation(state.get(FACING)));
     }
+
 }
