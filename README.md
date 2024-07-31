@@ -1,11 +1,11 @@
 # Storage Delight
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric"><img src="https://cf.way2muchnoise.eu/full_978786_downloads.svg" alt="Curseforge Downloads"></a>
-<a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
+[![CurseForge Downloads](https://cf.way2muchnoise.eu/full_978786_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric)
+[![Discord](https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord)](https://discord.gg/e2BQx4bbsU)
 
+[![Storage Delight](https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric)
 
-<img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png">
-<hr>
+***
 
 ### Overview
 
@@ -19,8 +19,8 @@ Your contributions to this project allows Storage Delight to be improved to deli
 
 This mod adds four new type of blocks to the game that are useful to decorate any place, new blocks are constantly added with updates:
 
-- Drawers of all wood types.
-- Drawers with doors of all wood types.
-- Glass Cabinets of all wood types.
-- Cabinets with Glass Doors of all wood types.
-- Single Door Cabinets of all wood types.
+* Drawers of all wood types.
+* Drawers with doors of all wood types.
+* Glass Cabinets of all wood types.
+* Cabinets with Glass Doors of all wood types.
+* Single Door Cabinets of all wood types.

@@ -1,31 +1,27 @@
 {
   "schemaVersion": 1,
   "id": "storagedelight",
-  "version": "1.1.1-1.19.2-fabric",
+  "version": "24.7.31-1.19.2-fabric",
   "name": "Storage Delight",
-  "description": "An addon for Farmer's Delight that adds more storage options to the base game.",
+  "description": "A mod that adds more storage options to the game.",
   "authors": [
     "Axperty"
   ],
   "contact": {
-    "sources": ""
+    "sources": "https://github.com/axperty"
   },
-
-  "license": "MIT License",
-  "icon": "assets/storagedelight/logo.png",
-
+  "license": "MIT",
+  "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "com.axperty.storagedelight.StorageDelight"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.19",
-    "java": ">=17",
-    "farmersdelight": "*"
+    "java": ">=17"
   }
 }

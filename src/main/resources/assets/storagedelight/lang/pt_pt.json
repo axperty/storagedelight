@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Gaveta",
+  "container.storagedelight.drawer_door": "Gaveta com Porta",
   "container.storagedelight.glass_cabinet": "Armário de Vidro",
   "container.storagedelight.cabinet_variant": "Armário",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Gaveta Carmesim",
   "block.storagedelight.warped_drawer": "Gaveta Distorcida",
   "block.storagedelight.bamboo_drawer": "Gaveta de Bambu",
+
+  "block.storagedelight.oak_drawer_with_door": "Gaveta de Carvalho com Porta",
+  "block.storagedelight.birch_drawer_with_door": "Gaveta de Bétula com Porta",
+  "block.storagedelight.spruce_drawer_with_door": "Gaveta de Abeto com Porta",
+  "block.storagedelight.cherry_drawer_with_door": "Gaveta de Cerejeira com Porta",
+  "block.storagedelight.jungle_drawer_with_door": "Gaveta de Madeira de Selva com Porta",
+  "block.storagedelight.acacia_drawer_with_door": "Gaveta de Acácia com Porta",
+  "block.storagedelight.dark_oak_drawer_with_door": "Gaveta de Carvalho Escuro com Porta",
+  "block.storagedelight.mangrove_drawer_with_door": "Gaveta de Mangue com Porta",
+  "block.storagedelight.crimson_drawer_with_door": "Gaveta de Madeira Carmesim com Porta",
+  "block.storagedelight.warped_drawer_with_door": "Gaveta de Madeira Deformada com Porta",
+  "block.storagedelight.bamboo_drawer_with_door": "Gaveta de Bambu com Porta",
 
   "block.storagedelight.glass_oak_cabinet": "Armário de Vidro de Carvalho",
   "block.storagedelight.glass_birch_cabinet": "Armário de Vidro de Bétula",

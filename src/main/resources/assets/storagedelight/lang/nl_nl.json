@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Lade",
+  "container.storagedelight.drawer_door": "Lade met Deur",
   "container.storagedelight.glass_cabinet": "Glazen Kast",
   "container.storagedelight.cabinet_variant": "Kast",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Karmozijn Lade",
   "block.storagedelight.warped_drawer": "Verdraaide Lade",
   "block.storagedelight.bamboo_drawer": "Bamboelade",
+
+  "block.storagedelight.oak_drawer_with_door": "Eiken Lade met Deur",
+  "block.storagedelight.birch_drawer_with_door": "Berken Lade met Deur",
+  "block.storagedelight.spruce_drawer_with_door": "Sparren Lade met Deur",
+  "block.storagedelight.cherry_drawer_with_door": "Kersen Lade met Deur",
+  "block.storagedelight.jungle_drawer_with_door": "Jungle Lade met Deur",
+  "block.storagedelight.acacia_drawer_with_door": "Acacia Lade met Deur",
+  "block.storagedelight.dark_oak_drawer_with_door": "Donker Eiken Lade met Deur",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrove Lade met Deur",
+  "block.storagedelight.crimson_drawer_with_door": "Karmozijn Lade met Deur",
+  "block.storagedelight.warped_drawer_with_door": "Kromhout Lade met Deur",
+  "block.storagedelight.bamboo_drawer_with_door": "Bamboe Lade met Deur",
 
   "block.storagedelight.glass_oak_cabinet": "Glazen Eiken Kast",
   "block.storagedelight.glass_birch_cabinet": "Glazen Berken Kast",

@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Szuflada",
+  "container.storagedelight.drawer_door": "Szuflada z Drzwiami",
   "container.storagedelight.glass_cabinet": "Szklana Szafka",
   "container.storagedelight.cabinet_variant": "Szafka",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Szuflada Karmazynowa",
   "block.storagedelight.warped_drawer": "Szuflada Wykrzywiona",
   "block.storagedelight.bamboo_drawer": "Szuflada bambusowa",
+
+  "block.storagedelight.oak_drawer_with_door": "Dębowa Szuflada z Drzwiami",
+  "block.storagedelight.birch_drawer_with_door": "Brzozowa Szuflada z Drzwiami",
+  "block.storagedelight.spruce_drawer_with_door": "Świerkowa Szuflada z Drzwiami",
+  "block.storagedelight.cherry_drawer_with_door": "Wiśniowa Szuflada z Drzwiami",
+  "block.storagedelight.jungle_drawer_with_door": "Dżunglowa Szuflada z Drzwiami",
+  "block.storagedelight.acacia_drawer_with_door": "Akacjowa Szuflada z Drzwiami",
+  "block.storagedelight.dark_oak_drawer_with_door": "Ciemno-dębowa Szuflada z Drzwiami",
+  "block.storagedelight.mangrove_drawer_with_door": "Namorzynowa Szuflada z Drzwiami",
+  "block.storagedelight.crimson_drawer_with_door": "Szkarłatna Szuflada z Drzwiami",
+  "block.storagedelight.warped_drawer_with_door": "Wykrzywiona Szuflada z Drzwiami",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambusowa Szuflada z Drzwiami",
 
   "block.storagedelight.glass_oak_cabinet": "Szklany Kabinet Dębowy",
   "block.storagedelight.glass_birch_cabinet": "Szklany Kabinet Brzozowy",

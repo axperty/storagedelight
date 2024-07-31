@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Schublade",
+  "container.storagedelight.drawer_door": "Schublade mit Tür",
   "container.storagedelight.glass_cabinet": "Glasvitrine",
   "container.storagedelight.cabinet_variant": "Schrank",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Karmesinschublade",
   "block.storagedelight.warped_drawer": "Verzerrte Schublade",
   "block.storagedelight.bamboo_drawer": "Bambuslade",
+
+  "block.storagedelight.oak_drawer_with_door": "Eichenschublade mit Tür",
+  "block.storagedelight.birch_drawer_with_door": "Birkenholzschublade mit Tür",
+  "block.storagedelight.spruce_drawer_with_door": "Fichtenschublade mit Tür",
+  "block.storagedelight.cherry_drawer_with_door": "Kirschholzschublade mit Tür",
+  "block.storagedelight.jungle_drawer_with_door": "Dschungelholzschublade mit Tür",
+  "block.storagedelight.acacia_drawer_with_door": "Akazienschublade mit Tür",
+  "block.storagedelight.dark_oak_drawer_with_door": "Dunkeleichenschublade mit Tür",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrovenschublade mit Tür",
+  "block.storagedelight.crimson_drawer_with_door": "Karmesinschublade mit Tür",
+  "block.storagedelight.warped_drawer_with_door": "Wirrholzschublade mit Tür",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambusschublade mit Tür",
 
   "block.storagedelight.glass_oak_cabinet": "Glas Eichenschrank",
   "block.storagedelight.glass_birch_cabinet": "Glas Birkenschrank",

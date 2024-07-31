@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Drawer",
+  "container.storagedelight.drawer_door": "Drawer with Door",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
   "container.storagedelight.cabinet_variant": "Cabinet",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Crimson Drawer",
   "block.storagedelight.warped_drawer": "Warped Drawer",
   "block.storagedelight.bamboo_drawer": "Bamboo Drawer",
+
+  "block.storagedelight.oak_drawer_with_door": "Oak Drawer with Door",
+  "block.storagedelight.birch_drawer_with_door": "Birch Drawer with Door",
+  "block.storagedelight.spruce_drawer_with_door": "Spruce Drawer with Door",
+  "block.storagedelight.cherry_drawer_with_door": "Cherry Drawer with Door",
+  "block.storagedelight.jungle_drawer_with_door": "Jungle Drawer with Door",
+  "block.storagedelight.acacia_drawer_with_door": "Acacia Drawer with Door",
+  "block.storagedelight.dark_oak_drawer_with_door": "Dark Oak Drawer with Door",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrove Drawer with Door",
+  "block.storagedelight.crimson_drawer_with_door": "Crimson Drawer with Door",
+  "block.storagedelight.warped_drawer_with_door": "Warped Drawer with Door",
+  "block.storagedelight.bamboo_drawer_with_door": "Bamboo Drawer with Door",
 
   "block.storagedelight.glass_oak_cabinet": "Glass Oak Cabinet",
   "block.storagedelight.glass_birch_cabinet": "Glass Birch Cabinet",
