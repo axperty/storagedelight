@@ -15,6 +15,18 @@
   "block.storagedelight.warped_drawer": "Cajón Distorcido",
   "block.storagedelight.bamboo_drawer": "Cajón de Bambú",
 
+  "block.storagedelight.oak_drawer_with_door": "Cajón de Roble con Puerta",
+  "block.storagedelight.birch_drawer_with_door": "Cajón de Abedul con Puerta",
+  "block.storagedelight.spruce_drawer_with_door": "Cajón de Abeto con Puerta",
+  "block.storagedelight.cherry_drawer_with_door": "Cajón de Cerezo con Puerta",
+  "block.storagedelight.jungle_drawer_with_door": "Cajón de Selva con Puerta",
+  "block.storagedelight.acacia_drawer_with_door": "Cajón de Acacia con Puerta",
+  "block.storagedelight.dark_oak_drawer_with_door": "Cajón de Roble Oscuro con Puerta",
+  "block.storagedelight.mangrove_drawer_with_door": "Cajón de Manglar con Puerta",
+  "block.storagedelight.crimson_drawer_with_door": "Cajón Carmesí con Puerta",
+  "block.storagedelight.warped_drawer_with_door": "Cajón Distorcido con Puerta",
+  "block.storagedelight.bamboo_drawer_with_door": "Cajón de Bambú con Puerta",
+
   "block.storagedelight.glass_oak_cabinet": "Gabinete de Vidrio de Roble",
   "block.storagedelight.glass_birch_cabinet": "Gabinete de Vidrio de Abedul",
   "block.storagedelight.glass_spruce_cabinet": "Gabinete de Vidrio de Abeto",

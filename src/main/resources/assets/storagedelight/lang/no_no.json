@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Skruff",
+  "container.storagedelight.drawer_door": "Skuff med Dør",
   "container.storagedelight.glass_cabinet": "Glass Skap",
   "container.storagedelight.cabinet_variant": "Skap",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Karmosin Skuff",
   "block.storagedelight.warped_drawer": "Forvridd Skuff",
   "block.storagedelight.bamboo_drawer": "Bambu Skuff",
+
+  "block.storagedelight.oak_drawer_with_door": "Eikeskuff med Dør",
+  "block.storagedelight.birch_drawer_with_door": "Bjørkeskuff med Dør",
+  "block.storagedelight.spruce_drawer_with_door": "Granskuff med Dør",
+  "block.storagedelight.cherry_drawer_with_door": "Kirsebærskuff med Dør",
+  "block.storagedelight.jungle_drawer_with_door": "Jungelskuff med Dør",
+  "block.storagedelight.acacia_drawer_with_door": "Akasieskuff med Dør",
+  "block.storagedelight.dark_oak_drawer_with_door": "Mørk Eikeskuff med Dør",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangroveskuff med Dør",
+  "block.storagedelight.crimson_drawer_with_door": "Karmosinskuff med Dør",
+  "block.storagedelight.warped_drawer_with_door": "Forvridd Skuff med Dør",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambusskuff med Dør",
 
   "block.storagedelight.glass_oak_cabinet": "Glass Eik Skap",
   "block.storagedelight.glass_birch_cabinet": "Glass Bjørk Skap",

@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Drawero",
+  "container.storagedelight.drawer_door": "Tirkesto kun Pordo",
   "container.storagedelight.glass_cabinet": "Vitro Ŝranko",
   "container.storagedelight.cabinet_variant": "Ŝranko",
 
@@ -13,6 +14,18 @@
   "block.storagedelight.mangrove_drawer": "Mangrova Drawero",
   "block.storagedelight.crimson_drawer": "Krimsona Drawero",
   "block.storagedelight.warped_drawer": "Warpita Drawero",
+
+  "block.storagedelight.oak_drawer_with_door": "Kverka Tirkesto kun Pordo",
+  "block.storagedelight.birch_drawer_with_door": "Betula Tirkesto kun Pordo",
+  "block.storagedelight.spruce_drawer_with_door": "Picea Tirkesto kun Pordo",
+  "block.storagedelight.cherry_drawer_with_door": "Ĉeriza Tirkesto kun Pordo",
+  "block.storagedelight.jungle_drawer_with_door": "Ĝangala Tirkesto kun Pordo",
+  "block.storagedelight.acacia_drawer_with_door": "Akaĉia Tirkesto kun Pordo",
+  "block.storagedelight.dark_oak_drawer_with_door": "Malhela Kverka Tirkesto kun Pordo",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrova Tirkesto kun Pordo",
+  "block.storagedelight.crimson_drawer_with_door": "Karmesia Tirkesto kun Pordo",
+  "block.storagedelight.warped_drawer_with_door": "Misformita Tirkesto kun Pordo",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambua Tirkesto kun Pordo",
 
   "block.storagedelight.glass_oak_cabinet": "Vitra Kverka Ŝranko",
   "block.storagedelight.glass_birch_cabinet": "Vitra Betula Ŝranko",

@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Cassetto",
+  "container.storagedelight.drawer_door": "Cassetto con Porta",
   "container.storagedelight.glass_cabinet": "Armadio in vetro",
   "container.storagedelight.cabinet_variant": "Armadio",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Cassetto cremisi",
   "block.storagedelight.warped_drawer": "Cassetto distorto",
   "block.storagedelight.bamboo_drawer": "Cassetto di bambù",
+
+  "block.storagedelight.oak_drawer_with_door": "Cassetto di Quercia con Porta",
+  "block.storagedelight.birch_drawer_with_door": "Cassetto di Betulla con Porta",
+  "block.storagedelight.spruce_drawer_with_door": "Cassetto di Abete con Porta",
+  "block.storagedelight.cherry_drawer_with_door": "Cassetto di Ciliegio con Porta",
+  "block.storagedelight.jungle_drawer_with_door": "Cassetto di Giungla con Porta",
+  "block.storagedelight.acacia_drawer_with_door": "Cassetto di Acacia con Porta",
+  "block.storagedelight.dark_oak_drawer_with_door": "Cassetto di Rovere Scuro con Porta",
+  "block.storagedelight.mangrove_drawer_with_door": "Cassetto di Mangrovia con Porta",
+  "block.storagedelight.crimson_drawer_with_door": "Cassetto di Legno Cremisi con Porta",
+  "block.storagedelight.warped_drawer_with_door": "Cassetto di Legno Deformato con Porta",
+  "block.storagedelight.bamboo_drawer_with_door": "Cassetto di Bambù con Porta",
 
   "block.storagedelight.glass_oak_cabinet": "Armadio di quercia in vetro",
   "block.storagedelight.glass_birch_cabinet": "Armadio di betulla in vetro",

@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Tiroir",
+  "container.storagedelight.drawer_door": "Tiroir avec Porte",
   "container.storagedelight.glass_cabinet": "Cabinet en Verre",
   "container.storagedelight.cabinet_variant": "Cabinet",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Tiroir Crimsois",
   "block.storagedelight.warped_drawer": "Tiroir Déformé",
   "block.storagedelight.bamboo_drawer": "Tiroir en Bambou",
+
+  "block.storagedelight.oak_drawer_with_door": "Tiroir en Chêne avec Porte",
+  "block.storagedelight.birch_drawer_with_door": "Tiroir en Bouleau avec Porte",
+  "block.storagedelight.spruce_drawer_with_door": "Tiroir en Épicéa avec Porte",
+  "block.storagedelight.cherry_drawer_with_door": "Tiroir en Cerisier avec Porte",
+  "block.storagedelight.jungle_drawer_with_door": "Tiroir en Bois de la Jungle avec Porte",
+  "block.storagedelight.acacia_drawer_with_door": "Tiroir en Acacia avec Porte",
+  "block.storagedelight.dark_oak_drawer_with_door": "Tiroir en Chêne Noir avec Porte",
+  "block.storagedelight.mangrove_drawer_with_door": "Tiroir en Palétuvier avec Porte",
+  "block.storagedelight.crimson_drawer_with_door": "Tiroir en Bois Cramoisi avec Porte",
+  "block.storagedelight.warped_drawer_with_door": "Tiroir en Bois Altéré avec Porte",
+  "block.storagedelight.bamboo_drawer_with_door": "Tiroir en Bambou avec Porte",
 
   "block.storagedelight.glass_oak_cabinet": "Cabinet en Verre de Chêne",
   "block.storagedelight.glass_birch_cabinet": "Cabinet en Verre de Bouleau",

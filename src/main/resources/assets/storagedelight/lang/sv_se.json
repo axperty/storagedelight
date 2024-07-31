@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Låda",
+  "container.storagedelight.drawer_door": "Låda med Dörr",
   "container.storagedelight.glass_cabinet": "Glas Skåp",
   "container.storagedelight.cabinet_variant": "Skåp",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Karmosin Låda",
   "block.storagedelight.warped_drawer": "Förvriden Låda",
   "block.storagedelight.bamboo_drawer": "Bambulåda",
+
+  "block.storagedelight.oak_drawer_with_door": "Ek Låda med Dörr",
+  "block.storagedelight.birch_drawer_with_door": "Björk Låda med Dörr",
+  "block.storagedelight.spruce_drawer_with_door": "Gran Låda med Dörr",
+  "block.storagedelight.cherry_drawer_with_door": "Körsbärsträ Låda med Dörr",
+  "block.storagedelight.jungle_drawer_with_door": "Jungle Låda med Dörr",
+  "block.storagedelight.acacia_drawer_with_door": "Akacia Låda med Dörr",
+  "block.storagedelight.dark_oak_drawer_with_door": "Mörk Ek Låda med Dörr",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrov Låda med Dörr",
+  "block.storagedelight.crimson_drawer_with_door": "Karmosin Låda med Dörr",
+  "block.storagedelight.warped_drawer_with_door": "Förvriden Låda med Dörr",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambu Låda med Dörr",
 
   "block.storagedelight.glass_oak_cabinet": "Glas Ek Skåp",
   "block.storagedelight.glass_birch_cabinet": "Glas Björk Skåp",

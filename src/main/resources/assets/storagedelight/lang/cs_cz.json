@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "Šuplík",
+  "container.storagedelight.drawer_door": "Šuplík s dveřmi",
   "container.storagedelight.glass_cabinet": "Skleněný šatník",
   "container.storagedelight.cabinet_variant": "Skříňka",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "Šuplík z karminu",
   "block.storagedelight.warped_drawer": "Šuplík z deformovaného dřeva",
   "block.storagedelight.bamboo_drawer": "Bambusový šuplík",
+
+  "block.storagedelight.oak_drawer_with_door": "Dubový šuplík s dveřmi",
+  "block.storagedelight.birch_drawer_with_door": "Březový šuplík s dveřmi",
+  "block.storagedelight.spruce_drawer_with_door": "Smrkový šuplík s dveřmi",
+  "block.storagedelight.cherry_drawer_with_door": "Třešňový šuplík s dveřmi",
+  "block.storagedelight.jungle_drawer_with_door": "Jungle šuplík s dveřmi",
+  "block.storagedelight.acacia_drawer_with_door": "Akáciový šuplík s dveřmi",
+  "block.storagedelight.dark_oak_drawer_with_door": "Tmavý dubový šuplík s dveřmi",
+  "block.storagedelight.mangrove_drawer_with_door": "Mangrovový šuplík s dveřmi",
+  "block.storagedelight.crimson_drawer_with_door": "Karmínový šuplík s dveřmi",
+  "block.storagedelight.warped_drawer_with_door": "Zkřivený šuplík s dveřmi",
+  "block.storagedelight.bamboo_drawer_with_door": "Bambusový šuplík s dveřmi",
 
   "block.storagedelight.glass_oak_cabinet": "Skleněný dubový šatník",
   "block.storagedelight.glass_birch_cabinet": "Skleněný březový šatník",

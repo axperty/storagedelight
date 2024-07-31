@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "抽屜",
+  "container.storagedelight.drawer_door": "帶門抽屜",
   "container.storagedelight.glass_cabinet": "玻璃櫃",
   "container.storagedelight.cabinet_variant": "櫥櫃",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "赤木抽屜",
   "block.storagedelight.warped_drawer": "扭曲木抽屜",
   "block.storagedelight.bamboo_drawer": "竹抽屜",
+
+  "block.storagedelight.oak_drawer_with_door": "橡木帶門抽屜",
+  "block.storagedelight.birch_drawer_with_door": "樺木帶門抽屜",
+  "block.storagedelight.spruce_drawer_with_door": "雲杉帶門抽屜",
+  "block.storagedelight.cherry_drawer_with_door": "櫻桃木帶門抽屜",
+  "block.storagedelight.jungle_drawer_with_door": "叢林木帶門抽屜",
+  "block.storagedelight.acacia_drawer_with_door": "金合歡帶門抽屜",
+  "block.storagedelight.dark_oak_drawer_with_door": "黑橡木帶門抽屜",
+  "block.storagedelight.mangrove_drawer_with_door": "紅樹林帶門抽屜",
+  "block.storagedelight.crimson_drawer_with_door": "緋紅木帶門抽屜",
+  "block.storagedelight.warped_drawer_with_door": "扭曲木帶門抽屜",
+  "block.storagedelight.bamboo_drawer_with_door": "竹子帶門抽屜",
 
   "block.storagedelight.glass_oak_cabinet": "玻璃橡木櫃",
   "block.storagedelight.glass_birch_cabinet": "玻璃樺木櫃",

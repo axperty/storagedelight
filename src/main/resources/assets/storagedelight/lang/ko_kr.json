@@ -1,5 +1,6 @@
 {
   "container.storagedelight.drawer": "서랍",
+  "container.storagedelight.drawer_door": "문이 있는 서랍",
   "container.storagedelight.glass_cabinet": "유리 캐비닛",
   "container.storagedelight.cabinet_variant": "캐비닛",
 
@@ -14,6 +15,18 @@
   "block.storagedelight.crimson_drawer": "크림슨 나무 서랍",
   "block.storagedelight.warped_drawer": "찌그러진 나무 서랍",
   "block.storagedelight.bamboo_drawer": "대나무 서랍",
+
+  "block.storagedelight.oak_drawer_with_door": "참나무 문이 있는 서랍",
+  "block.storagedelight.birch_drawer_with_door": "자작나무 문이 있는 서랍",
+  "block.storagedelight.spruce_drawer_with_door": "가문비나무 문이 있는 서랍",
+  "block.storagedelight.cherry_drawer_with_door": "벚나무 문이 있는 서랍",
+  "block.storagedelight.jungle_drawer_with_door": "정글나무 문이 있는 서랍",
+  "block.storagedelight.acacia_drawer_with_door": "아카시아 문이 있는 서랍",
+  "block.storagedelight.dark_oak_drawer_with_door": "짙은 참나무 문이 있는 서랍",
+  "block.storagedelight.mangrove_drawer_with_door": "맹그로브 문이 있는 서랍",
+  "block.storagedelight.crimson_drawer_with_door": "진홍색 문이 있는 서랍",
+  "block.storagedelight.warped_drawer_with_door": "뒤틀린 문이 있는 서랍",
+  "block.storagedelight.bamboo_drawer_with_door": "대나무 문이 있는 서랍",
 
   "block.storagedelight.glass_oak_cabinet": "유리 참나무 캐비닛",
   "block.storagedelight.glass_birch_cabinet": "유리 자작나무 캐비닛",
