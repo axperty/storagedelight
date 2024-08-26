@@ -1,15 +1,12 @@
 package com.axperty.storagedelight.item;
 
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 
 public class ModBlockItem extends BlockItem {
-    public ModBlockItem(Block block) {
-        super(block, new ModItemSettings());
-    }
 
-    public ModBlockItem(Block block, Settings settings) {
+    public ModBlockItem(Block block, Item.Settings settings) {
         super(block, settings);
     }
 }

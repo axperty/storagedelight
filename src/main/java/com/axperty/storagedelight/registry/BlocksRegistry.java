@@ -5,12 +5,8 @@ import com.axperty.storagedelight.block.CabinetVariantBlock;
 import com.axperty.storagedelight.block.DrawerBlock;
 import com.axperty.storagedelight.block.DrawerDoorBlock;
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.block.Block;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -114,16 +110,7 @@ public enum BlocksRegistry {
     public static void registerAll() {
         for (BlocksRegistry value : values()) {
             Block block = value.get();
-            Registry.register(Registries.BLOCK, new Identifier(StorageDelight.MOD_ID, value.pathName), block);
-        }
-    }
-
-    @Environment(EnvType.CLIENT)
-    public static void registerRenderLayer() {
-        for (BlocksRegistry value : values()) {
-            if (value.isCutout) {
-                BlockRenderLayerMap.INSTANCE.putBlock(value.get(), RenderLayer.getCutout());
-            }
+            Registry.register(Registries.BLOCK, Identifier.of(StorageDelight.MOD_ID, value.pathName), block);
         }
     }
 

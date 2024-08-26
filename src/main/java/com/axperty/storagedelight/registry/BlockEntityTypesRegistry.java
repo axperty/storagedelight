@@ -69,7 +69,7 @@ public enum BlockEntityTypesRegistry {
 
     public static void registerAll() {
         for (BlockEntityTypesRegistry value : values()) {
-            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(StorageDelight.MOD_ID, value.pathName), value.get());
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(StorageDelight.MOD_ID, value.pathName), value.get());
         }
     }
 

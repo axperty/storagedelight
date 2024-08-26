@@ -1,14 +1,14 @@
 package com.axperty.storagedelight.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.Item;
 
-public class ModItemSettings extends FabricItemSettings {
+public class ModItemSettings extends Item.Settings {
 
-    public static FabricItemSettings base() {
+    public static Item.Settings base() {
         return new ModItemSettings();
     }
 
-    public static FabricItemSettings noStack() {
+    public static Item.Settings noStack() {
         return new ModItemSettings().maxCount(1);
     }
 
