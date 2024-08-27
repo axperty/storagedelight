@@ -2,17 +2,13 @@
 
 ### Minor Update
 
-**Summary:** This update adds compatibility for Minecraft 1.21.
+**Summary:** This update fixes a bug that prevented Minecraft from being launched.
 
 ***
 
-### ✨ What's New:
+### 🛠️ Bug Fixes:
 
-- Added compatibility for Minecraft 1.21.
-
-### 📝 Translations:
-
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+- Fixed a bug where players could only launch the game using Minecraft 1.21.1, special thanks to Kobato Eto.
 
 ***
 
