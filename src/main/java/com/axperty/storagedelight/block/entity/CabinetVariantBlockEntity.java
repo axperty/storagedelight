@@ -1,6 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
-import net.minecraft.block.BarrelBlock;
+import com.axperty.storagedelight.block.CabinetVariantBlock;
+import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -29,7 +30,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     private final ViewerCountManager stateManager;
 
     public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityType.BARREL, pos, state);
+        super(BlockEntityTypesRegistry.CABINET_VARIANT.get(), pos, state);
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
@@ -115,11 +116,11 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     }
 
     void setOpen(BlockState state, boolean open) {
-        this.world.setBlockState(this.getPos(), (BlockState)state.with(BarrelBlock.OPEN, open), 3);
+        this.world.setBlockState(this.getPos(), (BlockState)state.with(CabinetVariantBlock.OPEN, open), 3);
     }
 
     void playSound(BlockState state, SoundEvent soundEvent) {
-        Vec3i vec3i = ((Direction)state.get(BarrelBlock.FACING)).getVector();
+        Vec3i vec3i = ((Direction)state.get(CabinetVariantBlock.FACING)).getVector();
         double d = (double)this.pos.getX() + 0.5 + (double)vec3i.getX() / 2.0;
         double e = (double)this.pos.getY() + 0.5 + (double)vec3i.getY() / 2.0;
         double f = (double)this.pos.getZ() + 0.5 + (double)vec3i.getZ() / 2.0;
