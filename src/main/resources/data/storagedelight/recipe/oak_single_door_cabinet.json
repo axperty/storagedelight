@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:oak_slab"
+    },
+    "T": {
+      "item": "minecraft:oak_trapdoor"
+    }
+  },
+  "result": {
+    "id": "storagedelight:oak_single_door_cabinet"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:acacia_slab"
+    },
+    "T": {
+      "item": "minecraft:acacia_trapdoor"
+    }
+  },
+  "result": {
+    "id": "storagedelight:acacia_single_door_cabinet"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "GTG",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:crimson_slab"
+    },
+    "T": {
+      "item": "minecraft:crimson_trapdoor"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+
+  },
+  "result": {
+    "id": "storagedelight:crimson_cabinet_with_glass_doors"
+  }
+}

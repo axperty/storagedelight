@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bamboo_slab"
+    },
+    "B": {
+      "item": "minecraft:bamboo_trapdoor"
+    }
+  },
+  "result": {
+    "id": "storagedelight:bamboo_drawer_with_door"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:crimson_slab"
+    },
+    "T": {
+      "item": "minecraft:crimson_trapdoor"
+    }
+  },
+  "result": {
+    "id": "storagedelight:crimson_single_door_cabinet"
+  }
+}

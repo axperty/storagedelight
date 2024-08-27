@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:warped_slab"
+    },
+    "T": {
+      "item": "minecraft:warped_trapdoor"
+    }
+  },
+  "result": {
+    "id": "storagedelight:warped_single_door_cabinet"
+  }
+}
