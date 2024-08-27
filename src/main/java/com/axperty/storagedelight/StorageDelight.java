@@ -17,11 +17,10 @@ import net.minecraft.util.Identifier;
 public class StorageDelight implements ModInitializer {
 
     public static final String MOD_ID = "storagedelight";
-    public static final RegistryKey<ItemGroup> ITEM_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(MOD_ID, "title"));
+    public static final RegistryKey<ItemGroup> ITEM_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(MOD_ID, "title"));
 
     @Override
     public void onInitialize() {
-        System.out.println("[Storage Delight Fabric]: Registering items and blocks...");
         Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("itemGroup.storagedelight"))
                 .icon(() -> new ItemStack(ItemsRegistry.OAK_DRAWER.get()))
@@ -29,6 +28,5 @@ public class StorageDelight implements ModInitializer {
         BlocksRegistry.registerAll();
         ItemsRegistry.registerAll();
         BlockEntityTypesRegistry.registerAll();
-        System.out.println("[Storage Delight Fabric]: Items and blocks registered successfully!");
     }
 }

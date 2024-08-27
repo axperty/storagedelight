@@ -87,7 +87,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     }
 
     protected Text getContainerName() {
-        return Text.translatable("container.moredelight.cabinet_variant");
+        return Text.translatable("container.storagedelight.cabinet_variant");
     }
 
     protected ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory) {
