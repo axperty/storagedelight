@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "TGT",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:mangrove_slab"
+    },
+    "T": {
+      "item": "minecraft:mangrove_trapdoor"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+
+  },
+  "result": {
+    "item": "storagedelight:glass_mangrove_cabinet"
+  },
+  "show_notification": true
+}

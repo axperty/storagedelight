@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_spruce_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:spruce_trapdoor"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "storagedelight:spruce_drawer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_spruce_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storagedelight:spruce_drawer"
+    ]
+  },
+  "sends_telemetry_event": false
+}

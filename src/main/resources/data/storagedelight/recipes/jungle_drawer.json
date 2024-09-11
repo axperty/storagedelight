@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_slab"
+    },
+    "B": {
+      "item": "minecraft:jungle_trapdoor"
+    }
+  },
+  "result": {
+    "item": "storagedelight:jungle_drawer"
+  },
+  "show_notification": true
+}

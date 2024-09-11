@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "TGT",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:birch_slab"
+    },
+    "T": {
+      "item": "minecraft:birch_trapdoor"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+
+  },
+  "result": {
+    "item": "storagedelight:glass_birch_cabinet"
+  },
+  "show_notification": true
+}

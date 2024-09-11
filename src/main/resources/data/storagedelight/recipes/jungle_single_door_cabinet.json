@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:jungle_slab"
+    },
+    "T": {
+      "item": "minecraft:jungle_trapdoor"
+    }
+  },
+  "result": {
+    "item": "storagedelight:jungle_single_door_cabinet"
+  },
+  "show_notification": true
+}
