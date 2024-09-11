@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "storagedelight",
-  "version": "24.8.27a-1.21-fabric",
+  "version": "24.09.11-1.21-fabric",
   "name": "Storage Delight",
   "description": "A mod that adds more storage options to the game.",
   "authors": [
     "Axperty"
   ],
   "contact": {
-    "sources": "https://github.com/axperty"
+    "sources": "https://github.com/axperty/storagedelight"
   },
   "license": "MIT",
   "icon": "assets/storagedelight/logo.png",

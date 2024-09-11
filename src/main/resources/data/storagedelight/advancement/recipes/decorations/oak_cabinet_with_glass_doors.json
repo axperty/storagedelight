@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "storagedelight:oak_cabinet_with_glass_doors"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oak_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storagedelight:oak_cabinet_with_glass_doors"
+    ]
+  }
+}
