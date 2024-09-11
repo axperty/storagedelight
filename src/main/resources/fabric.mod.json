@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "storagedelight",
-  "version": "2024.07.23-1.20.1-fabric",
+  "version": "24.09.11-1.20-fabric",
   "name": "Storage Delight",
   "description": "A mod that adds more storage options to the game.",
   "authors": [
@@ -19,7 +19,7 @@
   "depends": {
     "fabricloader": ">=0.14.20",
     "fabric": "*",
-    "minecraft": ">=1.20 <1.20.2",
+    "minecraft": ">=1.20",
     "java": ">=17"
   }
 }

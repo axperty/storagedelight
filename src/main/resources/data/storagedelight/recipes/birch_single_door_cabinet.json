@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:birch_slab"
+    },
+    "T": {
+      "item": "minecraft:birch_trapdoor"
+    }
+  },
+  "result": {
+    "item": "storagedelight:birch_single_door_cabinet"
+  },
+  "show_notification": true
+}

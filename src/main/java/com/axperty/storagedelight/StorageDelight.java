@@ -21,7 +21,6 @@ public class StorageDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("[Storage Delight Fabric]: Registering items and blocks...");
         Registry.register(Registries.ITEM_GROUP, ITEM_GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("itemGroup.storagedelight"))
                 .icon(() -> new ItemStack(ItemsRegistry.OAK_DRAWER.get()))
@@ -29,6 +28,5 @@ public class StorageDelight implements ModInitializer {
         BlocksRegistry.registerAll();
         ItemsRegistry.registerAll();
         BlockEntityTypesRegistry.registerAll();
-        System.out.println("[Storage Delight Fabric]: Items and blocks registered successfully!");
     }
 }
