@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_warped_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "storagedelight:warped_drawer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storagedelight:warped_drawer"
+    ]
+  }
+}

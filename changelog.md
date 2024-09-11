@@ -1,29 +1,19 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png" alt="Storage Delight">
+![Storage Delight](https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png)
 
-<h3>Shiny Furniture Update</h3>
-<p><b>Summary:</b> This update adds the new drawer with door, makes small changes to the creative mode inventory tab, and improves translations.</p>
-<hr/>
+### Minor Update
 
-<h3>✨ What's New:</h3>
-<ul>
-  <li>Added Drawer with Door for all wood types.</li>
-</ul>
+**Summary:** This minor update adds recipe book entries.
 
-<h3>🛠️ Other Changes:</h3>
-<ul>
-  <li>Furniture is now organized by wood type in creative mode.</li>
-</ul>
+***
 
-<h3>⚙️ Bug Fixes:</h3>
-<ul>
-  <li>Fixed a bug where drawers had the same properties as the glass cabinets. Before updating, <b>make sure you don't have any drawers placed</b> in your world.</li>
-</ul>
+### 🛠️ Minor Changes:
 
-<h3>📝 Translations:</h3>
-<ul>
-  <li>Improved translations for Russian and Ukrainian (thank you, Bytegm and P34enKa!)</li>
-  <li>Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements <a href="https://github.com/axperty/storagedelight-forge/tree/master/src/main/resources/assets/storagedelight/lang">here.</a></li>
-</ul>
-<hr/>
+- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas on <a href="https://discord.gg/yweZ2agkDw">Discord</a> or report bugs on <a href="https://github.com/axperty/storagedelight-forge">GitHub.</a></p>
+### 📝 Translations:
+
+- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
+***
+
+Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/storagedelight)
+You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
