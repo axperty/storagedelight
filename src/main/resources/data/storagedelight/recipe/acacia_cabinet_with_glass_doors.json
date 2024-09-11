@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "SSS",
     "GTG",
@@ -15,7 +16,6 @@
     "G": {
       "tag": "c:glass_panes"
     }
-
   },
   "result": {
     "id": "storagedelight:acacia_cabinet_with_glass_doors"
