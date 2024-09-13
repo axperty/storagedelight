@@ -1,10 +1,11 @@
 # Storage Delight
 
-<a href="https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge"><img src="https://cf.way2muchnoise.eu/full_979761_downloads.svg" alt="Curseforge Downloads"></a>
-<a href="https://discord.gg/e2BQx4bbsU"><img alt="Discord" src="https://img.shields.io/discord/1194733791818821663?color=brightgreen&label=Discord"></a>
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/979761?style=flat&logo=curseforge&logoColor=%23F16436&label=CurseForge&labelColor=%232D2C2C&color=%23F16436)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge)
+[![Discord](https://img.shields.io/discord/1194733791818821663?style=flat&logo=discord&logoColor=%23FFFFFF&label=Discord&labelColor=2D2C2C&color=%234e992e)](https://discord.gg/e2BQx4bbsU)
+[![PayPal](https://img.shields.io/badge/Donate%20on%20PayPal-0079C1?style=flat&logo=paypal)](https://paypal.me/kevgelhorn)
 
-<img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png">
-<hr>
+![Storage Delight](https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png)
+***
 
 ### Overview
 
