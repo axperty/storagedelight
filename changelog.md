@@ -1,19 +1,11 @@
 ![Storage Delight](https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png)
 
-### Minor Update
+***
 
-**Summary:** This minor update adds recipe book entries.
+### 🛠️ Bug Fixes:
+
+- Fixed a bug where placing the Cabinet with Glass Doors or Single Door Cabinet caused the game to unexpectedly crash, special thanks to szefosjani.
 
 ***
 
-### 🛠️ Minor Changes:
-
-- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
-
-### 📝 Translations:
-
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
-***
-
-Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/storagedelight)
-You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Crate Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn).

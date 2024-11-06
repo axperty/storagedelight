@@ -1,6 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
+import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
@@ -57,8 +58,8 @@ public class ModBlockEntityTypes {
                             ModBlocks.GLASS_WARPED_CABINET.get())
                     .build(null));
 
-    public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> CABINET_VARIANT = TILES.register("cabinet_variant",
-            () -> BlockEntityType.Builder.of(GlassCabinetBlockEntity::new,
+    public static final RegistryObject<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register("cabinet_variant",
+            () -> BlockEntityType.Builder.of(CabinetVariantBlockEntity::new,
                             ModBlocks.OAK_CABINET_WITH_GLASS_DOORS.get(),
                             ModBlocks.BIRCH_CABINET_WITH_GLASS_DOORS.get(),
                             ModBlocks.SPRUCE_CABINET_WITH_GLASS_DOORS.get(),
