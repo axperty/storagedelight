@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_slab"
+    },
+    "B": {
+      "item": "minecraft:spruce_trapdoor"
+    }
+  },
+  "result": {
+    "item": "storagedelight:spruce_drawer_with_door"
+  }
+}

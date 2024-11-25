@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
@@ -51,7 +51,7 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public GlassCabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.GLASS_CABINET.get(), pos, state);
+        super(BlockEntityTypesRegistry.GLASS_CABINET.get(), pos, state);
     }
 
     @Override

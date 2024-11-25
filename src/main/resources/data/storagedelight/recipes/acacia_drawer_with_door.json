@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_slab"
+    },
+    "B": {
+      "item": "minecraft:acacia_trapdoor"
+    }
+  },
+  "result": {
+    "item": "storagedelight:acacia_drawer_with_door"
+  }
+}

@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -103,7 +103,7 @@ public class DrawerBlock extends BaseEntityBlock
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return ModBlockEntityTypes.DRAWER.get().create(pos, state);
+        return BlockEntityTypesRegistry.DRAWER.get().create(pos, state);
     }
 
     @Override

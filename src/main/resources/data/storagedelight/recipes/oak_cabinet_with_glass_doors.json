@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "GTG",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:oak_slab"
+    },
+    "T": {
+      "item": "minecraft:oak_trapdoor"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "result": {
+    "item": "storagedelight:oak_cabinet_with_glass_doors"
+  }
+}
