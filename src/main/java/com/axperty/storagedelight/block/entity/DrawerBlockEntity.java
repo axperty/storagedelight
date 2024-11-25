@@ -29,7 +29,7 @@ public class DrawerBlockEntity extends LootableContainerBlockEntity {
     private final ViewerCountManager stateManager;
 
     public DrawerBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.DRAWER.get(), pos, state);
+        super(BlockEntityTypesRegistry.DRAWER, pos, state);
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {

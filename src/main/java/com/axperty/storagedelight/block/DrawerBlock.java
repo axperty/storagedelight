@@ -3,6 +3,7 @@ package com.axperty.storagedelight.block;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.BarrelBlockEntity;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.mob.PiglinBrain;
 import net.minecraft.entity.player.PlayerEntity;
@@ -12,7 +13,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.stat.Stats;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
-import net.minecraft.state.property.DirectionProperty;
+import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
 import net.minecraft.util.ActionResult;
@@ -28,7 +29,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class DrawerBlock extends BlockWithEntity {
     public static final MapCodec<DrawerBlock> CODEC = createCodec(DrawerBlock::new);
-    public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
+    public static final EnumProperty<Direction> FACING = Properties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = Properties.OPEN;
 
     public DrawerBlock() {
@@ -46,18 +47,16 @@ public class DrawerBlock extends BlockWithEntity {
     }
 
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
-        if (world.isClient) {
-            return ActionResult.SUCCESS;
-        } else {
-            BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof DrawerBlockEntity) {
-                player.openHandledScreen((DrawerBlockEntity)blockEntity);
+        if (world instanceof ServerWorld serverWorld) {
+            BlockEntity var8 = world.getBlockEntity(pos);
+            if (var8 instanceof DrawerBlockEntity drawerBlockEntity) {
+                player.openHandledScreen(drawerBlockEntity);
                 player.incrementStat(Stats.OPEN_BARREL);
-                PiglinBrain.onGuardedBlockInteracted(player, true);
+                PiglinBrain.onGuardedBlockInteracted(serverWorld, player, true);
             }
-
-            return ActionResult.CONSUME;
         }
+
+        return ActionResult.SUCCESS;
     }
 
     protected void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
