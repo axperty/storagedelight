@@ -5,7 +5,6 @@ import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
@@ -14,12 +13,12 @@ public class StorageDelight {
     public static final String MOD_ID = "storagedelight";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public StorageDelight() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModBlockEntityTypes.TILES.register(modEventBus);
-        ModCreativeTabs.CREATIVE_TABS.register(modEventBus);
+    public StorageDelight(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
+        ItemRegistry.ITEMS.register(modEventBus);
+        BlockRegistry.BLOCKS.register(modEventBus);
+        EntityTypesRegistry.TILES.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

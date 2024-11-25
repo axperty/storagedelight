@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -52,7 +52,7 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public GlassCabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.GLASS_CABINET.get(), pos, state);
+        super(EntityTypesRegistry.GLASS_CABINET.get(), pos, state);
     }
 
     @Override
@@ -124,7 +124,7 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     private void playSound(BlockState state, SoundEvent sound) {
         if (level == null) return;
 
-        Vec3i cabinetFacingVector = state.getValue(GlassCabinetBlock.FACING).getNormal();
+        Vec3i cabinetFacingVector = state.getValue(GlassCabinetBlock.FACING).getUnitVec3i();
         double x = (double) worldPosition.getX() + 0.5D + (double) cabinetFacingVector.getX() / 2.0D;
         double y = (double) worldPosition.getY() + 0.5D + (double) cabinetFacingVector.getY() / 2.0D;
         double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetFacingVector.getZ() / 2.0D;

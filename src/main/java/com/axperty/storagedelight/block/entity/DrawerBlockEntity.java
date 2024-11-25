@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -52,7 +52,7 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public DrawerBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.DRAWER.get(), pos, state);
+        super(EntityTypesRegistry.DRAWER.get(), pos, state);
     }
 
     @Override
@@ -124,7 +124,7 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     private void playSound(BlockState state, SoundEvent sound) {
         if (level == null) return;
 
-        Vec3i cabinetFacingVector = state.getValue(DrawerBlock.FACING).getNormal();
+        Vec3i cabinetFacingVector = state.getValue(DrawerBlock.FACING).getUnitVec3i();
         double x = (double) worldPosition.getX() + 0.5D + (double) cabinetFacingVector.getX() / 2.0D;
         double y = (double) worldPosition.getY() + 0.5D + (double) cabinetFacingVector.getY() / 2.0D;
         double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetFacingVector.getZ() / 2.0D;
