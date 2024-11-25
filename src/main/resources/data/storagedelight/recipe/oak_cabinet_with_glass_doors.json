@@ -7,15 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:oak_slab"
-    },
-    "T": {
-      "item": "minecraft:oak_trapdoor"
-    },
-    "G": {
-      "tag": "c:glass_panes"
-    }
+    "S": "minecraft:oak_slab",
+    "T": "minecraft:oak_trapdoor",
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:oak_cabinet_with_glass_doors"

@@ -7,15 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:cherry_slab"
-    },
-    "T": {
-      "item": "minecraft:cherry_trapdoor"
-    },
-    "G": {
-      "tag": "c:glass_panes"
-    }
+    "S": "minecraft:cherry_slab",
+    "T": "minecraft:cherry_trapdoor",
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:cherry_cabinet_with_glass_doors"

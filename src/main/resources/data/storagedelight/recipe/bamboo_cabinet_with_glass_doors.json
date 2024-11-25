@@ -7,15 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:bamboo_slab"
-    },
-    "T": {
-      "item": "minecraft:bamboo_trapdoor"
-    },
-    "G": {
-      "tag": "c:glass_panes"
-    }
+    "S": "minecraft:bamboo_slab",
+    "T": "minecraft:bamboo_trapdoor",
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:bamboo_cabinet_with_glass_doors"

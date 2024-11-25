@@ -7,12 +7,8 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:spruce_slab"
-    },
-    "T": {
-      "item": "minecraft:spruce_trapdoor"
-    }
+    "S": "minecraft:spruce_slab",
+    "T": "minecraft:spruce_trapdoor"
   },
   "result": {
     "id": "storagedelight:spruce_single_door_cabinet"

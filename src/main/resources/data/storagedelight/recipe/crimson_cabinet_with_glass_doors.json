@@ -7,15 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:crimson_slab"
-    },
-    "T": {
-      "item": "minecraft:crimson_trapdoor"
-    },
-    "G": {
-      "tag": "c:glass_panes"
-    }
+    "S": "minecraft:crimson_slab",
+    "T": "minecraft:crimson_trapdoor",
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:crimson_cabinet_with_glass_doors"

@@ -7,12 +7,8 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:bamboo_slab"
-    },
-    "T": {
-      "item": "minecraft:bamboo_trapdoor"
-    }
+    "S": "minecraft:bamboo_slab",
+    "T": "minecraft:bamboo_trapdoor"
   },
   "result": {
     "id": "storagedelight:bamboo_single_door_cabinet"

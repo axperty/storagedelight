@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "storagedelight",
-  "version": "24.09.11-1.21-fabric",
+  "version": "24.11.25-1.21.3-fabric",
   "name": "Storage Delight",
   "description": "A mod that adds more storage options to the game.",
   "authors": [
