@@ -2,9 +2,14 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### 🛠️ Minor Changes:
 
-- Fixed a bug where wood blocks were harder to break when using an axe, special thanks to ShyGuy001.
+- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
+
+### 📝 Translations:
+
+- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228](https://github.com/Lobster0228).
+- Added translations for Turkish, special thanks to [RuyaSavascisi](https://github.com/RuyaSavascisi).
 
 ***
 
