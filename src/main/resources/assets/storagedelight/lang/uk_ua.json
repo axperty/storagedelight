@@ -64,5 +64,5 @@
   "block.storagedelight.warped_single_door_cabinet": "Химерна шафа з одними дверима",
   "block.storagedelight.bamboo_single_door_cabinet": "Бамбукова шафа з одними дверима",
 
-  "itemGroup.storagedelight": "Storage Delight"
+  "itemGroup.storagedelight.title": "Storage Delight"
 }
