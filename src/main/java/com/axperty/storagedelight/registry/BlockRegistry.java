@@ -74,6 +74,13 @@ public class BlockRegistry {
     public static final Block CHERRY_CABINET_WITH_GLASS_DOORS = registerBlock("cherry_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
     public static final Block CHERRY_SINGLE_DOOR_CABINET = registerBlock("cherry_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
 
+    // Pale Oak Furniture Registry
+    public static final Block PALE_OAK_DRAWER = registerBlock("pale_oak_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block PALE_OAK_DRAWER_WITH_DOOR = registerBlock("pale_oak_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block GLASS_PALE_OAK_CABINET = registerBlock("glass_pale_oak_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block PALE_OAK_CABINET_WITH_GLASS_DOORS = registerBlock("pale_oak_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block PALE_OAK_SINGLE_DOOR_CABINET = registerBlock("pale_oak_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
+
     // Bamboo Furniture Registry
     public static final Block BAMBOO_DRAWER = registerBlock("bamboo_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
     public static final Block BAMBOO_DRAWER_WITH_DOOR = registerBlock("bamboo_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));

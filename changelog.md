@@ -4,7 +4,11 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.2-1.21.3.
+- Added support for Minecraft 1.21.4.
+- Added pale oak drawer.
+- Added pale oak drawer with door.
+- Added glass pale oak cabinet.
+- Added pale oak single door cabinet.
 
 ***
 

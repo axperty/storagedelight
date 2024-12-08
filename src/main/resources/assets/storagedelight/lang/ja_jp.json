@@ -15,6 +15,7 @@
   "item.storagedelight.crimson_drawer": "クリムゾンの引き出し",
   "item.storagedelight.warped_drawer": "ワープドの引き出し",
   "item.storagedelight.bamboo_drawer": "竹製の引き出し",
+  "item.storagedelight.pale_oak_drawer": "淡いオークの引き出し",
 
   "item.storagedelight.oak_drawer_with_door": "オークのドア付き引き出し",
   "item.storagedelight.birch_drawer_with_door": "白樺のドア付き引き出し",
@@ -27,6 +28,7 @@
   "item.storagedelight.crimson_drawer_with_door": "クリムゾンのドア付き引き出し",
   "item.storagedelight.warped_drawer_with_door": "ワープドのドア付き引き出し",
   "item.storagedelight.bamboo_drawer_with_door": "竹のドア付き引き出し",
+  "item.storagedelight.pale_oak_drawer_with_door": "扉付きの淡いオークの引き出し",
 
   "item.storagedelight.glass_oak_cabinet": "ガラスオークキャビネット",
   "item.storagedelight.glass_birch_cabinet": "ガラス白樺キャビネット",
@@ -39,6 +41,7 @@
   "item.storagedelight.glass_crimson_cabinet": "ガラスクリムゾンキャビネット",
   "item.storagedelight.glass_warped_cabinet": "ガラスワープドキャビネット",
   "item.storagedelight.glass_bamboo_cabinet": "ガラス竹製キャビネット",
+  "item.storagedelight.glass_pale_oak_cabinet": "ガラス付きの淡いオークのキャビネット",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "ガラス扉のオーク製キャビネット",
   "item.storagedelight.birch_cabinet_with_glass_doors": "ガラス扉の白樺製キャビネット",
@@ -51,6 +54,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "ガラス扉の竹製キャビネット",
   "item.storagedelight.warped_cabinet_with_glass_doors": "ガラス扉の反曲したキャビネット",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "ガラス扉の深紅色のキャビネット",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "ガラス扉付きの淡いオークのキャビネット",
 
   "item.storagedelight.oak_single_door_cabinet": "オークの片扉キャビネット",
   "item.storagedelight.birch_single_door_cabinet": "白樺の片扉キャビネット",
@@ -63,6 +67,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "クリムゾンの片扉キャビネット",
   "item.storagedelight.warped_single_door_cabinet": "ワープの片扉キャビネット",
   "item.storagedelight.bamboo_single_door_cabinet": "竹の片扉キャビネット",
+  "item.storagedelight.pale_oak_single_door_cabinet": "片開き扉の淡いオークのキャビネット",
 
   "itemGroup.storagedelight": "保存の喜び"
 }

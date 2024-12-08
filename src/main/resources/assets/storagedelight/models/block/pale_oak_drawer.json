@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"down": "storagedelight:block/pale_oak_cabinet_top",
+		"east": "storagedelight:block/pale_oak_cabinet_side",
+		"north": "storagedelight:block/pale_oak_drawer_front",
+		"south": "storagedelight:block/pale_oak_cabinet_side",
+		"up": "storagedelight:block/pale_oak_cabinet_top",
+		"west": "storagedelight:block/pale_oak_cabinet_side",
+		"particle": "storagedelight:block/pale_oak_drawer_front"
+	}
+}

@@ -26,6 +26,7 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.DARK_OAK_DRAWER,
                             BlockRegistry.BAMBOO_DRAWER,
                             BlockRegistry.CHERRY_DRAWER,
+                            BlockRegistry.PALE_OAK_DRAWER,
                             BlockRegistry.MANGROVE_DRAWER,
                             BlockRegistry.CRIMSON_DRAWER,
                             BlockRegistry.WARPED_DRAWER)
@@ -42,6 +43,7 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
                             BlockRegistry.BAMBOO_DRAWER_WITH_DOOR,
                             BlockRegistry.CHERRY_DRAWER_WITH_DOOR,
+                            BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR,
                             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR,
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR,
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR)
@@ -58,6 +60,7 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.GLASS_DARK_OAK_CABINET,
                             BlockRegistry.GLASS_BAMBOO_CABINET,
                             BlockRegistry.GLASS_CHERRY_CABINET,
+                            BlockRegistry.GLASS_PALE_OAK_CABINET,
                             BlockRegistry.GLASS_MANGROVE_CABINET,
                             BlockRegistry.GLASS_CRIMSON_CABINET,
                             BlockRegistry.GLASS_WARPED_CABINET)
@@ -74,6 +77,7 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS,
                             BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS,
                             BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS,
                             BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS,
                             BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS,
                             BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS,
@@ -85,6 +89,7 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET,
                             BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET,
                             BlockRegistry.CHERRY_SINGLE_DOOR_CABINET,
+                            BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET,
                             BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET,
                             BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET,
                             BlockRegistry.WARPED_SINGLE_DOOR_CABINET)

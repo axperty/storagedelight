@@ -64,6 +64,12 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS);
                         entries.add(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET);
 
+                        entries.add(BlockRegistry.PALE_OAK_DRAWER);
+                        entries.add(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR);
+                        entries.add(BlockRegistry.GLASS_PALE_OAK_CABINET);
+                        entries.add(BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS);
+                        entries.add(BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET);
+
                         entries.add(BlockRegistry.BAMBOO_DRAWER);
                         entries.add(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.GLASS_BAMBOO_CABINET);

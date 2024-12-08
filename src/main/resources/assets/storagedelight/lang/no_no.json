@@ -15,6 +15,7 @@
   "item.storagedelight.crimson_drawer": "Karmosin Skuff",
   "item.storagedelight.warped_drawer": "Forvridd Skuff",
   "item.storagedelight.bamboo_drawer": "Bambu Skuff",
+  "item.storagedelight.pale_oak_drawer": "Lys Eik Skuff",
 
   "item.storagedelight.oak_drawer_with_door": "Eikeskuff med Dør",
   "item.storagedelight.birch_drawer_with_door": "Bjørkeskuff med Dør",
@@ -27,6 +28,7 @@
   "item.storagedelight.crimson_drawer_with_door": "Karmosinskuff med Dør",
   "item.storagedelight.warped_drawer_with_door": "Forvridd Skuff med Dør",
   "item.storagedelight.bamboo_drawer_with_door": "Bambusskuff med Dør",
+  "item.storagedelight.pale_oak_drawer_with_door": "Lys Eikeskuff med Dør",
 
   "item.storagedelight.glass_oak_cabinet": "Glass Eik Skap",
   "item.storagedelight.glass_birch_cabinet": "Glass Bjørk Skap",
@@ -39,6 +41,7 @@
   "item.storagedelight.glass_crimson_cabinet": "Glass Karmosin Skap",
   "item.storagedelight.glass_warped_cabinet": "Glass Forvridd Skap",
   "item.storagedelight.glass_bamboo_cabinet": "Glass Bambu Skap",
+  "item.storagedelight.glass_pale_oak_cabinet": "Glass Lys Eik Skap",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Eike skap med glassdører",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Bjørk skap med glassdører",
@@ -51,6 +54,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Bambus skap med glassdører",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Forvridd skap med glassdører",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Karmosinrød skap med glassdører",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Lys Eike skap med glassdører",
 
   "item.storagedelight.oak_single_door_cabinet": "Eike Skap med Enkelt Dør",
   "item.storagedelight.birch_single_door_cabinet": "Bjørk Skap med Enkelt Dør",
@@ -63,6 +67,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "Karmosinrød Skap med Enkelt Dør",
   "item.storagedelight.warped_single_door_cabinet": "Forvridd Skap med Enkelt Dør",
   "item.storagedelight.bamboo_single_door_cabinet": "Bambus Skap med Enkelt Dør",
+  "item.storagedelight.pale_oak_single_door_cabinet": "Lys Eike Skap med Enkelt Dør",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

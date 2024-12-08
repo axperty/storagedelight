@@ -66,6 +66,13 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS, 300);
             registry.add(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET, 300);
 
+            // Pale Oak
+            registry.add(BlockRegistry.PALE_OAK_DRAWER, 300);
+            registry.add(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR, 300);
+            registry.add(BlockRegistry.GLASS_PALE_OAK_CABINET, 300);
+            registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS, 300);
+            registry.add(BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET, 300);
+
             // Bamboo
             registry.add(BlockRegistry.BAMBOO_DRAWER, 300);
             registry.add(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR, 300);
