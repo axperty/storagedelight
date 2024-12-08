@@ -7,6 +7,7 @@
 - Added support for Minecraft 1.21.4.
 - Added pale oak drawer.
 - Added pale oak drawer with door.
+- Added pale oak drawer with glass doors.
 - Added glass pale oak cabinet.
 - Added pale oak single door cabinet.
 
