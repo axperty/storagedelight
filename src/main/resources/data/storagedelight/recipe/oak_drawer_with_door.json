@@ -7,12 +7,8 @@
     "ABA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:oak_slab"
-    },
-    "B": {
-      "item": "minecraft:oak_trapdoor"
-    }
+    "A": "minecraft:oak_slab",
+    "B": "minecraft:oak_trapdoor"
   },
   "result": {
     "id": "storagedelight:oak_drawer_with_door"

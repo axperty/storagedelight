@@ -7,12 +7,8 @@
     "AAA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:birch_slab"
-    },
-    "B": {
-      "item": "minecraft:birch_trapdoor"
-    }
+    "A": "minecraft:birch_slab",
+    "B": "minecraft:birch_trapdoor"
   },
   "result": {
     "id": "storagedelight:birch_drawer"

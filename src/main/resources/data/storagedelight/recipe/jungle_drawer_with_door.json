@@ -7,12 +7,8 @@
     "ABA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:jungle_slab"
-    },
-    "B": {
-      "item": "minecraft:jungle_trapdoor"
-    }
+    "A": "minecraft:jungle_slab",
+    "B": "minecraft:jungle_trapdoor"
   },
   "result": {
     "id": "storagedelight:jungle_drawer_with_door"

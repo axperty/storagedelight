@@ -7,12 +7,8 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:mangrove_slab"
-    },
-    "T": {
-      "item": "minecraft:mangrove_trapdoor"
-    }
+    "S": "minecraft:mangrove_slab",
+    "T": "minecraft:mangrove_trapdoor"
   },
   "result": {
     "id": "storagedelight:mangrove_single_door_cabinet"

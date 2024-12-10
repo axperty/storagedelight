@@ -7,16 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:jungle_slab"
-    },
-    "T": {
-      "item": "minecraft:jungle_trapdoor"
-    },
-    "G": {
-      "tag": "forge:glass_panes"
-    }
-
+    "S": "minecraft:jungle_slab",
+    "T": "minecraft:jungle_trapdoor",
+    "G": "#forge:glass_panes"
   },
   "result": {
     "id": "storagedelight:glass_jungle_cabinet"

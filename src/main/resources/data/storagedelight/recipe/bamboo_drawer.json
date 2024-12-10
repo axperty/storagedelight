@@ -7,12 +7,8 @@
     "AAA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:bamboo_slab"
-    },
-    "B": {
-      "item": "minecraft:bamboo_trapdoor"
-    }
+    "A": "minecraft:bamboo_slab",
+    "B": "minecraft:bamboo_trapdoor"
   },
   "result": {
     "id": "storagedelight:bamboo_drawer"

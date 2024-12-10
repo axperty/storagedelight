@@ -7,16 +7,9 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:birch_slab"
-    },
-    "T": {
-      "item": "minecraft:birch_trapdoor"
-    },
-    "G": {
-      "tag": "forge:glass_panes"
-    }
-
+    "S": "minecraft:birch_slab",
+    "T": "minecraft:birch_trapdoor",
+    "G": "#forge:glass_panes"
   },
   "result": {
     "id": "storagedelight:glass_birch_cabinet"
