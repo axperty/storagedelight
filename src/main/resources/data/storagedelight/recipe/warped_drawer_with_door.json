@@ -7,12 +7,8 @@
     "ABA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:warped_slab"
-    },
-    "B": {
-      "item": "minecraft:warped_trapdoor"
-    }
+    "A": "minecraft:warped_slab",
+    "B": "minecraft:warped_trapdoor"
   },
   "result": {
     "id": "storagedelight:warped_drawer_with_door"

@@ -2,9 +2,9 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### ✨ What's New:
 
-- Fixed a bug where placing the Cabinet with Glass Doors or Single Door Cabinet caused the game to unexpectedly crash, special thanks to szefosjani.
+- Added support for Minecraft 1.21.3.
 
 ***
 

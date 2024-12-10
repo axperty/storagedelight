@@ -7,12 +7,8 @@
     "ABA"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:mangrove_slab"
-    },
-    "B": {
-      "item": "minecraft:mangrove_trapdoor"
-    }
+    "A": "minecraft:mangrove_slab",
+    "B": "minecraft:mangrove_trapdoor"
   },
   "result": {
     "id": "storagedelight:mangrove_drawer_with_door"

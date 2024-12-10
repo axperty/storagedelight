@@ -7,12 +7,8 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:acacia_slab"
-    },
-    "T": {
-      "item": "minecraft:acacia_trapdoor"
-    }
+    "S": "minecraft:acacia_slab",
+    "T": "minecraft:acacia_trapdoor"
   },
   "result": {
     "id": "storagedelight:acacia_single_door_cabinet"

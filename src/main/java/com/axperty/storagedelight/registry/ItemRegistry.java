@@ -22,13 +22,6 @@ public class ItemRegistry {
         return block;
     }
 
-    // Notes:
-    // FuelBlockItem seems to have no @Override errors in this Forge version.
-    // I also added the burnTime to each block except for the crimson and warped ones.
-    // Please test if that class actually works when placing a block inside a furnace.
-    // I already set the IDs for all blocks, so there shouldn't be any "java.lang.NullPointerException: Block id not set" errors.
-    // However, this needs to be tested.
-
     // Oak Furniture
     public static final Supplier<Item> OAK_DRAWER = registerWithTab("oak_drawer",
             () -> new FuelBlockItem(BlockRegistry.OAK_DRAWER.get(), new Item.Properties().setId(ITEMS.key("oak_drawer")),300)
