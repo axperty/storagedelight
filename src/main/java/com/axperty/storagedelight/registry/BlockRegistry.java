@@ -16,10 +16,6 @@ public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, StorageDelight.MOD_ID);
 
-    // Notes:
-    // I already set the IDs for all blocks, so there shouldn't be any "java.lang.NullPointerException: Block id not set" errors.
-    // However, this needs to be tested.
-
     // Oak Furniture
     public static final RegistryObject<Block> OAK_DRAWER = BLOCKS.register("oak_drawer",
             () -> new DrawerBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_drawer"))));

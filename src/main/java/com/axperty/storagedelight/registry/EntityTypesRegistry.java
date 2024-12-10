@@ -10,17 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Set;
+
 public class EntityTypesRegistry {
     public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, StorageDelight.MOD_ID);
 
-    // Notes:
-    // BlockEntityType has been removed and the constructor is private.
-    // In order to fix this, the Forge loader will have to update to a version newer than 53.0.25.
-    // After it gets updated, change the forge_version= version on gradle.properties.
-    // In the meantime, there is nothing to do.
-
     public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("drawer",
-            () -> BlockEntityType.Builder.of(DrawerBlockEntity::new,
+            () -> new BlockEntityType<>(DrawerBlockEntity::new, Set.of(
                             BlockRegistry.OAK_DRAWER.get(),
                             BlockRegistry.BIRCH_DRAWER.get(),
                             BlockRegistry.SPRUCE_DRAWER.get(),
@@ -31,11 +27,11 @@ public class EntityTypesRegistry {
                             BlockRegistry.CHERRY_DRAWER.get(),
                             BlockRegistry.MANGROVE_DRAWER.get(),
                             BlockRegistry.CRIMSON_DRAWER.get(),
-                            BlockRegistry.WARPED_DRAWER.get())
-                    .build(null));
+                            BlockRegistry.WARPED_DRAWER.get()
+            )));
 
     public static final RegistryObject<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
-            () -> BlockEntityType.Builder.of(DrawerDoorBlockEntity::new,
+            () -> new BlockEntityType<>(DrawerDoorBlockEntity::new, Set.of(
                             BlockRegistry.OAK_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get(),
@@ -46,11 +42,11 @@ public class EntityTypesRegistry {
                             BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
-                            BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())
-                    .build(null));
+                            BlockRegistry.WARPED_DRAWER_WITH_DOOR.get()
+            )));
 
     public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register("glass_cabinet",
-            () -> BlockEntityType.Builder.of(GlassCabinetBlockEntity::new,
+            () -> new BlockEntityType<>(GlassCabinetBlockEntity::new, Set.of(
                             BlockRegistry.GLASS_OAK_CABINET.get(),
                             BlockRegistry.GLASS_BIRCH_CABINET.get(),
                             BlockRegistry.GLASS_SPRUCE_CABINET.get(),
@@ -61,11 +57,11 @@ public class EntityTypesRegistry {
                             BlockRegistry.GLASS_CHERRY_CABINET.get(),
                             BlockRegistry.GLASS_MANGROVE_CABINET.get(),
                             BlockRegistry.GLASS_CRIMSON_CABINET.get(),
-                            BlockRegistry.GLASS_WARPED_CABINET.get())
-                    .build(null));
+                            BlockRegistry.GLASS_WARPED_CABINET.get()
+            )));
 
     public static final RegistryObject<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register("cabinet_variant",
-            () -> BlockEntityType.Builder.of(CabinetVariantBlockEntity::new,
+            () -> new BlockEntityType<>(CabinetVariantBlockEntity::new, Set.of(
                             BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS.get(),
@@ -87,6 +83,6 @@ public class EntityTypesRegistry {
                             BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
-                            BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())
-                    .build(null));
+                            BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get()
+            )));
 }
