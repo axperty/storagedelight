@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,open=false": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors" },
+    "facing=east,open=false": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors", "y": 90 },
+    "facing=south,open=false": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors", "y": 180 },
+    "facing=west,open=false": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors", "y": 270 },
+    "facing=north,open=true": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors_open" },
+    "facing=east,open=true": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors_open", "y": 90 },
+    "facing=south,open=true": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors_open", "y": 180 },
+    "facing=west,open=true": { "model": "storagedelight:block/pale_oak_cabinet_with_glass_doors_open", "y": 270 }
+  }
+}
