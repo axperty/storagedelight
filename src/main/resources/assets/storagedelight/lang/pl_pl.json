@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Szuflada",
   "container.storagedelight.drawer_door": "Szuflada z Drzwiami",
+  "container.storagedelight.drawer_books": "Szuflada z Książkami",
   "container.storagedelight.glass_cabinet": "Szklana Szafka",
   "container.storagedelight.cabinet_variant": "Szafka",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Wykrzywiona Szuflada z Drzwiami",
   "item.storagedelight.bamboo_drawer_with_door": "Bambusowa Szuflada z Drzwiami",
   "item.storagedelight.pale_oak_drawer_with_door": "Jasny dębowy szuflada z drzwiami",
+
+  "item.storagedelight.oak_drawer_with_books": "Dębowa Szuflada z Książkami",
+  "item.storagedelight.birch_drawer_with_books": "Brzozowa Szuflada z Książkami",
+  "item.storagedelight.spruce_drawer_with_books": "Świerkowa Szuflada z Książkami",
+  "item.storagedelight.cherry_drawer_with_books": "Wiśniowa Szuflada z Książkami",
+  "item.storagedelight.jungle_drawer_with_books": "Dżunglowa Szuflada z Książkami",
+  "item.storagedelight.acacia_drawer_with_books": "Akacjowa Szuflada z Książkami",
+  "item.storagedelight.dark_oak_drawer_with_books": "Ciemno-dębowa Szuflada z Książkami",
+  "item.storagedelight.mangrove_drawer_with_books": "Namorzynowa Szuflada z Książkami",
+  "item.storagedelight.crimson_drawer_with_books": "Szkarłatna Szuflada z Książkami",
+  "item.storagedelight.warped_drawer_with_books": "Wykrzywiona Szuflada z Książkami",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambusowa Szuflada z Książkami",
+  "item.storagedelight.pale_oak_drawer_with_books": "Jasny dębowy szuflada z książkami",
 
   "item.storagedelight.glass_oak_cabinet": "Szklany Kabinet Dębowy",
   "item.storagedelight.glass_birch_cabinet": "Szklany Kabinet Brzozowy",

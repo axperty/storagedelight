@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "抽屜",
   "container.storagedelight.drawer_door": "帶門抽屜",
+  "container.storagedelight.drawer_books": "帶書抽屜",
   "container.storagedelight.glass_cabinet": "玻璃櫃",
   "container.storagedelight.cabinet_variant": "櫥櫃",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "扭曲木帶門抽屜",
   "item.storagedelight.bamboo_drawer_with_door": "竹子帶門抽屜",
   "item.storagedelight.pale_oak_drawer_with_door": "有門的淺橡木抽屜",
+
+  "item.storagedelight.oak_drawer_with_books": "橡木帶書抽屜",
+  "item.storagedelight.birch_drawer_with_books": "樺木帶書抽屜",
+  "item.storagedelight.spruce_drawer_with_books": "雲杉帶書抽屜",
+  "item.storagedelight.cherry_drawer_with_books": "櫻桃木帶書抽屜",
+  "item.storagedelight.jungle_drawer_with_books": "叢林木帶書抽屜",
+  "item.storagedelight.acacia_drawer_with_books": "金合歡帶書抽屜",
+  "item.storagedelight.dark_oak_drawer_with_books": "黑橡木帶書抽屜",
+  "item.storagedelight.mangrove_drawer_with_books": "紅樹林帶書抽屜",
+  "item.storagedelight.crimson_drawer_with_books": "緋紅木帶書抽屜",
+  "item.storagedelight.warped_drawer_with_books": "扭曲木帶書抽屜",
+  "item.storagedelight.bamboo_drawer_with_books": "竹子帶書抽屜",
+  "item.storagedelight.pale_oak_drawer_with_books": "帶書的淺橡木抽屜",
 
   "item.storagedelight.glass_oak_cabinet": "玻璃橡木櫃",
   "item.storagedelight.glass_birch_cabinet": "玻璃樺木櫃",

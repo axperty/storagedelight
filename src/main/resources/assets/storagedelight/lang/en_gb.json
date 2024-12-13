@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Drawer",
   "container.storagedelight.drawer_door": "Drawer with Door",
+  "container.storagedelight.drawer_books": "Drawer with Books",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
   "container.storagedelight.cabinet_variant": "Cabinet",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Warped Drawer with Door",
   "item.storagedelight.bamboo_drawer_with_door": "Bamboo Drawer with Door",
   "item.storagedelight.pale_oak_drawer_with_door": "Pale Oak Drawer with Door",
+
+  "item.storagedelight.oak_drawer_with_books": "Oak Drawer with Books",
+  "item.storagedelight.birch_drawer_with_books": "Birch Drawer with Books",
+  "item.storagedelight.spruce_drawer_with_books": "Spruce Drawer with Books",
+  "item.storagedelight.cherry_drawer_with_books": "Cherry Drawer with Books",
+  "item.storagedelight.jungle_drawer_with_books": "Jungle Drawer with Books",
+  "item.storagedelight.acacia_drawer_with_books": "Acacia Drawer with Books",
+  "item.storagedelight.dark_oak_drawer_with_books": "Dark Oak Drawer with Books",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrove Drawer with Books",
+  "item.storagedelight.crimson_drawer_with_books": "Crimson Drawer with Books",
+  "item.storagedelight.warped_drawer_with_books": "Warped Drawer with Books",
+  "item.storagedelight.bamboo_drawer_with_books": "Bamboo Drawer with Books",
+  "item.storagedelight.pale_oak_drawer_with_books": "Pale Oak Drawer with Books",
 
   "item.storagedelight.glass_oak_cabinet": "Glass Oak Cabinet",
   "item.storagedelight.glass_birch_cabinet": "Glass Birch Cabinet",

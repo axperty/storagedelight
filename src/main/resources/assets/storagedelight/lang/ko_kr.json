@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "서랍",
   "container.storagedelight.drawer_door": "문이 있는 서랍",
+  "container.storagedelight.drawer_books": "책이 있는 서랍",
   "container.storagedelight.glass_cabinet": "유리 캐비닛",
   "container.storagedelight.cabinet_variant": "캐비닛",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "뒤틀린 문이 있는 서랍",
   "item.storagedelight.bamboo_drawer_with_door": "대나무 문이 있는 서랍",
   "item.storagedelight.pale_oak_drawer_with_door": "문이 달린 밝은 오크 서랍",
+
+  "item.storagedelight.oak_drawer_with_books": "참나무 책이 있는 서랍",
+  "item.storagedelight.birch_drawer_with_books": "자작나무 책이 있는 서랍",
+  "item.storagedelight.spruce_drawer_with_books": "가문비나무 책이 있는 서랍",
+  "item.storagedelight.cherry_drawer_with_books": "벚나무 책이 있는 서랍",
+  "item.storagedelight.jungle_drawer_with_books": "정글나무 책이 있는 서랍",
+  "item.storagedelight.acacia_drawer_with_books": "아카시아 책이 있는 서랍",
+  "item.storagedelight.dark_oak_drawer_with_books": "짙은 참나무 책이 있는 서랍",
+  "item.storagedelight.mangrove_drawer_with_books": "맹그로브 책이 있는 서랍",
+  "item.storagedelight.crimson_drawer_with_books": "진홍색 책이 있는 서랍",
+  "item.storagedelight.warped_drawer_with_books": "뒤틀린 책이 있는 서랍",
+  "item.storagedelight.bamboo_drawer_with_books": "대나무 책이 있는 서랍",
+  "item.storagedelight.pale_oak_drawer_with_books": "밝은 오크 책이 있는 서랍",
 
   "item.storagedelight.glass_oak_cabinet": "유리 참나무 캐비닛",
   "item.storagedelight.glass_birch_cabinet": "유리 자작나무 캐비닛",

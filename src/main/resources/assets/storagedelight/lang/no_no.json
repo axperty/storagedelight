@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Skruff",
   "container.storagedelight.drawer_door": "Skuff med Dør",
+  "container.storagedelight.drawer_books": "Skuff med Bøker",
   "container.storagedelight.glass_cabinet": "Glass Skap",
   "container.storagedelight.cabinet_variant": "Skap",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Forvridd Skuff med Dør",
   "item.storagedelight.bamboo_drawer_with_door": "Bambusskuff med Dør",
   "item.storagedelight.pale_oak_drawer_with_door": "Lys Eikeskuff med Dør",
+
+  "item.storagedelight.oak_drawer_with_books": "Eikeskuff med Bøker",
+  "item.storagedelight.birch_drawer_with_books": "Bjørkeskuff med Bøker",
+  "item.storagedelight.spruce_drawer_with_books": "Granskuff med Bøker",
+  "item.storagedelight.cherry_drawer_with_books": "Kirsebærskuff med Bøker",
+  "item.storagedelight.jungle_drawer_with_books": "Jungelskuff med Bøker",
+  "item.storagedelight.acacia_drawer_with_books": "Akasieskuff med Bøker",
+  "item.storagedelight.dark_oak_drawer_with_books": "Mørk Eikeskuff med Bøker",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangroveskuff med Bøker",
+  "item.storagedelight.crimson_drawer_with_books": "Karmosinskuff med Bøker",
+  "item.storagedelight.warped_drawer_with_books": "Forvridd Skuff med Bøker",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambusskuff med Bøker",
+  "item.storagedelight.pale_oak_drawer_with_books": "Lys Eikeskuff med Bøker",
 
   "item.storagedelight.glass_oak_cabinet": "Glass Eik Skap",
   "item.storagedelight.glass_birch_cabinet": "Glass Bjørk Skap",

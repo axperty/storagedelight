@@ -50,6 +50,23 @@ public class BlockEntityTypesRegistry {
                     .build()
     );
 
+    public static final BlockEntityType<DrawerDoorBlockEntity> DRAWER_BOOKS = register(
+            "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerDoorBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
+                            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS,
+                            BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS,
+                            BlockRegistry.CHERRY_DRAWER_WITH_BOOKS,
+                            BlockRegistry.PALE_OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS,
+                            BlockRegistry.WARPED_DRAWER_WITH_BOOKS)
+                    .build()
+    );
+
     public static final BlockEntityType<GlassCabinetBlockEntity> GLASS_CABINET = register(
             "glass_cabinet", FabricBlockEntityTypeBuilder.create(GlassCabinetBlockEntity::new,
                             BlockRegistry.GLASS_OAK_CABINET,

@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Gaveta",
   "container.storagedelight.drawer_door": "Gaveta com Porta",
+  "container.storagedelight.drawer_books": "Gaveta com Livros",
   "container.storagedelight.glass_cabinet": "Armário de Vidro",
   "container.storagedelight.cabinet_variant": "Armário",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Gaveta de Madeira Deformada com Porta",
   "item.storagedelight.bamboo_drawer_with_door": "Gaveta de Bambu com Porta",
   "item.storagedelight.pale_oak_drawer_with_door": "Gaveta de Carvalho Claro com Porta",
+
+  "item.storagedelight.oak_drawer_with_books": "Gaveta de Carvalho com Livros",
+  "item.storagedelight.birch_drawer_with_books": "Gaveta de Bétula com Livros",
+  "item.storagedelight.spruce_drawer_with_books": "Gaveta de Abeto com Livros",
+  "item.storagedelight.cherry_drawer_with_books": "Gaveta de Cerejeira com Livros",
+  "item.storagedelight.jungle_drawer_with_books": "Gaveta de Madeira de Selva com Livros",
+  "item.storagedelight.acacia_drawer_with_books": "Gaveta de Acácia com Livros",
+  "item.storagedelight.dark_oak_drawer_with_books": "Gaveta de Carvalho Escuro com Livros",
+  "item.storagedelight.mangrove_drawer_with_books": "Gaveta de Mangue com Livros",
+  "item.storagedelight.crimson_drawer_with_books": "Gaveta de Madeira Carmesim com Livros",
+  "item.storagedelight.warped_drawer_with_books": "Gaveta de Madeira Deformada com Livros",
+  "item.storagedelight.bamboo_drawer_with_books": "Gaveta de Bambu com Livros",
+  "item.storagedelight.pale_oak_drawer_with_books": "Gaveta de Carvalho Claro com Livros",
 
   "item.storagedelight.glass_oak_cabinet": "Armário de Vidro de Carvalho",
   "item.storagedelight.glass_birch_cabinet": "Armário de Vidro de Bétula",

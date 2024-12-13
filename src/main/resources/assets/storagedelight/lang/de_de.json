@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Schublade",
   "container.storagedelight.drawer_door": "Schublade mit Tür",
+  "container.storagedelight.drawer_books": "Schublade mit Büchern",
   "container.storagedelight.glass_cabinet": "Glasvitrine",
   "container.storagedelight.cabinet_variant": "Schrank",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Wirrholzschublade mit Tür",
   "item.storagedelight.bamboo_drawer_with_door": "Bambusschublade mit Tür",
   "item.storagedelight.pale_oak_drawer_with_door": "Heller Eichen-Schublade mit Tür",
+
+  "item.storagedelight.oak_drawer_with_books": "Eichenschublade mit Büchern",
+  "item.storagedelight.birch_drawer_with_books": "Birkenholzschublade mit Büchern",
+  "item.storagedelight.spruce_drawer_with_books": "Fichtenschublade mit Büchern",
+  "item.storagedelight.cherry_drawer_with_books": "Kirschholzschublade mit Büchern",
+  "item.storagedelight.jungle_drawer_with_books": "Dschungelholzschublade mit Büchern",
+  "item.storagedelight.acacia_drawer_with_books": "Akazienschublade mit Büchern",
+  "item.storagedelight.dark_oak_drawer_with_books": "Dunkeleichenschublade mit Büchern",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrovenschublade mit Büchern",
+  "item.storagedelight.crimson_drawer_with_books": "Karmesinschublade mit Büchern",
+  "item.storagedelight.warped_drawer_with_books": "Wirrholzschublade mit Büchern",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambusschublade mit Büchern",
+  "item.storagedelight.pale_oak_drawer_with_books": "Heller Eichen-Schublade mit Büchern",
 
   "item.storagedelight.glass_oak_cabinet": "Glas Eichenschrank",
   "item.storagedelight.glass_birch_cabinet": "Glas Birkenschrank",

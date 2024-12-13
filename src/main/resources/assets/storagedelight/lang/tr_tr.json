@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Çekmece",
   "container.storagedelight.drawer_door": "Kapaklı Çekmece",
+  "container.storagedelight.drawer_books": "Kitaplı Çekmece",
   "container.storagedelight.glass_cabinet": "Camlı Dolap",
   "container.storagedelight.cabinet_variant": "Dolap",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Kapaklı Çarpık Çekmece",
   "item.storagedelight.bamboo_drawer_with_door": "Kapaklı Bambu Çekmece",
   "item.storagedelight.pale_oak_drawer_with_door": "Kapılı açık meşe çekmece",
+
+  "item.storagedelight.oak_drawer_with_books": "Kitaplı Meşe Çekmece",
+  "item.storagedelight.birch_drawer_with_books": "Kitaplı Huş Çekmece",
+  "item.storagedelight.spruce_drawer_with_books": "Kitaplı Ladin Çekmece",
+  "item.storagedelight.cherry_drawer_with_books": "Kitaplı Kiraz Ağacı Çekmece",
+  "item.storagedelight.jungle_drawer_with_books": "Kitaplı Orman Ağacı Çekmece",
+  "item.storagedelight.acacia_drawer_with_books": "Kitaplı Akasya Çekmece",
+  "item.storagedelight.dark_oak_drawer_with_books": "Kitaplı Koyu Meşe Çekmece",
+  "item.storagedelight.mangrove_drawer_with_books": "Kitaplı Mangrov Çekmece",
+  "item.storagedelight.crimson_drawer_with_books": "Kitaplı Kızıl Çekmece",
+  "item.storagedelight.warped_drawer_with_books": "Kitaplı Çarpık Çekmece",
+  "item.storagedelight.bamboo_drawer_with_books": "Kitaplı Bambu Çekmece",
+  "item.storagedelight.pale_oak_drawer_with_books": "Kitaplı açık meşe çekmece",
 
   "item.storagedelight.glass_oak_cabinet": "Camlı Meşe Dolap",
   "item.storagedelight.glass_birch_cabinet": "Camlı Huş Dolap",

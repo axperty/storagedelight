@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Drawero",
   "container.storagedelight.drawer_door": "Tirkesto kun Pordo",
+  "container.storagedelight.drawer_books": "Tirkesto kun Libroj",
   "container.storagedelight.glass_cabinet": "Vitro Ŝranko",
   "container.storagedelight.cabinet_variant": "Ŝranko",
 
@@ -27,7 +28,20 @@
   "item.storagedelight.crimson_drawer_with_door": "Karmesia Tirkesto kun Pordo",
   "item.storagedelight.warped_drawer_with_door": "Misformita Tirkesto kun Pordo",
   "item.storagedelight.bamboo_drawer_with_door": "Bambua Tirkesto kun Pordo",
-  "item.storagedelight.pale_oak_drawer_with_door": "Hela kverka tirkesto kun pordo",
+  "item.storagedelight.pale_oak_drawer_with_door": "Hela kverka tirkesto kun Pordo",
+
+  "item.storagedelight.oak_drawer_with_books": "Kverka Tirkesto kun Libroj",
+  "item.storagedelight.birch_drawer_with_books": "Betula Tirkesto kun Libroj",
+  "item.storagedelight.spruce_drawer_with_books": "Picea Tirkesto kun Libroj",
+  "item.storagedelight.cherry_drawer_with_books": "Ĉeriza Tirkesto kun Libroj",
+  "item.storagedelight.jungle_drawer_with_books": "Ĝangala Tirkesto kun Libroj",
+  "item.storagedelight.acacia_drawer_with_books": "Akaĉia Tirkesto kun Libroj",
+  "item.storagedelight.dark_oak_drawer_with_books": "Malhela Kverka Tirkesto kun Libroj",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrova Tirkesto kun Libroj",
+  "item.storagedelight.crimson_drawer_with_books": "Karmesia Tirkesto kun Libroj",
+  "item.storagedelight.warped_drawer_with_books": "Misformita Tirkesto kun Libroj",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambua Tirkesto kun Libroj",
+  "item.storagedelight.pale_oak_drawer_with_books": "Hela Kverka Tirkesto kun Libroj",
 
   "item.storagedelight.glass_oak_cabinet": "Vitra Kverka Ŝranko",
   "item.storagedelight.glass_birch_cabinet": "Vitra Betula Ŝranko",

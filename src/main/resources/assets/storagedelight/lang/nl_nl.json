@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Lade",
   "container.storagedelight.drawer_door": "Lade met Deur",
+  "container.storagedelight.drawer_books": "Lade met Boeken",
   "container.storagedelight.glass_cabinet": "Glazen Kast",
   "container.storagedelight.cabinet_variant": "Kast",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Kromhout Lade met Deur",
   "item.storagedelight.bamboo_drawer_with_door": "Bamboe Lade met Deur",
   "item.storagedelight.pale_oak_drawer_with_door": "Lichte eiken lade met deur",
+
+  "item.storagedelight.oak_drawer_with_books": "Eiken Lade met Boeken",
+  "item.storagedelight.birch_drawer_with_books": "Berken Lade met Boeken",
+  "item.storagedelight.spruce_drawer_with_books": "Sparren Lade met Boeken",
+  "item.storagedelight.cherry_drawer_with_books": "Kersen Lade met Boeken",
+  "item.storagedelight.jungle_drawer_with_books": "Jungle Lade met Boeken",
+  "item.storagedelight.acacia_drawer_with_books": "Acacia Lade met Boeken",
+  "item.storagedelight.dark_oak_drawer_with_books": "Donker Eiken Lade met Boeken",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrove Lade met Boeken",
+  "item.storagedelight.crimson_drawer_with_books": "Karmozijn Lade met Boeken",
+  "item.storagedelight.warped_drawer_with_books": "Kromhout Lade met Boeken",
+  "item.storagedelight.bamboo_drawer_with_books": "Bamboe Lade met Boeken",
+  "item.storagedelight.pale_oak_drawer_with_books": "Lichte eiken lade met boeken",
 
   "item.storagedelight.glass_oak_cabinet": "Glazen Eiken Kast",
   "item.storagedelight.glass_birch_cabinet": "Glazen Berken Kast",

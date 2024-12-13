@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Låda",
   "container.storagedelight.drawer_door": "Låda med Dörr",
+  "container.storagedelight.drawer_books": "Låda med Böcker",
   "container.storagedelight.glass_cabinet": "Glas Skåp",
   "container.storagedelight.cabinet_variant": "Skåp",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Förvriden Låda med Dörr",
   "item.storagedelight.bamboo_drawer_with_door": "Bambu Låda med Dörr",
   "item.storagedelight.pale_oak_drawer_with_door": "Ljus eklåda med Dörr",
+
+  "item.storagedelight.oak_drawer_with_books": "Ek Låda med Böcker",
+  "item.storagedelight.birch_drawer_with_books": "Björk Låda med Böcker",
+  "item.storagedelight.spruce_drawer_with_books": "Gran Låda med Böcker",
+  "item.storagedelight.cherry_drawer_with_books": "Körsbärsträ Låda med Böcker",
+  "item.storagedelight.jungle_drawer_with_books": "Jungle Låda med Böcker",
+  "item.storagedelight.acacia_drawer_with_books": "Akacia Låda med Böcker",
+  "item.storagedelight.dark_oak_drawer_with_books": "Mörk Ek Låda med Böcker",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrov Låda med Böcker",
+  "item.storagedelight.crimson_drawer_with_books": "Karmosin Låda med Böcker",
+  "item.storagedelight.warped_drawer_with_books": "Förvriden Låda med Böcker",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambu Låda med Böcker",
+  "item.storagedelight.pale_oak_drawer_with_books": "Ljus eklåda med böcker",
 
   "item.storagedelight.glass_oak_cabinet": "Glas Ek Skåp",
   "item.storagedelight.glass_birch_cabinet": "Glas Björk Skåp",
