@@ -1,19 +1,18 @@
 ![Storage Delight](https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png)
 
-### Minor Update
+***
 
-**Summary:** This minor update adds recipe book entries.
+### 🪵 Introducing Drawers with Books!
+- Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
+
+![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
+
+### 🎨 Texture Enhancements
+- Improved textures for most furniture.
+
+### 🌐 Translations
+- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
 
 ***
 
-### 🛠️ Minor Changes:
-
-- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
-
-### 📝 Translations:
-
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228.](https://github.com/Lobster0228)
-***
-
-Your feedback is important to make improvements to this mod, submit your ideas on [Discord](https://discord.gg/yweZ2agkDw) or report bugs on [GitHub.](https://github.com/axperty/storagedelight)
-You can also support modding development by donating through [PayPal.](https://paypal.me/kevgelhorn)
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Storage Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 

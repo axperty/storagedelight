@@ -9,7 +9,7 @@
 
 ### Overview
 
-Storage Delight is a mod for Farmer's Delight that adds more storage options to the game, letting the player craft multiple options with drawers or glass cabinets.
+Storage Delight is a mod for Farmer's Delight that adds more storage options to the game, letting the player craft multiple options from drawers to glass cabinets.
 
 ### Contributing
 
@@ -19,8 +19,9 @@ Your contributions to this project allows Storage Delight to be improved to deli
 
 This mod adds four new type of blocks to the game that are useful to decorate any place, new blocks are constantly added with updates:
 
-- Drawers of all wood types.
-- Drawers with doors of all wood types.
-- Glass Cabinets of all wood types.
-- Cabinets with Glass Doors of all wood types.
-- Single Door Cabinets of all wood types.
+- Drawers.
+- Drawers with doors.
+- Drawers with books.
+- Glass Cabinets.
+- Cabinets with Glass Doors.
+- Single Door Cabinets.
