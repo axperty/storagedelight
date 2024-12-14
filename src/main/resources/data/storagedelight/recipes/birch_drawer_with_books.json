@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:birch_drawer_with_books"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:birch_drawer_with_books"
+  }
 }

@@ -2,9 +2,7 @@ package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerBlock;
 import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.NonNullList;
-import net.minecraft.core.Vec3i;
+import net.minecraft.core.*;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvent;
@@ -24,109 +22,104 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class DrawerBlockEntity extends RandomizableContainerBlockEntity
 {
-    private NonNullList<ItemStack> contents = NonNullList.withSize(27, ItemStack.EMPTY);
-    private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
-    {
-        protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            DrawerBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
-            DrawerBlockEntity.this.updateBlockState(state, true);
-        }
+    private NonNullList<ItemStack> items;
+    private final ContainerOpenersCounter openersCounter;
 
-        protected void onClose(Level level, BlockPos pos, BlockState state) {
-            DrawerBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
-            DrawerBlockEntity.this.updateBlockState(state, false);
-        }
-
-        protected void openerCountChanged(Level level, BlockPos pos, BlockState sta, int arg1, int arg2) {
-        }
-
-        protected boolean isOwnContainer(Player p_155060_) {
-            if (p_155060_.containerMenu instanceof ChestMenu) {
-                Container container = ((ChestMenu) p_155060_.containerMenu).getContainer();
-                return container == DrawerBlockEntity.this;
-            } else {
-                return false;
+    public DrawerBlockEntity(BlockPos p_155052_, BlockState p_155053_) {
+        super(BlockEntityTypesRegistry.DRAWER.get(), p_155052_, p_155053_);
+        this.items = NonNullList.withSize(27, ItemStack.EMPTY);
+        this.openersCounter = new ContainerOpenersCounter() {
+            protected void onOpen(Level p_155062_, BlockPos p_155063_, BlockState p_155064_) {
+                DrawerBlockEntity.this.playSound(p_155064_, SoundEvents.BARREL_OPEN);
+                DrawerBlockEntity.this.updateBlockState(p_155064_, true);
             }
-        }
-    };
 
-    public DrawerBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.DRAWER.get(), pos, state);
+            protected void onClose(Level p_155072_, BlockPos p_155073_, BlockState p_155074_) {
+                DrawerBlockEntity.this.playSound(p_155074_, SoundEvents.BARREL_CLOSE);
+                DrawerBlockEntity.this.updateBlockState(p_155074_, false);
+            }
+
+            protected void openerCountChanged(Level p_155066_, BlockPos p_155067_, BlockState p_155068_, int p_155069_, int p_155070_) {
+            }
+
+            protected boolean isOwnContainer(Player p_155060_) {
+                if (p_155060_.containerMenu instanceof ChestMenu) {
+                    Container $$1 = ((ChestMenu)p_155060_.containerMenu).getContainer();
+                    return $$1 == DrawerBlockEntity.this;
+                } else {
+                    return false;
+                }
+            }
+        };
     }
 
-    @Override
-    public void saveAdditional(CompoundTag compound) {
-        super.saveAdditional(compound);
-        if (!trySaveLootTable(compound)) {
-            ContainerHelper.saveAllItems(compound, contents);
+    protected void saveAdditional(CompoundTag p_187459_, HolderLookup.Provider p_330809_) {
+        super.saveAdditional(p_187459_, p_330809_);
+        if (!this.trySaveLootTable(p_187459_)) {
+            ContainerHelper.saveAllItems(p_187459_, this.items, p_330809_);
         }
+
     }
 
-    @Override
-    public void load(CompoundTag compound) {
-        super.load(compound);
-        contents = NonNullList.withSize(getContainerSize(), ItemStack.EMPTY);
-        if (!tryLoadLootTable(compound)) {
-            ContainerHelper.loadAllItems(compound, contents);
+    protected void loadAdditional(CompoundTag p_332191_, HolderLookup.Provider p_334663_) {
+        super.loadAdditional(p_332191_, p_334663_);
+        this.items = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
+        if (!this.tryLoadLootTable(p_332191_)) {
+            ContainerHelper.loadAllItems(p_332191_, this.items, p_334663_);
         }
+
     }
 
-    @Override
     public int getContainerSize() {
         return 27;
     }
 
-    @Override
     protected NonNullList<ItemStack> getItems() {
-        return contents;
+        return this.items;
     }
 
-    @Override
-    protected void setItems(NonNullList<ItemStack> itemsIn) {
-        contents = itemsIn;
+    protected void setItems(NonNullList<ItemStack> p_58610_) {
+        this.items = p_58610_;
     }
 
-    @Override
     protected Component getDefaultName() {
         return Component.translatable("container.storagedelight.drawer");
     }
 
-    @Override
-    protected AbstractContainerMenu createMenu(int id, Inventory player) {
-        return ChestMenu.threeRows(id, player, this);
+    protected AbstractContainerMenu createMenu(int p_58598_, Inventory p_58599_) {
+        return ChestMenu.threeRows(p_58598_, p_58599_, this);
     }
 
-    public void startOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.incrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
+    public void startOpen(Player p_58616_) {
+        if (!this.remove && !p_58616_.isSpectator()) {
+            this.openersCounter.incrementOpeners(p_58616_, this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
+
     }
 
-    public void stopOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.decrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
+    public void stopOpen(Player p_58614_) {
+        if (!this.remove && !p_58614_.isSpectator()) {
+            this.openersCounter.decrementOpeners(p_58614_, this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
+
     }
 
     public void recheckOpen() {
-        if (level != null && !this.remove) {
-            this.openersCounter.recheckOpeners(level, this.getBlockPos(), this.getBlockState());
+        if (!this.remove) {
+            this.openersCounter.recheckOpeners(this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
+
     }
 
-    void updateBlockState(BlockState state, boolean open) {
-        if (level != null) {
-            this.level.setBlock(this.getBlockPos(), state.setValue(DrawerBlock.OPEN, open), 3);
-        }
+    void updateBlockState(BlockState p_58607_, boolean p_58608_) {
+        this.level.setBlock(this.getBlockPos(), (BlockState)p_58607_.setValue(DrawerBlock.OPEN, p_58608_), 3);
     }
 
-    private void playSound(BlockState state, SoundEvent sound) {
-        if (level == null) return;
-
-        Vec3i drawerFacingVector = state.getValue(DrawerBlock.FACING).getNormal();
-        double x = (double) worldPosition.getX() + 0.5D + (double) drawerFacingVector.getX() / 2.0D;
-        double y = (double) worldPosition.getY() + 0.5D + (double) drawerFacingVector.getY() / 2.0D;
-        double z = (double) worldPosition.getZ() + 0.5D + (double) drawerFacingVector.getZ() / 2.0D;
-        level.playSound(null, x, y, z, sound, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
+    void playSound(BlockState p_58601_, SoundEvent p_58602_) {
+        Vec3i $$2 = ((Direction)p_58601_.getValue(DrawerBlock.FACING)).getNormal();
+        double $$3 = (double)this.worldPosition.getX() + 0.5 + (double)$$2.getX() / 2.0;
+        double $$4 = (double)this.worldPosition.getY() + 0.5 + (double)$$2.getY() / 2.0;
+        double $$5 = (double)this.worldPosition.getZ() + 0.5 + (double)$$2.getZ() / 2.0;
+        this.level.playSound((Player)null, $$3, $$4, $$5, p_58602_, SoundSource.BLOCKS, 0.5F, this.level.random.nextFloat() * 0.1F + 0.9F);
     }
 }

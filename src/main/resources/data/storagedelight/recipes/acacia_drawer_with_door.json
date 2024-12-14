@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:acacia_drawer_with_door"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:acacia_drawer_with_door"
+  }
 }

@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:oak_drawer_with_books"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:oak_drawer_with_books"
+  }
 }

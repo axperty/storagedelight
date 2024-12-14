@@ -16,10 +16,9 @@
     "G": {
       "tag": "forge:glass_panes"
     }
-
   },
   "result": {
-    "item": "storagedelight:glass_crimson_cabinet"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:glass_crimson_cabinet"
+  }
 }

@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:oak_drawer_with_door"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:oak_drawer_with_door"
+  }
 }

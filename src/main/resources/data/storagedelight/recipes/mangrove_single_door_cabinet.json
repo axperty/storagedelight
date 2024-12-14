@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:mangrove_single_door_cabinet"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:mangrove_single_door_cabinet"
+  }
 }
