@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Lade",
   "container.storagedelight.drawer_door": "Lade met Deur",
+  "container.storagedelight.drawer_books": "Lade met Boeken",
   "container.storagedelight.glass_cabinet": "Glazen Kast",
   "container.storagedelight.cabinet_variant": "Kast",
 
@@ -15,6 +16,7 @@
   "block.storagedelight.crimson_drawer": "Karmozijn Lade",
   "block.storagedelight.warped_drawer": "Verdraaide Lade",
   "block.storagedelight.bamboo_drawer": "Bamboelade",
+  "block.storagedelight.pale_oak_drawer": "Lichte eiken lade",
 
   "block.storagedelight.oak_drawer_with_door": "Eiken Lade met Deur",
   "block.storagedelight.birch_drawer_with_door": "Berken Lade met Deur",
@@ -27,6 +29,20 @@
   "block.storagedelight.crimson_drawer_with_door": "Karmozijn Lade met Deur",
   "block.storagedelight.warped_drawer_with_door": "Kromhout Lade met Deur",
   "block.storagedelight.bamboo_drawer_with_door": "Bamboe Lade met Deur",
+  "block.storagedelight.pale_oak_drawer_with_door": "Lichte eiken lade met deur",
+
+  "block.storagedelight.oak_drawer_with_books": "Eiken Lade met Boeken",
+  "block.storagedelight.birch_drawer_with_books": "Berken Lade met Boeken",
+  "block.storagedelight.spruce_drawer_with_books": "Sparren Lade met Boeken",
+  "block.storagedelight.cherry_drawer_with_books": "Kersen Lade met Boeken",
+  "block.storagedelight.jungle_drawer_with_books": "Jungle Lade met Boeken",
+  "block.storagedelight.acacia_drawer_with_books": "Acacia Lade met Boeken",
+  "block.storagedelight.dark_oak_drawer_with_books": "Donker Eiken Lade met Boeken",
+  "block.storagedelight.mangrove_drawer_with_books": "Mangrove Lade met Boeken",
+  "block.storagedelight.crimson_drawer_with_books": "Karmozijn Lade met Boeken",
+  "block.storagedelight.warped_drawer_with_books": "Kromhout Lade met Boeken",
+  "block.storagedelight.bamboo_drawer_with_books": "Bamboe Lade met Boeken",
+  "block.storagedelight.pale_oak_drawer_with_books": "Lichte eiken lade met boeken",
 
   "block.storagedelight.glass_oak_cabinet": "Glazen Eiken Kast",
   "block.storagedelight.glass_birch_cabinet": "Glazen Berken Kast",
@@ -39,6 +55,7 @@
   "block.storagedelight.glass_crimson_cabinet": "Glazen Karmozijn Kast",
   "block.storagedelight.glass_warped_cabinet": "Glazen Verdraaide Kast",
   "block.storagedelight.glass_bamboo_cabinet": "Glas Bamboe Kast",
+  "block.storagedelight.glass_pale_oak_cabinet": "Lichte eiken kast met glas",
 
   "block.storagedelight.oak_cabinet_with_glass_doors": "Eiken kast met glazen deuren",
   "block.storagedelight.birch_cabinet_with_glass_doors": "Berk kast met glazen deuren",
@@ -51,6 +68,7 @@
   "block.storagedelight.bamboo_cabinet_with_glass_doors": "Bamboe kast met glazen deuren",
   "block.storagedelight.warped_cabinet_with_glass_doors": "Verdraaide kast met glazen deuren",
   "block.storagedelight.crimson_cabinet_with_glass_doors": "Karmozijnrode kast met glazen deuren",
+  "block.storagedelight.pale_oak_cabinet_with_glass_doors": "Lichte eiken kast met glazen deuren",
 
   "block.storagedelight.oak_single_door_cabinet": "Eikenkast met enkele deur",
   "block.storagedelight.birch_single_door_cabinet": "Berkkast met enkele deur",
@@ -63,6 +81,7 @@
   "block.storagedelight.crimson_single_door_cabinet": "Karmijnrode kast met enkele deur",
   "block.storagedelight.warped_single_door_cabinet": "Verdraaide kast met enkele deur",
   "block.storagedelight.bamboo_single_door_cabinet": "Bamboekast met enkele deur",
+  "block.storagedelight.pale_oak_single_door_cabinet": "Lichte eiken kast met één deur",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

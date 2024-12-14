@@ -2,9 +2,16 @@
 
 ***
 
-### ✨ What's New:
+### 🪵 Introducing Drawers with Books!
+- Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
 
-- Added support for Minecraft 1.21.2-1.21.3.
+![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
+
+### 🎨 Texture Enhancements
+- Improved textures for most furniture.
+
+### 🌐 Translations
+- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
 
 ***
 

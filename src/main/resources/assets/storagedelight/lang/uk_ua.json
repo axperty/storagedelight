@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Ящик",
   "container.storagedelight.drawer_door": "Шухляда з Дверцятами",
+  "container.storagedelight.drawer_books": "Шухляда з книгами",
   "container.storagedelight.glass_cabinet": "Скляна шафа",
   "container.storagedelight.cabinet_variant": "Шафа",
 
@@ -15,6 +16,7 @@
   "block.storagedelight.crimson_drawer": "Багряний ящик",
   "block.storagedelight.warped_drawer": "Химерний ящик",
   "block.storagedelight.bamboo_drawer": "Бамбуковий ящик",
+  "block.storagedelight.pale_oak_drawer": "Світлий дубовий ящик",
 
   "block.storagedelight.oak_drawer_with_door": "Дубова Шухляда з Дверцятами",
   "block.storagedelight.birch_drawer_with_door": "Березова Шухляда з Дверцятами",
@@ -27,6 +29,20 @@
   "block.storagedelight.crimson_drawer_with_door": "Багряна Шухляда з Дверцятами",
   "block.storagedelight.warped_drawer_with_door": "Викривлена Шухляда з Дверцятами",
   "block.storagedelight.bamboo_drawer_with_door": "Бамбукова Шухляда з Дверцятами",
+  "block.storagedelight.pale_oak_drawer_with_door": "Світлий дубовий ящик з дверцятами",
+
+  "block.storagedelight.oak_drawer_with_books": "Дубова шухляда з книгами",
+  "block.storagedelight.birch_drawer_with_books": "Березова шухляда з книгами",
+  "block.storagedelight.spruce_drawer_with_books": "Ялинова шухляда з книгами",
+  "block.storagedelight.cherry_drawer_with_books": "Вишнева шухляда з книгами",
+  "block.storagedelight.jungle_drawer_with_books": "Джунглева шухляда з книгами",
+  "block.storagedelight.acacia_drawer_with_books": "Акацієва шухляда з книгами",
+  "block.storagedelight.dark_oak_drawer_with_books": "Темно-дубова шухляда з книгами",
+  "block.storagedelight.mangrove_drawer_with_books": "Манґрова шухляда з книгами",
+  "block.storagedelight.crimson_drawer_with_books": "Багряна шухляда з книгами",
+  "block.storagedelight.warped_drawer_with_books": "Викривлена шухляда з книгами",
+  "block.storagedelight.bamboo_drawer_with_books": "Бамбукова шухляда з книгами",
+  "block.storagedelight.pale_oak_drawer_with_books": "Світлий дубовий ящик з книгами",
 
   "block.storagedelight.glass_oak_cabinet": "Скляна дубова шафа",
   "block.storagedelight.glass_birch_cabinet": "Скляна березова шафа",
@@ -39,6 +55,7 @@
   "block.storagedelight.glass_crimson_cabinet": "Скляна багряна шафа",
   "block.storagedelight.glass_warped_cabinet": "Скляна химерна шафа",
   "block.storagedelight.glass_bamboo_cabinet": "Скляна бамбукова шафа",
+  "block.storagedelight.glass_pale_oak_cabinet": "Світла дубова шафа зі склом",
 
   "block.storagedelight.oak_cabinet_with_glass_doors": "Дубова шафа зі скляними дверима",
   "block.storagedelight.birch_cabinet_with_glass_doors": "Березова шафа зі скляними дверима",
@@ -51,6 +68,7 @@
   "block.storagedelight.bamboo_cabinet_with_glass_doors": "Бамбукова шафа зі скляними дверима",
   "block.storagedelight.warped_cabinet_with_glass_doors": "Химерна шафа зі скляними дверима",
   "block.storagedelight.crimson_cabinet_with_glass_doors": "Багряна шафа зі скляними дверима",
+  "block.storagedelight.pale_oak_cabinet_with_glass_doors": "Світла дубова шафа зі скляними дверцятами",
 
   "block.storagedelight.oak_single_door_cabinet": "Дубова шафа з одними дверима",
   "block.storagedelight.birch_single_door_cabinet": "Березова шафа з одними дверима",
@@ -63,6 +81,7 @@
   "block.storagedelight.crimson_single_door_cabinet": "Багряна шафа з одними дверима",
   "block.storagedelight.warped_single_door_cabinet": "Химерна шафа з одними дверима",
   "block.storagedelight.bamboo_single_door_cabinet": "Бамбукова шафа з одними дверима",
+  "block.storagedelight.pale_oak_single_door_cabinet": "Світла дубова шафа з одними дверцятами",
 
   "itemGroup.storagedelight.title": "Storage Delight"
 }

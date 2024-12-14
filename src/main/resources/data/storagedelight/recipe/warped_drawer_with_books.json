@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ACA"
+  ],
+  "key": {
+    "A": "minecraft:warped_slab",
+    "B": "minecraft:warped_trapdoor",
+    "C": "minecraft:book"
+  },
+  "result": {
+    "id": "storagedelight:warped_drawer_with_books"
+  }
+}

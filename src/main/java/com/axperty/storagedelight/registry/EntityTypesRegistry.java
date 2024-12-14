@@ -1,10 +1,11 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
+import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
+import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -43,6 +44,21 @@ public class EntityTypesRegistry {
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())
                     );
+
+    public static final Supplier<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = BLOCK_ENTITY_TYPES.register("drawer_books",
+            () -> new BlockEntityType<>(DrawerBooksBlockEntity::new,
+                    BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.CHERRY_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get(),
+                    BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get())
+    );
 
     public static final Supplier<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = BLOCK_ENTITY_TYPES.register("glass_cabinet",
             () -> new BlockEntityType<>(GlassCabinetBlockEntity::new,
