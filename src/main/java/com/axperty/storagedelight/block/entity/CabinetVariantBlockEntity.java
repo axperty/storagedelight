@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -52,7 +52,7 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.CABINET_VARIANT.get(), pos, state);
+        super(EntityTypesRegistry.CABINET_VARIANT.get(), pos, state);
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerDoorBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -52,7 +52,7 @@ public class DrawerDoorBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public DrawerDoorBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.DRAWER_DOOR.get(), pos, state);
+        super(EntityTypesRegistry.DRAWER_DOOR.get(), pos, state);
     }
 
     @Override
