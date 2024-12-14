@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Комод",
   "container.storagedelight.drawer_door": "Комод с дверцей",
+  "container.storagedelight.drawer_books": "Комод с книгами",
   "container.storagedelight.glass_cabinet": "Стеклянная кладовая",
   "container.storagedelight.cabinet_variant": "Кладовая",
 
@@ -15,6 +16,7 @@
   "block.storagedelight.crimson_drawer": "Багровый комод",
   "block.storagedelight.warped_drawer": "Искажённый комод",
   "block.storagedelight.bamboo_drawer": "Бамбуковый комод",
+  "block.storagedelight.pale_oak_drawer": "Комод из бледного дуба",
 
   "block.storagedelight.oak_drawer_with_door": "Дубовый комод с дверцей",
   "block.storagedelight.birch_drawer_with_door": "Березовый комод с дверцей",
@@ -27,6 +29,20 @@
   "block.storagedelight.crimson_drawer_with_door": "Багровый комод с дверцей",
   "block.storagedelight.warped_drawer_with_door": "Искажённый комод с дверцей",
   "block.storagedelight.bamboo_drawer_with_door": "Бамбуковый комод с дверцей",
+  "block.storagedelight.pale_oak_drawer_with_door": "Комод из бледного дуба с дверцей",
+
+  "block.storagedelight.oak_drawer_with_books": "Дубовый комод с книгами",
+  "block.storagedelight.birch_drawer_with_books": "Березовый комод с книгами",
+  "block.storagedelight.spruce_drawer_with_books": "Еловый комод с книгами",
+  "block.storagedelight.cherry_drawer_with_books": "Вишнёвый комод с книгами",
+  "block.storagedelight.jungle_drawer_with_books": "Комод из тропического дерева с книгами",
+  "block.storagedelight.acacia_drawer_with_books": "Акациевый комод с книгами",
+  "block.storagedelight.dark_oak_drawer_with_books": "Комод из тёмного дуба с книгами",
+  "block.storagedelight.mangrove_drawer_with_books": "Мангровый комод с книгами",
+  "block.storagedelight.crimson_drawer_with_books": "Багровый комод с книгами",
+  "block.storagedelight.warped_drawer_with_books": "Искажённый комод с книгами",
+  "block.storagedelight.bamboo_drawer_with_books": "Бамбуковый комод с книгами",
+  "block.storagedelight.pale_oak_drawer_with_books": "Комод из бледного дуба с книгами",
 
   "block.storagedelight.glass_oak_cabinet": "Стеклянная дубовая кладовая",
   "block.storagedelight.glass_birch_cabinet": "Стеклянная берёзовая кладовая",
@@ -39,18 +55,20 @@
   "block.storagedelight.glass_crimson_cabinet": "Стеклянная багровая кладовая",
   "block.storagedelight.glass_warped_cabinet": "Стеклянная искажённая кладовая",
   "block.storagedelight.glass_bamboo_cabinet": "Стеклянная бамбуковая кладовая",
+  "block.storagedelight.glass_pale_oak_cabinet": "Стеклянная кладовая из бледного дуба",
 
   "block.storagedelight.oak_cabinet_with_glass_doors": "Дубовая кладовая со стеклянными дверцами",
   "block.storagedelight.birch_cabinet_with_glass_doors": "Берёзовая кладовая со стеклянными дверцами",
   "block.storagedelight.spruce_cabinet_with_glass_doors": "Еловая кладовая со стеклянными дверцами",
   "block.storagedelight.jungle_cabinet_with_glass_doors": "Кладовая из тропического дерева со стеклянными дверцами",
   "block.storagedelight.acacia_cabinet_with_glass_doors": "Акациевая кладовая со стеклянными дверцами",
-  "block.storagedelight.dark_oak_cabinet_with_glass_doors": "Шкаф из тёмного дуба со стеклянными дверцами",
+  "block.storagedelight.dark_oak_cabinet_with_glass_doors": "Кладовая из тёмного дуба со стеклянными дверцами",
   "block.storagedelight.mangrove_cabinet_with_glass_doors": "Мангровая кладовая со стеклянными дверцами",
   "block.storagedelight.cherry_cabinet_with_glass_doors": "Вишнёвая кладовая со стеклянными дверцами",
   "block.storagedelight.bamboo_cabinet_with_glass_doors": "Бамбуковая кладовая со стеклянными дверцами",
   "block.storagedelight.warped_cabinet_with_glass_doors": "Искажённая кладовая со стеклянными дверцами",
   "block.storagedelight.crimson_cabinet_with_glass_doors": "Багровая кладовая со стеклянными дверцами",
+  "block.storagedelight.pale_oak_cabinet_with_glass_doors": "Кладовая из бледного дуба со стеклянными дверцами",
 
   "block.storagedelight.oak_single_door_cabinet": "Однодверная дубовая кладовая",
   "block.storagedelight.birch_single_door_cabinet": "Однодверная берёзовая кладовая",
@@ -63,6 +81,7 @@
   "block.storagedelight.crimson_single_door_cabinet": "Однодверная багровая кладовая",
   "block.storagedelight.warped_single_door_cabinet": "Однодверная искажённая кладовая",
   "block.storagedelight.bamboo_single_door_cabinet": "Однодверная бамбуковая кладовая",
+  "block.storagedelight.pale_oak_single_door_cabinet": "Однодверная кладовая из бледного дуба",
 
   "itemGroup.storagedelight": "Удовольствие Хранения"
 }
