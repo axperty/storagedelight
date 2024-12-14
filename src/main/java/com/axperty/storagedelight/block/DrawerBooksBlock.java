@@ -2,6 +2,7 @@ package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
 import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -28,12 +29,19 @@ import org.jetbrains.annotations.Nullable;
 
 public class DrawerBooksBlock extends BaseEntityBlock
 {
+    public static final MapCodec<DrawerBooksBlock> CODEC = simpleCodec(DrawerBooksBlock::new);
+
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
     public DrawerBooksBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
+    }
+
+    @Override
+    protected MapCodec<? extends BaseEntityBlock> codec() {
+        return CODEC;
     }
 
     @Override
