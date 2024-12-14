@@ -15,5 +15,4 @@ public class ModItemSettings extends Item.Settings {
     public ModItemSettings() {
         super();
     }
-
 }
