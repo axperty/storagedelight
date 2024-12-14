@@ -1,10 +1,11 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
+import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
+import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.registry.Registries;
@@ -50,8 +51,8 @@ public class BlockEntityTypesRegistry {
                     .build()
     );
 
-    public static final BlockEntityType<DrawerDoorBlockEntity> DRAWER_BOOKS = register(
-            "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerDoorBlockEntity::new,
+    public static final BlockEntityType<DrawerBooksBlockEntity> DRAWER_BOOKS = register(
+            "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerBooksBlockEntity::new,
                             BlockRegistry.OAK_DRAWER_WITH_BOOKS,
                             BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
                             BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
