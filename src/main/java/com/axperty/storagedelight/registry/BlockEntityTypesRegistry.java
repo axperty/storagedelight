@@ -1,10 +1,11 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
 import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
+import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
+import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.registry.Registries;
@@ -45,6 +46,22 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR,
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR,
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR)
+                    .build()
+    );
+
+    public static final BlockEntityType<DrawerBooksBlockEntity> DRAWER_BOOKS = register(
+            "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerBooksBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
+                            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS,
+                            BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS,
+                            BlockRegistry.CHERRY_DRAWER_WITH_BOOKS,
+                            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS,
+                            BlockRegistry.WARPED_DRAWER_WITH_BOOKS)
                     .build()
     );
 

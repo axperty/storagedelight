@@ -14,6 +14,20 @@
   "item.storagedelight.crimson_drawer": "Cajón Carmesí",
   "item.storagedelight.warped_drawer": "Cajón Distorcido",
   "item.storagedelight.bamboo_drawer": "Cajón de Bambú",
+  "item.storagedelight.pale_oak_drawer": "Cajón de Roble Claro",
+
+  "item.storagedelight.oak_drawer_with_books": "Cajón de Roble con Libros",
+  "item.storagedelight.birch_drawer_with_books": "Cajón de Abedul con Libros",
+  "item.storagedelight.spruce_drawer_with_books": "Cajón de Abeto con Libros",
+  "item.storagedelight.cherry_drawer_with_books": "Cajón de Cerezo con Libros",
+  "item.storagedelight.jungle_drawer_with_books": "Cajón de Selva con Libros",
+  "item.storagedelight.acacia_drawer_with_books": "Cajón de Acacia con Libros",
+  "item.storagedelight.dark_oak_drawer_with_books": "Cajón de Roble Oscuro con Libros",
+  "item.storagedelight.mangrove_drawer_with_books": "Cajón de Manglar con Libros",
+  "item.storagedelight.crimson_drawer_with_books": "Cajón Carmesí con Libros",
+  "item.storagedelight.warped_drawer_with_books": "Cajón Distorcido con Libros",
+  "item.storagedelight.bamboo_drawer_with_books": "Cajón de Bambú con Libros",
+  "item.storagedelight.pale_oak_drawer_with_books": "Cajón de Roble Claro con Libros",
 
   "item.storagedelight.oak_drawer_with_door": "Cajón de Roble con Puerta",
   "item.storagedelight.birch_drawer_with_door": "Cajón de Abedul con Puerta",
@@ -26,6 +40,7 @@
   "item.storagedelight.crimson_drawer_with_door": "Cajón Carmesí con Puerta",
   "item.storagedelight.warped_drawer_with_door": "Cajón Distorcido con Puerta",
   "item.storagedelight.bamboo_drawer_with_door": "Cajón de Bambú con Puerta",
+  "item.storagedelight.pale_oak_drawer_with_door": "Cajón de Roble Claro con Puerta",
 
   "item.storagedelight.glass_oak_cabinet": "Gabinete de Vidrio de Roble",
   "item.storagedelight.glass_birch_cabinet": "Gabinete de Vidrio de Abedul",
@@ -38,6 +53,7 @@
   "item.storagedelight.glass_crimson_cabinet": "Gabinete de Vidrio de Carmesí",
   "item.storagedelight.glass_warped_cabinet": "Gabinete de Vidrio Distorcido",
   "item.storagedelight.glass_bamboo_cabinet": "Gabinete de Vidrio de Bambú",
+  "item.storagedelight.glass_pale_oak_cabinet": "Gabinete de Vidrio de Roble Claro",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Gabinete de Roble con Puertas de Vidrio",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Gabinete de Abedul con Puertas de Vidrio",
@@ -50,6 +66,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Gabinete de Bambú con Puertas de Vidrio",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Gabinete Distorcido con Puertas de Vidrio",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Gabinete de Carmesí con Puertas de Vidrio",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Gabinete de Roble Claro con Puertas de Cristal",
 
   "item.storagedelight.oak_single_door_cabinet": "Gabinete de Roble de una sola puerta",
   "item.storagedelight.birch_single_door_cabinet": "Gabinete de Abedul de una sola puerta",
@@ -62,6 +79,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "Gabinete de Carmesí de una sola puerta",
   "item.storagedelight.warped_single_door_cabinet": "Gabinete Distorcido de una sola puerta",
   "item.storagedelight.bamboo_single_door_cabinet": "Gabinete de Bambú de una sola puerta",
+  "item.storagedelight.pale_oak_single_door_cabinet": "Gabinete de Roble Claro de una Sola Puerta",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Låda",
   "container.storagedelight.drawer_door": "Låda med Dörr",
+  "container.storagedelight.drawer_books": "Låda med Böcker",
   "container.storagedelight.glass_cabinet": "Glas Skåp",
   "container.storagedelight.cabinet_variant": "Skåp",
 
@@ -15,6 +16,7 @@
   "item.storagedelight.crimson_drawer": "Karmosin Låda",
   "item.storagedelight.warped_drawer": "Förvriden Låda",
   "item.storagedelight.bamboo_drawer": "Bambulåda",
+  "item.storagedelight.pale_oak_drawer": "Ljus Låda",
 
   "item.storagedelight.oak_drawer_with_door": "Ek Låda med Dörr",
   "item.storagedelight.birch_drawer_with_door": "Björk Låda med Dörr",
@@ -27,6 +29,20 @@
   "item.storagedelight.crimson_drawer_with_door": "Karmosin Låda med Dörr",
   "item.storagedelight.warped_drawer_with_door": "Förvriden Låda med Dörr",
   "item.storagedelight.bamboo_drawer_with_door": "Bambu Låda med Dörr",
+  "item.storagedelight.pale_oak_drawer_with_door": "Ljus eklåda med Dörr",
+
+  "item.storagedelight.oak_drawer_with_books": "Ek Låda med Böcker",
+  "item.storagedelight.birch_drawer_with_books": "Björk Låda med Böcker",
+  "item.storagedelight.spruce_drawer_with_books": "Gran Låda med Böcker",
+  "item.storagedelight.cherry_drawer_with_books": "Körsbärsträ Låda med Böcker",
+  "item.storagedelight.jungle_drawer_with_books": "Jungle Låda med Böcker",
+  "item.storagedelight.acacia_drawer_with_books": "Akacia Låda med Böcker",
+  "item.storagedelight.dark_oak_drawer_with_books": "Mörk Ek Låda med Böcker",
+  "item.storagedelight.mangrove_drawer_with_books": "Mangrov Låda med Böcker",
+  "item.storagedelight.crimson_drawer_with_books": "Karmosin Låda med Böcker",
+  "item.storagedelight.warped_drawer_with_books": "Förvriden Låda med Böcker",
+  "item.storagedelight.bamboo_drawer_with_books": "Bambu Låda med Böcker",
+  "item.storagedelight.pale_oak_drawer_with_books": "Ljus eklåda med böcker",
 
   "item.storagedelight.glass_oak_cabinet": "Glas Ek Skåp",
   "item.storagedelight.glass_birch_cabinet": "Glas Björk Skåp",
@@ -39,6 +55,7 @@
   "item.storagedelight.glass_crimson_cabinet": "Glas Karmosin Skåp",
   "item.storagedelight.glass_warped_cabinet": "Glas Förvriden Skåp",
   "item.storagedelight.glass_bamboo_cabinet": "Glas Bambuskåp",
+  "item.storagedelight.glass_pale_oak_cabinet": "Glas Ljus ekskåp",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Ek skåp med glasdörrar",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Björk skåp med glasdörrar",
@@ -51,6 +68,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Bambu skåp med glasdörrar",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Snedvridet skåp med glasdörrar",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Karmosinrött skåp med glasdörrar",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Ljus ekskåp med glasdörrar",
 
   "item.storagedelight.oak_single_door_cabinet": "Ek Skåp med Enkel Dörr",
   "item.storagedelight.birch_single_door_cabinet": "Björk Skåp med Enkel Dörr",
@@ -63,6 +81,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "Karmosinröd Skåp med Enkel Dörr",
   "item.storagedelight.warped_single_door_cabinet": "Vrängd Skåp med Enkel Dörr",
   "item.storagedelight.bamboo_single_door_cabinet": "Bambu Skåp med Enkel Dörr",
+  "item.storagedelight.pale_oak_single_door_cabinet": "Ljus ekskåp med Enkel Dörr",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

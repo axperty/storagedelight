@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Cassetto",
   "container.storagedelight.drawer_door": "Cassetto con Porta",
+  "container.storagedelight.drawer_books": "Cassetto con Libri",
   "container.storagedelight.glass_cabinet": "Armadio in vetro",
   "container.storagedelight.cabinet_variant": "Armadio",
 
@@ -15,6 +16,7 @@
   "item.storagedelight.crimson_drawer": "Cassetto cremisi",
   "item.storagedelight.warped_drawer": "Cassetto distorto",
   "item.storagedelight.bamboo_drawer": "Cassetto di bambù",
+  "item.storagedelight.pale_oak_drawer": "Cassetto in rovere chiaro",
 
   "item.storagedelight.oak_drawer_with_door": "Cassetto di Quercia con Porta",
   "item.storagedelight.birch_drawer_with_door": "Cassetto di Betulla con Porta",
@@ -27,6 +29,20 @@
   "item.storagedelight.crimson_drawer_with_door": "Cassetto di Legno Cremisi con Porta",
   "item.storagedelight.warped_drawer_with_door": "Cassetto di Legno Deformato con Porta",
   "item.storagedelight.bamboo_drawer_with_door": "Cassetto di Bambù con Porta",
+  "item.storagedelight.pale_oak_drawer_with_door": "Cassetto in rovere chiaro con Porta",
+
+  "item.storagedelight.oak_drawer_with_books": "Cassetto di Quercia con Libri",
+  "item.storagedelight.birch_drawer_with_books": "Cassetto di Betulla con Libri",
+  "item.storagedelight.spruce_drawer_with_books": "Cassetto di Abete con Libri",
+  "item.storagedelight.cherry_drawer_with_books": "Cassetto di Ciliegio con Libri",
+  "item.storagedelight.jungle_drawer_with_books": "Cassetto di Giungla con Libri",
+  "item.storagedelight.acacia_drawer_with_books": "Cassetto di Acacia con Libri",
+  "item.storagedelight.dark_oak_drawer_with_books": "Cassetto di Rovere Scuro con Libri",
+  "item.storagedelight.mangrove_drawer_with_books": "Cassetto di Mangrovia con Libri",
+  "item.storagedelight.crimson_drawer_with_books": "Cassetto di Legno Cremisi con Libri",
+  "item.storagedelight.warped_drawer_with_books": "Cassetto di Legno Deformato con Libri",
+  "item.storagedelight.bamboo_drawer_with_books": "Cassetto di Bambù con Libri",
+  "item.storagedelight.pale_oak_drawer_with_books": "Cassetto in rovere chiaro con Libri",
 
   "item.storagedelight.glass_oak_cabinet": "Armadio di quercia in vetro",
   "item.storagedelight.glass_birch_cabinet": "Armadio di betulla in vetro",
@@ -39,6 +55,7 @@
   "item.storagedelight.glass_crimson_cabinet": "Armadio cremisi in vetro",
   "item.storagedelight.glass_warped_cabinet": "Armadio distorto in vetro",
   "item.storagedelight.glass_bamboo_cabinet": "Armadio di bambù in vetro",
+  "item.storagedelight.glass_pale_oak_cabinet": "Armadio in rovere chiaro in vetro",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Armadio di quercia con ante in vetro",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Armadio di betulla con ante in vetro",
@@ -51,6 +68,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Armadio di bambù con ante in vetro",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Armadio distorto con ante in vetro",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Armadio cremisi con ante in vetro",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Armadio in rovere chiaro in vetro",
 
   "item.storagedelight.oak_single_door_cabinet": "Armadio a una porta in rovere",
   "item.storagedelight.birch_single_door_cabinet": "Armadio a una porta in betulla",
@@ -63,6 +81,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "Armadio a una porta cremisi",
   "item.storagedelight.warped_single_door_cabinet": "Armadio a una porta distorta",
   "item.storagedelight.bamboo_single_door_cabinet": "Armadio a una porta in bambù",
+  "item.storagedelight.pale_oak_single_door_cabinet": "Armadio a una porta in rovere chiaro",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

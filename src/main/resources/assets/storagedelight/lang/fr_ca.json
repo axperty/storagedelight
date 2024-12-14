@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Tiroir",
   "container.storagedelight.drawer_door": "Tiroir avec Porte",
+  "container.storagedelight.drawer_books": "Tiroir avec Livres",
   "container.storagedelight.glass_cabinet": "Cabinet en Verre",
   "container.storagedelight.cabinet_variant": "Cabinet",
 
@@ -15,6 +16,7 @@
   "item.storagedelight.crimson_drawer": "Tiroir Crimsois",
   "item.storagedelight.warped_drawer": "Tiroir Déformé",
   "item.storagedelight.bamboo_drawer": "Tiroir en Bambou",
+  "item.storagedelight.pale_oak_drawer": "Tiroir en Chêne Clair",
 
   "item.storagedelight.oak_drawer_with_door": "Tiroir en Chêne avec Porte",
   "item.storagedelight.birch_drawer_with_door": "Tiroir en Bouleau avec Porte",
@@ -27,6 +29,20 @@
   "item.storagedelight.crimson_drawer_with_door": "Tiroir en Bois Cramoisi avec Porte",
   "item.storagedelight.warped_drawer_with_door": "Tiroir en Bois Altéré avec Porte",
   "item.storagedelight.bamboo_drawer_with_door": "Tiroir en Bambou avec Porte",
+  "item.storagedelight.pale_oak_drawer_with_door": "Tiroir en Chêne Clair Avec Porte",
+
+  "item.storagedelight.oak_drawer_with_books": "Tiroir en Chêne avec Livres",
+  "item.storagedelight.birch_drawer_with_books": "Tiroir en Bouleau avec Livres",
+  "item.storagedelight.spruce_drawer_with_books": "Tiroir en Épicéa avec Livres",
+  "item.storagedelight.cherry_drawer_with_books": "Tiroir en Cerisier avec Livres",
+  "item.storagedelight.jungle_drawer_with_books": "Tiroir en Bois de la Jungle avec Livres",
+  "item.storagedelight.acacia_drawer_with_books": "Tiroir en Acacia avec Livres",
+  "item.storagedelight.dark_oak_drawer_with_books": "Tiroir en Chêne Noir avec Livres",
+  "item.storagedelight.mangrove_drawer_with_books": "Tiroir en Palétuvier avec Livres",
+  "item.storagedelight.crimson_drawer_with_books": "Tiroir en Bois Cramoisi avec Livres",
+  "item.storagedelight.warped_drawer_with_books": "Tiroir en Bois Altéré avec Livres",
+  "item.storagedelight.bamboo_drawer_with_books": "Tiroir en Bambou avec Livres",
+  "item.storagedelight.pale_oak_drawer_with_books": "Tiroir en Chêne Clair avec Livres",
 
   "item.storagedelight.glass_oak_cabinet": "Cabinet en Verre de Chêne",
   "item.storagedelight.glass_birch_cabinet": "Cabinet en Verre de Bouleau",
@@ -39,6 +55,7 @@
   "item.storagedelight.glass_crimson_cabinet": "Cabinet en Verre Crimsois",
   "item.storagedelight.glass_warped_cabinet": "Cabinet en Verre Déformé",
   "item.storagedelight.glass_bamboo_cabinet": "Cabinet en Verre de Bambou",
+  "item.storagedelight.glass_pale_oak_cabinet": "Cabinet en Verre de Clair Avec",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Armoire en chêne avec portes vitrées",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Armoire en bouleau avec portes vitrées",
@@ -51,6 +68,7 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Armoire en bambou avec portes vitrées",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Armoire tordue avec portes vitrées",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Armoire cramoisie avec portes vitrées",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Armoire en Chêne Clair Avec Portes Vitrées",
 
   "item.storagedelight.oak_single_door_cabinet": "Armoire à une porte en chêne",
   "item.storagedelight.birch_single_door_cabinet": "Armoire à une porte en bouleau",
@@ -63,6 +81,7 @@
   "item.storagedelight.crimson_single_door_cabinet": "Armoire à une porte cramoisie",
   "item.storagedelight.warped_single_door_cabinet": "Armoire à une porte déformée",
   "item.storagedelight.bamboo_single_door_cabinet": "Armoire à une porte en bambou",
+  "item.storagedelight.pale_oak_single_door_cabinet": "Armoire à une porte en chêne clair avec",
 
   "itemGroup.storagedelight": "Storage Delight"
 }
