@@ -1,10 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
-import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
+import com.axperty.storagedelight.block.entity.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
@@ -32,6 +29,14 @@ public enum BlockEntityTypesRegistry {
             BlockRegistry.ACACIA_DRAWER_WITH_DOOR, BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, BlockRegistry.CRIMSON_DRAWER_WITH_DOOR,
             BlockRegistry.WARPED_DRAWER_WITH_DOOR),
+
+    // Drawers with Books
+    DRAWER_BOOKS("drawer_books", DrawerBooksBlockEntity.class, DrawerBooksBlockEntity::new,
+            BlockRegistry.OAK_DRAWER_WITH_BOOKS, BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
+            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS, BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS,
+            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS, BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
+            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS, BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS,
+            BlockRegistry.WARPED_DRAWER_WITH_BOOKS),
 
     // Glass Cabinets
     GLASS_CABINET("glass_cabinet",GlassCabinetBlockEntity .class, GlassCabinetBlockEntity::new,

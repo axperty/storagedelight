@@ -1,9 +1,6 @@
 package com.axperty.storagedelight;
 
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
-import com.axperty.storagedelight.registry.BlockRegistry;
-import com.axperty.storagedelight.registry.CreativeTabRegistry;
-import com.axperty.storagedelight.registry.ItemRegistry;
+import com.axperty.storagedelight.registry.*;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +13,7 @@ public class StorageDelight implements ModInitializer {
 	public void onInitialize() {
 		BlockRegistry.registerAll();
 		ItemRegistry.registerAll();
+		FuelBlockRegistry.register();
 		BlockEntityTypesRegistry.registerAll();
 		CreativeTabRegistry.register();
 	}
