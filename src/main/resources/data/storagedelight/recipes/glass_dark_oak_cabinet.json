@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:glass_dark_oak_cabinet"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:glass_dark_oak_cabinet"
+  }
 }

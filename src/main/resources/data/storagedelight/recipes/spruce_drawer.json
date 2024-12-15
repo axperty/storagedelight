@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:spruce_drawer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:spruce_drawer"
+  }
 }

@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:spruce_cabinet_with_glass_doors"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:spruce_cabinet_with_glass_doors"
+  }
 }

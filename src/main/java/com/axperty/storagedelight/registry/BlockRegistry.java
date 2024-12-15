@@ -2,12 +2,8 @@ package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
 import com.axperty.storagedelight.block.*;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.block.Block;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -122,16 +118,7 @@ public enum BlockRegistry {
     public static void registerAll() {
         for (BlockRegistry value : values()) {
             Block block = value.get();
-            Registry.register(Registries.BLOCK, new Identifier(StorageDelight.MOD_ID, value.pathName), block);
-        }
-    }
-
-    @Environment(EnvType.CLIENT)
-    public static void registerRenderLayer() {
-        for (BlockRegistry value : values()) {
-            if (value.isCutout) {
-                BlockRenderLayerMap.INSTANCE.putBlock(value.get(), RenderLayer.getCutout());
-            }
+            Registry.register(Registries.BLOCK, Identifier.of(StorageDelight.MOD_ID, value.pathName), block);
         }
     }
 

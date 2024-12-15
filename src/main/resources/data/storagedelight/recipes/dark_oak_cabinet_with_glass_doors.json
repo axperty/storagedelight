@@ -16,9 +16,10 @@
     "G": {
       "tag": "c:glass_panes"
     }
+
   },
   "result": {
-    "item": "storagedelight:dark_oak_cabinet_with_glass_doors"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:dark_oak_cabinet_with_glass_doors"
+  }
 }

@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:oak_drawer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:oak_drawer"
+  }
 }

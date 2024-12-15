@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "storagedelight:dark_oak_single_door_cabinet"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "storagedelight:dark_oak_single_door_cabinet"
+  }
 }
