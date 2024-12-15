@@ -1,10 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
-import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
+import com.axperty.storagedelight.block.entity.*;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -37,6 +34,19 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())
+                    .build(null));
+
+    public static final RegistryObject<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = TILES.register("drawer_books",
+            () -> BlockEntityType.Builder.of(DrawerBooksBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get(),
+                            BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get())
                     .build(null));
 
     public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register("glass_cabinet",

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:birch_slab"
+    },
+    "B": {
+      "item": "minecraft:birch_trapdoor"
+    },
+    "C": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "storagedelight:birch_drawer_with_books"
+  }
+}

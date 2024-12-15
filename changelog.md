@@ -2,15 +2,17 @@
 
 ***
 
-### 🛠️ Minor Changes:
+### 🪵 Introducing Drawers with Books!
+- Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
 
-- All item recipes can now be unlocked by obtaining specific items, allowing players to discover new crafting options as they gather resources.
+![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
 
-### 📝 Translations:
+### 🎨 Texture Enhancements
+- Improved textures for most furniture.
 
-- Added translations for Traditional Chinese (Taiwan), special thanks to [Lobster0228](https://github.com/Lobster0228).
-- Added translations for Turkish, special thanks to [RuyaSavascisi](https://github.com/RuyaSavascisi).
+### 🌐 Translations
+- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Storage Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn).
+Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Storage Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
