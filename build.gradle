@@ -6,7 +6,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '24.12.15-1.19-forge'
+version = '24.12.17-1.19-forge'
 group = 'com.axperty.storagedelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'storagedelight'
 
@@ -108,7 +108,6 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.1.0'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    implementation fg.deobf("curse.maven:farmers-delight-398521:5051241")
 
 }
 

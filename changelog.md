@@ -2,16 +2,9 @@
 
 ***
 
-### 🪵 Introducing Drawers with Books!
-- Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
+### 🛠️ Bug Fixes:
 
-![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
-
-### 🎨 Texture Enhancements
-- Improved textures for most furniture.
-
-### 🌐 Translations
-- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
+- Fixed a bug where the mod Farmer's Delight was embedded with Storage Delight, causing the game to crash when loading blocks.
 
 ***
 
