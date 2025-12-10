@@ -6,6 +6,8 @@
   "container.storagedelight.cabinet_variant": "Кладовая",
   "container.storagedelight.bookshelf_door": "Книжная полка с дверцей",
   "container.storagedelight.small_drawers": "Маленькие ящики",
+  "container.storagedelight.cabinet_countertop": "Кладовая со столешницей",
+  "container.storagedelight.cabinet": "Кладовая",
 
   "block.storagedelight.oak_drawer": "Дубовый комод",
   "block.storagedelight.birch_drawer": "Берёзовый комод",
@@ -110,6 +112,56 @@
   "block.storagedelight.warped_single_door_cabinet": "Однодверная искажённая кладовая",
   "block.storagedelight.bamboo_single_door_cabinet": "Однодверная бамбуковая кладовая",
   "block.storagedelight.pale_oak_single_door_cabinet": "Однодверная кладовая из бледного дуба",
+
+  "block.storagedelight.oak_cabinet_with_polished_deepslate_countertop": "Дубовая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.oak_cabinet_with_polished_andesite_countertop": "Дубовая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.oak_cabinet_with_polished_tuff_countertop": "Дубовая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.birch_cabinet_with_polished_deepslate_countertop": "Берёзовая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.birch_cabinet_with_polished_andesite_countertop": "Берёзовая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.birch_cabinet_with_polished_tuff_countertop": "Берёзовая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.spruce_cabinet_with_polished_deepslate_countertop": "Еловая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.spruce_cabinet_with_polished_andesite_countertop": "Еловая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.spruce_cabinet_with_polished_tuff_countertop": "Еловая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.cherry_cabinet_with_polished_deepslate_countertop": "Вишнёвая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.cherry_cabinet_with_polished_andesite_countertop": "Вишнёвая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.cherry_cabinet_with_polished_tuff_countertop": "Вишнёвая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.jungle_cabinet_with_polished_deepslate_countertop": "Кладовая из тропического дерева с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.jungle_cabinet_with_polished_andesite_countertop": "Кладовая из тропического дерева с полированно-андезитовой столешницей",
+  "block.storagedelight.jungle_cabinet_with_polished_tuff_countertop": "Кладовая из тропического дерева с полированно-туфовой столешницей",
+
+  "block.storagedelight.acacia_cabinet_with_polished_deepslate_countertop": "Акациевая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.acacia_cabinet_with_polished_andesite_countertop": "Акациевая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.acacia_cabinet_with_polished_tuff_countertop": "Акациевая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.dark_oak_cabinet_with_polished_deepslate_countertop": "Кладовая из тёмного дуба с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.dark_oak_cabinet_with_polished_andesite_countertop": "Кладовая из тёмного дуба с полированно-андезитовой столешницей",
+  "block.storagedelight.dark_oak_cabinet_with_polished_tuff_countertop": "Кладовая из тёмного дуба с полированно-туфовой столешницей",
+
+  "block.storagedelight.mangrove_cabinet_with_polished_deepslate_countertop": "Мангровая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.mangrove_cabinet_with_polished_andesite_countertop": "Мангровая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.mangrove_cabinet_with_polished_tuff_countertop": "Мангровая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.crimson_cabinet_with_polished_deepslate_countertop": "Багровая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.crimson_cabinet_with_polished_andesite_countertop": "Багровая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.crimson_cabinet_with_polished_tuff_countertop": "Багровая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.warped_cabinet_with_polished_deepslate_countertop": "Искажённая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.warped_cabinet_with_polished_andesite_countertop": "Искажённая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.warped_cabinet_with_polished_tuff_countertop": "Искажённая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.bamboo_cabinet_with_polished_deepslate_countertop": "Бамбуковая кладовая с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.bamboo_cabinet_with_polished_andesite_countertop": "Бамбуковая кладовая с полированно-андезитовой столешницей",
+  "block.storagedelight.bamboo_cabinet_with_polished_tuff_countertop": "Бамбуковая кладовая с полированно-туфовой столешницей",
+
+  "block.storagedelight.pale_oak_cabinet_with_polished_deepslate_countertop": "Кладовая из бледного дуба с полированно-глубинносланцевой столешницей",
+  "block.storagedelight.pale_oak_cabinet_with_polished_andesite_countertop": "Кладовая из бледного дуба с полированно-андезитовой столешницей",
+  "block.storagedelight.pale_oak_cabinet_with_polished_tuff_countertop": "Кладовая из бледного дуба с полированно-туфовой столешницей",
+
+  "block.storagedelight.pale_oak_cabinet": "Кладовая из бледного дуба",
 
   "itemGroup.storagedelight": "Удовольствие Хранения"
 }
