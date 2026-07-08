@@ -2,24 +2,9 @@
 
 ***
 
-### ✨ What's New:
-
-- Added Cabinets with Polished Blackstone Countertops for all wood types.
-- Added Cabinets with Polished Diorite Countertops for all wood types.
-- Added Cabinets with Stone Bricks Countertops for all wood types.
-
-<img width="300" alt="file" src="https://github.com/user-attachments/assets/843659de-aa3b-449d-8365-cab67108fe29" />
-
-- Added compatibility for Create: Aeronautics, making storage blocks now usable with auger shafts (thanks, [GorelyPopCorn](https://github.com/GorelyPopCorn)!)
-
-### 🌐 Translations:
-
-- Updated translations for Chinese (thanks, [micrcraft](https://github.com/micrcraft/)!)
-- Updated translations for Portuguese from Brazil (thanks, [PrincessStellar](https://github.com/PrincessStellar/)!)
-
 ### 🛠️ Bug Fixes:
 
-- Fixed console errors with certain languages (thanks, [Josh](https://github.com/alpinesox)!)
+- Fixed a bug where the game crashed with Every Compat (Wood Good) installed along Storage Delight (thanks, [SpinWin](https://github.com/SpinWin) and [brisingraerowing](https://github.com/brisingraerowing)!)
 
 ***
 

@@ -14,7 +14,7 @@ public class CreativeTabRegistry
 {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, StorageDelight.MOD_ID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> STORAGEDELIGHT_TAB = CREATIVE_TABS.register("storagedelight_tab", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> STORAGEDELIGHT_TAB = CREATIVE_TABS.register("storagedelight", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.storagedelight"))
             .icon(() -> ItemRegistry.OAK_DRAWER.get().getDefaultInstance())
             .displayItems((parameters, output) -> {

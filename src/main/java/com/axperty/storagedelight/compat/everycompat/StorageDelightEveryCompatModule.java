@@ -28,7 +28,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_drawer_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -41,7 +41,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_drawer_with_door_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -54,7 +54,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_drawer_with_books_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -67,7 +67,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/small_oak_drawers_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -80,7 +80,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_bookshelf_with_door_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -93,7 +93,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/glass_oak_cabinet_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -106,7 +106,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_cabinet_with_glass_doors_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -119,7 +119,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_single_door_cabinet_front_open"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -133,7 +133,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_cabinet_with_polished_andesite_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -147,7 +147,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_cabinet_with_polished_deepslate_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
 
@@ -161,7 +161,7 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .addTexture(modRes("block/oak_cabinet_with_polished_tuff_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
                 .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
-                .setTabKey(modRes("storagedelight"))
+                .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
     }
