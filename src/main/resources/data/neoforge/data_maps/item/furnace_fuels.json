@@ -297,43 +297,85 @@
     "storagedelight:cherry_drawer": {
       "burn_time": 300
     },
+    "storagedelight:poplar_drawer": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_drawer_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:poplar_drawer_with_door": {
       "burn_time": 300
     },
     "storagedelight:cherry_drawer_with_books": {
       "burn_time": 300
     },
+    "storagedelight:poplar_drawer_with_books": {
+      "burn_time": 300
+    },
     "storagedelight:small_cherry_drawers": {
+      "burn_time": 300
+    },
+    "storagedelight:small_poplar_drawers": {
       "burn_time": 300
     },
     "storagedelight:cherry_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:poplar_bookshelf_with_door": {
+      "burn_time": 300
+    },
     "storagedelight:glass_cherry_cabinet": {
+      "burn_time": 300
+    },
+    "storagedelight:glass_poplar_cabinet": {
       "burn_time": 300
     },
     "storagedelight:cherry_cabinet_with_glass_doors": {
       "burn_time": 300
     },
+    "storagedelight:poplar_cabinet_with_glass_doors": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_single_door_cabinet": {
+      "burn_time": 300
+    },
+    "storagedelight:poplar_single_door_cabinet": {
       "burn_time": 300
     },
     "storagedelight:cherry_cabinet_with_polished_deepslate_countertop": {
       "burn_time": 300
     },
+    "storagedelight:poplar_cabinet_with_polished_deepslate_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_cabinet_with_polished_andesite_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:poplar_cabinet_with_polished_andesite_countertop": {
       "burn_time": 300
     },
     "storagedelight:cherry_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:poplar_cabinet_with_polished_tuff_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:poplar_cabinet_with_polished_blackstone_countertop": {
       "burn_time": 300
     },
     "storagedelight:cherry_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
+    "storagedelight:poplar_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_cabinet_with_stone_bricks_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:poplar_cabinet_with_stone_bricks_countertop": {
       "burn_time": 300
     },
     "storagedelight:pale_oak_drawer": {

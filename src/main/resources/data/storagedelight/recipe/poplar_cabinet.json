@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "farmersdelight"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:poplar_slab",
+    "B": "minecraft:poplar_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:poplar_cabinet"
+  }
+}

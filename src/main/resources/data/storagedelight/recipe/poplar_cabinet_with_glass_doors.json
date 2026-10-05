@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "GTG",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:poplar_slab",
+    "T": "minecraft:poplar_trapdoor",
+    "G": "#c:glass_panes"
+  },
+  "result": {
+    "id": "storagedelight:poplar_cabinet_with_glass_doors"
+  }
+}

@@ -4,7 +4,13 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 26.3.
+- Added furniture for the new poplar wood set.
+
+![Poplar Wood Furniture](https://i.imgur.com/T1orXVu.png)
+
+### 🛠️ Bug Fixes:
+
+- Fixed a bug where placing any furniture block in a specific direction would cause the block to display a checkerboard texture.
 
 ***
 

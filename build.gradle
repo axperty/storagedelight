@@ -18,6 +18,9 @@ sourceSets.main.resources {
 }
 
 repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -59,6 +62,7 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+    implementation "curse.maven:jei-238222:9068073"
 }
 
 tasks.withType(ProcessResources).configureEach {

@@ -138,6 +138,24 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 if (!ModList.get().isLoaded("farmersdelight")) {
+                    output.accept(BlockRegistry.POPLAR_CABINET.get());
+                }
+                output.accept(BlockRegistry.POPLAR_DRAWER.get());
+                output.accept(BlockRegistry.POPLAR_DRAWER_WITH_DOOR.get());
+                output.accept(BlockRegistry.POPLAR_DRAWER_WITH_BOOKS.get());
+                output.accept(BlockRegistry.POPLAR_BOOKSHELF_WITH_DOOR.get());
+                output.accept(BlockRegistry.SMALL_POPLAR_DRAWERS.get());
+                output.accept(BlockRegistry.GLASS_POPLAR_CABINET.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_GLASS_DOORS.get());
+                output.accept(BlockRegistry.POPLAR_SINGLE_DOOR_CABINET.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
+
+                if (!ModList.get().isLoaded("farmersdelight")) {
                     output.accept(BlockRegistry.PALE_OAK_CABINET.get());
                 }
                 output.accept(BlockRegistry.PALE_OAK_DRAWER.get());

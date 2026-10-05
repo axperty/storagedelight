@@ -254,6 +254,38 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_stone_bricks_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
+    // Poplar Furniture
+    public static final DeferredBlock<Block> POPLAR_CABINET = BLOCKS.register("poplar_cabinet",
+            registryName -> new CabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_DRAWER = BLOCKS.register("poplar_drawer",
+            registryName -> new DrawerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_DRAWER_WITH_DOOR = BLOCKS.register("poplar_drawer_with_door",
+            registryName -> new DrawerDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_DRAWER_WITH_BOOKS = BLOCKS.register("poplar_drawer_with_books",
+            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> SMALL_POPLAR_DRAWERS = BLOCKS.register("small_poplar_drawers",
+            registryName -> new SmallDrawersBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_BOOKSHELF_WITH_DOOR = BLOCKS.register("poplar_bookshelf_with_door",
+            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> GLASS_POPLAR_CABINET = BLOCKS.register("glass_poplar_cabinet",
+            registryName -> new GlassCabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_GLASS_DOORS = BLOCKS.register("poplar_cabinet_with_glass_doors",
+            registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_SINGLE_DOOR_CABINET = BLOCKS.register("poplar_single_door_cabinet",
+            registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_polished_deepslate_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_polished_andesite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_polished_tuff_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("poplar_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+
     // Pale Oak Furniture
     public static final DeferredBlock<Block> PALE_OAK_CABINET = BLOCKS.register("pale_oak_cabinet",
             registryName -> new CabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));

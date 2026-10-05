@@ -1,0 +1,12 @@
+﻿{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "storagedelight:block/poplar_cabinet_side",
+    "east": "storagedelight:block/poplar_cabinet_with_polished_blackstone_countertop_side",
+    "north": "storagedelight:block/poplar_cabinet_with_polished_blackstone_countertop_front",
+    "south": "storagedelight:block/poplar_cabinet_with_polished_blackstone_countertop_side",
+    "up": "minecraft:block/polished_blackstone",
+    "west": "storagedelight:block/poplar_cabinet_with_polished_blackstone_countertop_side",
+    "particle": "storagedelight:block/poplar_cabinet_with_polished_blackstone_countertop_front"
+  }
+}

@@ -137,6 +137,23 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_diorite_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, Item.Properties::new);
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_stone_bricks_countertop", BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP, Item.Properties::new);
 
+    // Poplar Furniture
+    public static final DeferredItem<BlockItem> POPLAR_CABINET = ITEMS.registerSimpleBlockItem("poplar_cabinet", BlockRegistry.POPLAR_CABINET, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_DRAWER = ITEMS.registerSimpleBlockItem("poplar_drawer", BlockRegistry.POPLAR_DRAWER, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("poplar_drawer_with_door", BlockRegistry.POPLAR_DRAWER_WITH_DOOR, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_DRAWER_WITH_BOOKS = ITEMS.registerSimpleBlockItem("poplar_drawer_with_books", BlockRegistry.POPLAR_DRAWER_WITH_BOOKS, Item.Properties::new);
+    public static final DeferredItem<BlockItem> SMALL_POPLAR_DRAWERS = ITEMS.registerSimpleBlockItem("small_poplar_drawers", BlockRegistry.SMALL_POPLAR_DRAWERS, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_BOOKSHELF_WITH_DOOR = ITEMS.registerSimpleBlockItem("poplar_bookshelf_with_door", BlockRegistry.POPLAR_BOOKSHELF_WITH_DOOR, Item.Properties::new);
+    public static final DeferredItem<BlockItem> GLASS_POPLAR_CABINET = ITEMS.registerSimpleBlockItem("glass_poplar_cabinet", BlockRegistry.GLASS_POPLAR_CABINET, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_glass_doors", BlockRegistry.POPLAR_CABINET_WITH_GLASS_DOORS, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("poplar_single_door_cabinet", BlockRegistry.POPLAR_SINGLE_DOOR_CABINET, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_polished_deepslate_countertop", BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_polished_andesite_countertop", BlockRegistry.POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_polished_tuff_countertop", BlockRegistry.POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_polished_blackstone_countertop", BlockRegistry.POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_polished_diorite_countertop", BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, Item.Properties::new);
+    public static final DeferredItem<BlockItem> POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("poplar_cabinet_with_stone_bricks_countertop", BlockRegistry.POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP, Item.Properties::new);
+
     // Pale Oak Furniture
     public static final DeferredItem<BlockItem> PALE_OAK_CABINET = ITEMS.registerSimpleBlockItem("pale_oak_cabinet", BlockRegistry.PALE_OAK_CABINET, Item.Properties::new);
     public static final DeferredItem<BlockItem> PALE_OAK_DRAWER = ITEMS.registerSimpleBlockItem("pale_oak_drawer", BlockRegistry.PALE_OAK_DRAWER, Item.Properties::new);

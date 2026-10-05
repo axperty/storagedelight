@@ -31,7 +31,7 @@ import org.jspecify.annotations.Nullable;
 @SuppressWarnings("deprecation")
 public class CabinetCountertopBlock extends BaseEntityBlock
 {
-    public static final EnumProperty<Direction> FACING = BlockStateProperties.FACING;
+    public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
     public CabinetCountertopBlock(BlockBehaviour.Properties properties) {
@@ -94,6 +94,6 @@ public class CabinetCountertopBlock extends BaseEntityBlock
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
 }

@@ -27,7 +27,7 @@ import org.jspecify.annotations.Nullable;
 @SuppressWarnings("deprecation")
 public class GlassCabinetBlock extends BaseEntityBlock
 {
-    public static final EnumProperty<Direction> FACING = BlockStateProperties.FACING;
+    public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
     public GlassCabinetBlock(BlockBehaviour.Properties properties) {
@@ -90,6 +90,6 @@ public class GlassCabinetBlock extends BaseEntityBlock
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
 }

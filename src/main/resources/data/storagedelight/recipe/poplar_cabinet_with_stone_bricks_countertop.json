@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:stone_brick_slab",
+    "B": "minecraft:poplar_slab",
+    "C": "minecraft:poplar_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:poplar_cabinet_with_stone_bricks_countertop"
+  }
+}
