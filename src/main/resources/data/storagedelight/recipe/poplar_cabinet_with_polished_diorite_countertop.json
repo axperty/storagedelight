@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_diorite_slab",
+    "B": "minecraft:poplar_slab",
+    "C": "minecraft:poplar_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:poplar_cabinet_with_polished_diorite_countertop"
+  }
+}

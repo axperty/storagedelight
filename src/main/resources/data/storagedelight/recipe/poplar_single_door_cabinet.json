@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    " T ",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:poplar_slab",
+    "T": "minecraft:poplar_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:poplar_single_door_cabinet"
+  }
+}

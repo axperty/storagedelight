@@ -151,6 +151,23 @@ public class BlockRegistry {
     public static final Block CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD), 300);
     public static final Block CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("cherry_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD), 300);
 
+    // Poplar Furniture
+    public static final Block POPLAR_CABINET = registerBlock("poplar_cabinet", CabinetBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_DRAWER = registerBlock("poplar_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_DRAWER_WITH_DOOR = registerBlock("poplar_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_DRAWER_WITH_BOOKS = registerBlock("poplar_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block SMALL_POPLAR_DRAWERS = registerBlock("small_poplar_drawers", SmallDrawersBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_BOOKSHELF_WITH_DOOR = registerBlock("poplar_bookshelf_with_door", BookshelfDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block GLASS_POPLAR_CABINET = registerBlock("glass_poplar_cabinet", GlassCabinetBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_GLASS_DOORS = registerBlock("poplar_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_SINGLE_DOOR_CABINET = registerBlock("poplar_single_door_cabinet", CabinetVariantBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("poplar_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("poplar_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("poplar_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("poplar_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("poplar_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+    public static final Block POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("poplar_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
+
     // Pale Oak Furniture
     public static final Block PALE_OAK_CABINET = registerBlock("pale_oak_cabinet", CabinetBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);
     public static final Block PALE_OAK_DRAWER = registerBlock("pale_oak_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL), 300);

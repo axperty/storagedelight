@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BAC",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:poplar_slab",
+    "B": "minecraft:poplar_trapdoor",
+    "C": "minecraft:bookshelf"
+  },
+  "result": {
+    "id": "storagedelight:poplar_bookshelf_with_door"
+  }
+}

@@ -146,6 +146,23 @@ public class CreativeTabRegistry {
                         entries.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
                         entries.accept(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Poplar Furniture
+                        if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {entries.accept(BlockRegistry.POPLAR_CABINET);}
+                        entries.accept(BlockRegistry.POPLAR_DRAWER);
+                        entries.accept(BlockRegistry.POPLAR_DRAWER_WITH_DOOR);
+                        entries.accept(BlockRegistry.POPLAR_DRAWER_WITH_BOOKS);
+                        entries.accept(BlockRegistry.SMALL_POPLAR_DRAWERS);
+                        entries.accept(BlockRegistry.POPLAR_BOOKSHELF_WITH_DOOR);
+                        entries.accept(BlockRegistry.GLASS_POPLAR_CABINET);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_GLASS_DOORS);
+                        entries.accept(BlockRegistry.POPLAR_SINGLE_DOOR_CABINET);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_TUFF_COUNTERTOP);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.accept(BlockRegistry.POPLAR_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
+
                         // Pale Oak Furniture
                         if (!FabricLoader.getInstance().isModLoaded("farmersdelight")) {entries.accept(BlockRegistry.PALE_OAK_CABINET);}
                         entries.accept(BlockRegistry.PALE_OAK_DRAWER);

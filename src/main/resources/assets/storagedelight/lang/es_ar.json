@@ -21,6 +21,7 @@
   "item.storagedelight.warped_drawer": "Cajón Distorcido",
   "item.storagedelight.bamboo_drawer": "Cajón de Bambú",
   "item.storagedelight.pale_oak_drawer": "Cajón de Roble Claro",
+  "item.storagedelight.poplar_drawer": "Cajón de Álamo",
 
   "item.storagedelight.small_oak_drawers": "Cajones Pequeños de Roble",
   "item.storagedelight.small_birch_drawers": "Cajones Pequeños de Abedul",
@@ -34,6 +35,7 @@
   "item.storagedelight.small_warped_drawers": "Cajones Pequeños de Distorcido",
   "item.storagedelight.small_bamboo_drawers": "Cajones Pequeños de Bambú",
   "item.storagedelight.small_pale_oak_drawers": "Cajones Pequeños de Roble Claro",
+  "item.storagedelight.small_poplar_drawers": "Cajones Pequeños de Álamo",
 
   "item.storagedelight.oak_drawer_with_books": "Cajón de Roble con Libros",
   "item.storagedelight.birch_drawer_with_books": "Cajón de Abedul con Libros",
@@ -47,6 +49,7 @@
   "item.storagedelight.warped_drawer_with_books": "Cajón Distorcido con Libros",
   "item.storagedelight.bamboo_drawer_with_books": "Cajón de Bambú con Libros",
   "item.storagedelight.pale_oak_drawer_with_books": "Cajón de Roble Claro con Libros",
+  "item.storagedelight.poplar_drawer_with_door": "Cajón de Álamo con Libros",
 
   "item.storagedelight.oak_bookshelf_with_door": "Estantería de Roble con Puerta",
   "item.storagedelight.birch_bookshelf_with_door": "Estantería de Abedul con Puerta",
@@ -60,6 +63,7 @@
   "item.storagedelight.warped_bookshelf_with_door": "Estantería Deforme con Puerta",
   "item.storagedelight.bamboo_bookshelf_with_door": "Estantería de Bambú con Puerta",
   "item.storagedelight.pale_oak_bookshelf_with_door": "Estantería de Roble Claro con Puerta",
+  "item.storagedelight.poplar_drawer_with_books": "Estantería de Álamo con Puerta",
 
   "item.storagedelight.oak_drawer_with_door": "Cajón de Roble con Puerta",
   "item.storagedelight.birch_drawer_with_door": "Cajón de Abedul con Puerta",
@@ -73,6 +77,7 @@
   "item.storagedelight.warped_drawer_with_door": "Cajón Distorcido con Puerta",
   "item.storagedelight.bamboo_drawer_with_door": "Cajón de Bambú con Puerta",
   "item.storagedelight.pale_oak_drawer_with_door": "Cajón de Roble Claro con Puerta",
+  "item.storagedelight.poplar_bookshelf_with_door": "Cajón de Álamo con Puerta",
 
   "item.storagedelight.glass_oak_cabinet": "Gabinete de Vidrio de Roble",
   "item.storagedelight.glass_birch_cabinet": "Gabinete de Vidrio de Abedul",
@@ -86,6 +91,7 @@
   "item.storagedelight.glass_warped_cabinet": "Gabinete de Vidrio Distorcido",
   "item.storagedelight.glass_bamboo_cabinet": "Gabinete de Vidrio de Bambú",
   "item.storagedelight.glass_pale_oak_cabinet": "Gabinete de Vidrio de Roble Claro",
+  "item.storagedelight.glass_poplar_cabinet": "Gabinete de Vidrio de Álamo",
 
   "item.storagedelight.oak_cabinet_with_glass_doors": "Gabinete de Roble con Puertas de Vidrio",
   "item.storagedelight.birch_cabinet_with_glass_doors": "Gabinete de Abedul con Puertas de Vidrio",
@@ -98,20 +104,22 @@
   "item.storagedelight.bamboo_cabinet_with_glass_doors": "Gabinete de Bambú con Puertas de Vidrio",
   "item.storagedelight.warped_cabinet_with_glass_doors": "Gabinete Distorcido con Puertas de Vidrio",
   "item.storagedelight.crimson_cabinet_with_glass_doors": "Gabinete de Carmesí con Puertas de Vidrio",
-  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Gabinete de Roble Claro con Puertas de Cristal",
+  "item.storagedelight.pale_oak_cabinet_with_glass_doors": "Gabinete de Roble Claro con Puertas de Vidrio",
+  "item.storagedelight.poplar_cabinet_with_glass_doors": "Gabinete de Álamo con Puertas de Vidrio",
 
-  "item.storagedelight.oak_single_door_cabinet": "Gabinete de Roble de una sola puerta",
-  "item.storagedelight.birch_single_door_cabinet": "Gabinete de Abedul de una sola puerta",
-  "item.storagedelight.spruce_single_door_cabinet": "Gabinete de Abeto de una sola puerta",
-  "item.storagedelight.cherry_single_door_cabinet": "Gabinete de Cerezo de una sola puerta",
-  "item.storagedelight.jungle_single_door_cabinet": "Gabinete de Jungla de una sola puerta",
-  "item.storagedelight.acacia_single_door_cabinet": "Gabinete de Acacia de una sola puerta",
-  "item.storagedelight.dark_oak_single_door_cabinet": "Gabinete de Roble Oscuro de una sola puerta",
-  "item.storagedelight.mangrove_single_door_cabinet": "Gabinete de Manglar de una sola puerta",
-  "item.storagedelight.crimson_single_door_cabinet": "Gabinete de Carmesí de una sola puerta",
-  "item.storagedelight.warped_single_door_cabinet": "Gabinete Distorcido de una sola puerta",
-  "item.storagedelight.bamboo_single_door_cabinet": "Gabinete de Bambú de una sola puerta",
+  "item.storagedelight.oak_single_door_cabinet": "Gabinete de Roble de una Sola Puerta",
+  "item.storagedelight.birch_single_door_cabinet": "Gabinete de Abedul de una Sola Puerta",
+  "item.storagedelight.spruce_single_door_cabinet": "Gabinete de Abeto de una Sola Puerta",
+  "item.storagedelight.cherry_single_door_cabinet": "Gabinete de Cerezo de una Sola Puerta",
+  "item.storagedelight.jungle_single_door_cabinet": "Gabinete de Jungla de una Sola Puerta",
+  "item.storagedelight.acacia_single_door_cabinet": "Gabinete de Acacia de una Sola Puerta",
+  "item.storagedelight.dark_oak_single_door_cabinet": "Gabinete de Roble Oscuro de una Sola Puerta",
+  "item.storagedelight.mangrove_single_door_cabinet": "Gabinete de Manglar de una Sola Puerta",
+  "item.storagedelight.crimson_single_door_cabinet": "Gabinete de Carmesí de una Sola Puerta",
+  "item.storagedelight.warped_single_door_cabinet": "Gabinete Distorcido de una Sola Puerta",
+  "item.storagedelight.bamboo_single_door_cabinet": "Gabinete de Bambú de una Sola Puerta",
   "item.storagedelight.pale_oak_single_door_cabinet": "Gabinete de Roble Claro de una Sola Puerta",
+  "item.storagedelight.poplar_single_door_cabinet": "Gabinete de Álamo de una Sola Puerta",
 
   "item.storagedelight.oak_cabinet_with_polished_deepslate_countertop": "Gabinete de Roble con Encimera de Pizarra Profunda Pulida",
   "item.storagedelight.oak_cabinet_with_polished_andesite_countertop": "Gabinete de Roble con Encimera de Andesita Pulida",
@@ -197,7 +205,15 @@
   "item.storagedelight.pale_oak_cabinet_with_polished_diorite_countertop": "Gabinete de Roble Claro con Encimera de Diorita Pulida",
   "item.storagedelight.pale_oak_cabinet_with_stone_bricks_countertop": "Gabinete de Roble Claro con Encimera de Ladrillos de Piedra",
 
+  "item.storagedelight.poplar_cabinet_with_polished_deepslate_countertop": "Gabinete de Álamo con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.poplar_cabinet_with_polished_andesite_countertop": "Gabinete de Álamo con Encimera de Andesita Pulida",
+  "item.storagedelight.poplar_cabinet_with_polished_tuff_countertop": "Gabinete de Álamo con Encimera de Toba Pulida",
+  "item.storagedelight.poplar_cabinet_with_polished_blackstone_countertop": "Gabinete de Álamo con Encimera de Piedra Negra Pulida",
+  "item.storagedelight.poplar_cabinet_with_polished_diorite_countertop": "Gabinete de Álamo con Encimera de Diorita Pulida",
+  "item.storagedelight.poplar_cabinet_with_stone_bricks_countertop": "Gabinete de Álamo con Encimera de Ladrillos de Piedra",
+
   "item.storagedelight.pale_oak_cabinet": "Gabinete de Roble Claro",
+  "item.storagedelight.poplar_cabinet": "Gabinete de Álamo",
 
   "itemGroup.storagedelight": "Storage Delight"
 }

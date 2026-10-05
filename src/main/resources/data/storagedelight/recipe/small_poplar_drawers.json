@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:poplar_slab",
+    "B": "minecraft:poplar_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:small_poplar_drawers"
+  }
+}

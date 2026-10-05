@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_poplar_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": [
+          "storagedelight:poplar_drawer"
+        ]
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_poplar_trapdoor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "storagedelight:poplar_drawer"
+    ]
+  }
+}
