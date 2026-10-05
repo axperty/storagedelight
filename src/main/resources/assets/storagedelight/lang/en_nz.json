@@ -21,6 +21,7 @@
   "block.storagedelight.warped_drawer": "Warped Drawer",
   "block.storagedelight.bamboo_drawer": "Bamboo Drawer",
   "block.storagedelight.pale_oak_drawer": "Pale Oak Drawer",
+  "block.storagedelight.poplar_drawer": "Poplar Drawer",
 
   "block.storagedelight.small_oak_drawers": "Small Oak Drawers",
   "block.storagedelight.small_birch_drawers": "Small Birch Drawers",
@@ -34,6 +35,7 @@
   "block.storagedelight.small_warped_drawers": "Small Warped Drawers",
   "block.storagedelight.small_bamboo_drawers": "Small Bamboo Drawers",
   "block.storagedelight.small_pale_oak_drawers": "Small Pale Oak Drawers",
+  "block.storagedelight.small_poplar_drawers": "Small Poplar Drawers",
 
   "block.storagedelight.oak_drawer_with_door": "Oak Drawer with Door",
   "block.storagedelight.birch_drawer_with_door": "Birch Drawer with Door",
@@ -47,6 +49,7 @@
   "block.storagedelight.warped_drawer_with_door": "Warped Drawer with Door",
   "block.storagedelight.bamboo_drawer_with_door": "Bamboo Drawer with Door",
   "block.storagedelight.pale_oak_drawer_with_door": "Pale Oak Drawer with Door",
+  "block.storagedelight.poplar_drawer_with_door": "Poplar Drawer with Door",
 
   "block.storagedelight.oak_drawer_with_books": "Oak Drawer with Books",
   "block.storagedelight.birch_drawer_with_books": "Birch Drawer with Books",
@@ -60,6 +63,7 @@
   "block.storagedelight.warped_drawer_with_books": "Warped Drawer with Books",
   "block.storagedelight.bamboo_drawer_with_books": "Bamboo Drawer with Books",
   "block.storagedelight.pale_oak_drawer_with_books": "Pale Oak Drawer with Books",
+  "block.storagedelight.poplar_drawer_with_books": "Poplar Drawer with Books",
 
   "block.storagedelight.oak_bookshelf_with_door": "Oak Bookshelf with Door",
   "block.storagedelight.birch_bookshelf_with_door": "Birch Bookshelf with Door",
@@ -73,6 +77,7 @@
   "block.storagedelight.warped_bookshelf_with_door": "Warped Bookshelf with Door",
   "block.storagedelight.bamboo_bookshelf_with_door": "Bamboo Bookshelf with Door",
   "block.storagedelight.pale_oak_bookshelf_with_door": "Pale Oak Bookshelf with Door",
+  "block.storagedelight.poplar_bookshelf_with_door": "Poplar Bookshelf with Door",
 
   "block.storagedelight.glass_oak_cabinet": "Glass Oak Cabinet",
   "block.storagedelight.glass_birch_cabinet": "Glass Birch Cabinet",
@@ -86,6 +91,7 @@
   "block.storagedelight.glass_warped_cabinet": "Glass Warped Cabinet",
   "block.storagedelight.glass_bamboo_cabinet": "Glass Bamboo Cabinet",
   "block.storagedelight.glass_pale_oak_cabinet": "Glass Pale Oak Cabinet",
+  "block.storagedelight.glass_poplar_cabinet": "Glass Poplar Cabinet",
 
   "block.storagedelight.oak_cabinet_with_glass_doors": "Oak Cabinet with Glass Doors",
   "block.storagedelight.birch_cabinet_with_glass_doors": "Birch Cabinet with Glass Doors",
@@ -99,6 +105,7 @@
   "block.storagedelight.warped_cabinet_with_glass_doors": "Warped Cabinet with Glass Doors",
   "block.storagedelight.crimson_cabinet_with_glass_doors": "Crimson Cabinet with Glass Doors",
   "block.storagedelight.pale_oak_cabinet_with_glass_doors": "Pale Oak Cabinet with Glass Doors",
+  "block.storagedelight.poplar_cabinet_with_glass_doors": "Poplar Cabinet with Glass Doors",
 
   "block.storagedelight.oak_single_door_cabinet": "Oak Single Door Cabinet",
   "block.storagedelight.birch_single_door_cabinet": "Birch Single Door Cabinet",
@@ -112,6 +119,7 @@
   "block.storagedelight.warped_single_door_cabinet": "Warped Single Door Cabinet",
   "block.storagedelight.bamboo_single_door_cabinet": "Bamboo Single Door Cabinet",
   "block.storagedelight.pale_oak_single_door_cabinet": "Pale Oak Single Door Cabinet",
+  "block.storagedelight.poplar_single_door_cabinet": "Poplar Single Door Cabinet",
 
   "block.storagedelight.oak_cabinet_with_polished_deepslate_countertop": "Oak Cabinet with Polished Deepslate Countertop",
   "block.storagedelight.oak_cabinet_with_polished_andesite_countertop": "Oak Cabinet with Polished Andesite Countertop",
@@ -140,21 +148,6 @@
   "block.storagedelight.cherry_cabinet_with_polished_blackstone_countertop": "Cherry Cabinet with Polished Blackstone Countertop",
   "block.storagedelight.cherry_cabinet_with_polished_diorite_countertop": "Cherry Cabinet with Polished Diorite Countertop",
   "block.storagedelight.cherry_cabinet_with_stone_bricks_countertop": "Cherry Cabinet with Stone Bricks Countertop",
-  "block.storagedelight.poplar_cabinet": "Poplar Cabinet",
-  "block.storagedelight.poplar_drawer": "Poplar Drawer",
-  "block.storagedelight.small_poplar_drawers": "Small Poplar Drawers",
-  "block.storagedelight.poplar_drawer_with_door": "Poplar Drawer with Door",
-  "block.storagedelight.poplar_drawer_with_books": "Poplar Drawer with Books",
-  "block.storagedelight.poplar_bookshelf_with_door": "Poplar Bookshelf with Door",
-  "block.storagedelight.glass_poplar_cabinet": "Glass Poplar Cabinet",
-  "block.storagedelight.poplar_cabinet_with_glass_doors": "Poplar Cabinet with Glass Doors",
-  "block.storagedelight.poplar_single_door_cabinet": "Poplar Single Door Cabinet",
-  "block.storagedelight.poplar_cabinet_with_polished_deepslate_countertop": "Poplar Cabinet with Polished Deepslate Countertop",
-  "block.storagedelight.poplar_cabinet_with_polished_andesite_countertop": "Poplar Cabinet with Polished Andesite Countertop",
-  "block.storagedelight.poplar_cabinet_with_polished_tuff_countertop": "Poplar Cabinet with Polished Tuff Countertop",
-  "block.storagedelight.poplar_cabinet_with_polished_blackstone_countertop": "Poplar Cabinet with Polished Blackstone Countertop",
-  "block.storagedelight.poplar_cabinet_with_polished_diorite_countertop": "Poplar Cabinet with Polished Diorite Countertop",
-  "block.storagedelight.poplar_cabinet_with_stone_bricks_countertop": "Poplar Cabinet with Stone Bricks Countertop",
 
   "block.storagedelight.jungle_cabinet_with_polished_deepslate_countertop": "Jungle Cabinet with Polished Deepslate Countertop",
   "block.storagedelight.jungle_cabinet_with_polished_andesite_countertop": "Jungle Cabinet with Polished Andesite Countertop",
@@ -211,6 +204,16 @@
   "block.storagedelight.pale_oak_cabinet_with_polished_blackstone_countertop": "Pale Oak Cabinet with Polished Blackstone Countertop",
   "block.storagedelight.pale_oak_cabinet_with_polished_diorite_countertop": "Pale Oak Cabinet with Polished Diorite Countertop",
   "block.storagedelight.pale_oak_cabinet_with_stone_bricks_countertop": "Pale Oak Cabinet with Stone Bricks Countertop",
+
+  "block.storagedelight.poplar_cabinet_with_polished_deepslate_countertop": "Poplar Cabinet with Polished Deepslate Countertop",
+  "block.storagedelight.poplar_cabinet_with_polished_andesite_countertop": "Poplar Cabinet with Polished Andesite Countertop",
+  "block.storagedelight.poplar_cabinet_with_polished_tuff_countertop": "Poplar Cabinet with Polished Tuff Countertop",
+  "block.storagedelight.poplar_cabinet_with_polished_blackstone_countertop": "Poplar Cabinet with Polished Blackstone Countertop",
+  "block.storagedelight.poplar_cabinet_with_polished_diorite_countertop": "Poplar Cabinet with Polished Diorite Countertop",
+  "block.storagedelight.poplar_cabinet_with_stone_bricks_countertop": "Poplar Cabinet with Stone Bricks Countertop",
+
+  "block.storagedelight.pale_oak_cabinet": "Pale Oak Cabinet",
+  "block.storagedelight.poplar_cabinet": "Poplar Cabinet",
 
   "itemGroup.storagedelight": "Storage Delight"
 }
